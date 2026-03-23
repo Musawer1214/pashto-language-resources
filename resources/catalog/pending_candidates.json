@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-03-19T05:19:57.863645+00:00",
+  "generated_on": "2026-03-23T05:27:35.265134+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,79 +15,8 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 18,
+  "candidate_count": 1,
   "candidates": [
-    {
-      "id": "candidate-kaggle-dataset-ataullahaali-common-voice-24-0-pashto-speech-dataset",
-      "title": "Common Voice 24.0: Pashto Speech Dataset",
-      "url": "https://www.kaggle.com/datasets/ataullahaali/common-voice-scripted-speech-24-0-pashto",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "2,700+ hours of labeled Pashto audio for ASR (Mozilla Common Voice).",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/ataullahaali/common-voice-scripted-speech-24-0-pashto",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-s2-cultural-identity-and-pragmatic-competence-a-cross-cultural-analysis-of-punjabi-",
-      "title": "Cultural Identity and Pragmatic Competence: A Cross-Cultural Analysis of Punjabi and Pashto Learners of English in Pakistan",
-      "url": "https://www.semanticscholar.org/paper/85c80a8f97b12a1e3238126cbee321a219ff87e4",
-      "category": "paper",
-      "source": "other",
-      "status": "candidate",
-      "summary": "This study examines the influence of cultural identity on pragmatic competence among Punjabi and Pashto speakers learning English in Pakistan. It explores how learners perform speech acts such as requests, refusals, and apologies, focusing",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/85c80a8f97b12a1e3238126cbee321a219ff87e4",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-rabiakhan827-english-pashto-language-dataset-epld",
-      "title": "English-Pashto Language Dataset (EPLD)",
-      "url": "https://www.kaggle.com/datasets/rabiakhan827/english-pashto-language-dataset-epld",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Study of Pashtu language with the basics of communication used in everyday life.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/rabiakhan827/english-pashto-language-dataset-epld",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
     {
       "id": "candidate-kaggle-dataset-areebaakhtar-english-pashto-parallel-translation-dataset",
       "title": "English–Pashto Parallel Translation Dataset",
@@ -111,342 +40,116 @@
         "dataset",
         "kaggle"
       ]
-    },
-    {
-      "id": "candidate-datacite-project-fairness-evaluation-and-inference-level-mitigation-in-llms",
-      "title": "Fairness Evaluation and Inference Level Mitigation in LLMs",
-      "url": "https://figshare.mq.edu.au/articles/thesis/Fairness_Evaluation_and_Inference_Level_Mitigation_in_LLMs/31093552",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Recent advances in Large Language Models (LLMs) have shown remarkable capability and now sit at the center of this revolution, delivering strong performance across diverse Natural Language Processing (NLP) and multilingualism tasks. LLMs sh",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://figshare.mq.edu.au/articles/thesis/Fairness_Evaluation_and_Inference_Level_Mitigation_in_LLMs/31093552",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-hassanamin-katib-s-pashto-text-imagebase-kpti",
-      "title": "Katib's Pashto Text Imagebase (KPTI)",
-      "url": "https://www.kaggle.com/datasets/hassanamin/katibs-pashto-text-imagebase-kpti",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Real Dataset for the Pashto Language in the field of OCR",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/hassanamin/katibs-pashto-text-imagebase-kpti",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
+    }
+  ],
+  "skipped_prior_removals": [
     {
       "id": "candidate-kaggle-dataset-farhadkhan66-pashto-english-bilingual-sentiment-corpus",
       "title": "Pashto English Bilingual Sentiment Corpus",
       "url": "https://www.kaggle.com/datasets/farhadkhan66/pashto-translated-corpus",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Sentiment Analysis in Pahsto Text",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/farhadkhan66/pashto-translated-corpus",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
       "id": "candidate-kaggle-dataset-abdulbasitkh-pashto-isolated-alphabets-and-numerals",
       "title": "Pashto Isolated Alphabets and Numerals",
       "url": "https://www.kaggle.com/datasets/abdulbasitkh/pashto-isolated-alphabetss-and-numerals",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Pashto Islated Alphabets and Numerals Handwritten and Printed",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/abdulbasitkh/pashto-isolated-alphabetss-and-numerals",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-engrirf-pashto-isolated-words-speech-dataset",
-      "title": "Pashto Isolated Words Speech Dataset",
-      "url": "https://www.kaggle.com/datasets/engrirf/pashto-isolated-words-speech-dataset",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Candidate Kaggle dataset returned from Pashto search.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/engrirf/pashto-isolated-words-speech-dataset",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-hassanamin-pashto-ocr",
-      "title": "Pashto OCR",
-      "url": "https://www.kaggle.com/datasets/hassanamin/pashto-ocr",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "1000 unique Pashto ligatures with 4 different scale and rotation variations",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/hassanamin/pashto-ocr",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-alimuhammadasad-pashto-poetry",
-      "title": "Pashto Poetry",
-      "url": "https://www.kaggle.com/datasets/alimuhammadasad/pashto-poetry",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Candidate Kaggle dataset returned from Pashto search.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/alimuhammadasad/pashto-poetry",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-mahibullahmudaser-pashto-text-characters-sample",
-      "title": "Pashto text characters sample",
-      "url": "https://www.kaggle.com/datasets/mahibullahmudaser/pashtochracterssample",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Pashto text characters sample",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/mahibullahmudaser/pashtochracterssample",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-drijaz-pashto-word-embeddings",
-      "title": "Pashto Word Embeddings",
-      "url": "https://www.kaggle.com/datasets/drijaz/pashto-word-embeddings",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Word2Vec | fastText | GloVe",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/drijaz/pashto-word-embeddings",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-ahmadferozafshar-pashto-language-alphabets",
-      "title": "pashto_language_alphabets",
-      "url": "https://www.kaggle.com/datasets/ahmadferozafshar/pashto-language-alphabets",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Candidate Kaggle dataset returned from Pashto search.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/ahmadferozafshar/pashto-language-alphabets",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-aimalrezvan-pashto-language-characters",
-      "title": "Pashto_language_characters",
-      "url": "https://www.kaggle.com/datasets/aimalrezvan/pashto-language-characters",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Pashto_language_characters are Pashto lanugage full and semi characters.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/aimalrezvan/pashto-language-characters",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-drijaz-pashtoocr",
-      "title": "PashtoOCR",
-      "url": "https://www.kaggle.com/datasets/drijaz/pashtoocr",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "A Synthetic Dataset for Optical Character Recognition (OCR) in Pashto",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/drijaz/pashtoocr",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
       "id": "candidate-kaggle-dataset-drijaz-pold-pashto-offensive-language-dataset",
       "title": "POLD - Pashto Offensive Language Dataset",
       "url": "https://www.kaggle.com/datasets/drijaz/pold-pashto-offensive-language-dataset",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "A benchmark dataset for identification of toxic Pashto text",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/drijaz/pold-pashto-offensive-language-dataset",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-drijaz-pashto-word-embeddings",
+      "title": "Pashto Word Embeddings",
+      "url": "https://www.kaggle.com/datasets/drijaz/pashto-word-embeddings",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-hassanamin-pashto-ocr",
+      "title": "Pashto OCR",
+      "url": "https://www.kaggle.com/datasets/hassanamin/pashto-ocr",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-drijaz-pashtoocr",
+      "title": "PashtoOCR",
+      "url": "https://www.kaggle.com/datasets/drijaz/pashtoocr",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-engrirf-pashto-isolated-words-speech-dataset",
+      "title": "Pashto Isolated Words Speech Dataset",
+      "url": "https://www.kaggle.com/datasets/engrirf/pashto-isolated-words-speech-dataset",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-ataullahaali-common-voice-24-0-pashto-speech-dataset",
+      "title": "Common Voice 24.0: Pashto Speech Dataset",
+      "url": "https://www.kaggle.com/datasets/ataullahaali/common-voice-scripted-speech-24-0-pashto",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
       "id": "candidate-kaggle-dataset-shafeeqgigyani-urdu-pashto-lexicon-dataset",
       "title": "Urdu-Pashto Lexicon Dataset",
       "url": "https://www.kaggle.com/datasets/shafeeqgigyani/urdu-pashto-lexicon-dataset",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "This Dataset comprises 7,601 entries of Urdu words having Pashto Translation",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/shafeeqgigyani/urdu-pashto-lexicon-dataset",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-rabiakhan827-english-pashto-language-dataset-epld",
+      "title": "English-Pashto Language Dataset (EPLD)",
+      "url": "https://www.kaggle.com/datasets/rabiakhan827/english-pashto-language-dataset-epld",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-alimuhammadasad-pashto-poetry",
+      "title": "Pashto Poetry",
+      "url": "https://www.kaggle.com/datasets/alimuhammadasad/pashto-poetry",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-ahmadferozafshar-pashto-language-alphabets",
+      "title": "pashto_language_alphabets",
+      "url": "https://www.kaggle.com/datasets/ahmadferozafshar/pashto-language-alphabets",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-hassanamin-katib-s-pashto-text-imagebase-kpti",
+      "title": "Katib's Pashto Text Imagebase (KPTI)",
+      "url": "https://www.kaggle.com/datasets/hassanamin/katibs-pashto-text-imagebase-kpti",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-mahibullahmudaser-pashto-text-characters-sample",
+      "title": "Pashto text characters sample",
+      "url": "https://www.kaggle.com/datasets/mahibullahmudaser/pashtochracterssample",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-aimalrezvan-pashto-language-characters",
+      "title": "Pashto_language_characters",
+      "url": "https://www.kaggle.com/datasets/aimalrezvan/pashto-language-characters",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     }
+  ],
+  "warnings": [
+    "Skipped 15 candidate(s) that matched prior hard-missing removal log entries."
   ]
 }

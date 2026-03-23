@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-03-18",
+  "updated_on": "2026-03-23",
   "entries": [
     {
       "removed_on": "2026-02-21T19:47:22.435531+00:00",
@@ -1231,6 +1231,40 @@
         "metadata_pashto": true,
         "direct_pashto": true,
         "page_pashto": false
+      }
+    },
+    {
+      "removed_on": "2026-03-23T05:26:46.950530+00:00",
+      "id": "dataset-common-voice-ps-v24",
+      "title": "Common Voice Scripted Speech 24.0 - Pashto",
+      "url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
+      "reasons": [
+        "URL returned hard-missing HTTP status 404."
+      ],
+      "evidence": {
+        "status_code": 404,
+        "final_url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-03-23T05:26:46.950530+00:00",
+      "id": "benchmark-common-voice-ps-v24",
+      "title": "Common Voice Pashto v24 Benchmark",
+      "url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
+      "reasons": [
+        "URL returned hard-missing HTTP status 404."
+      ],
+      "evidence": {
+        "status_code": 404,
+        "final_url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
       }
     }
   ]

@@ -1,34 +1,7 @@
 {
-  "generated_on": "2026-03-19T00:00:00Z",
-  "count": 130,
+  "generated_on": "2026-03-23T00:00:00Z",
+  "count": 128,
   "resources": [
-    {
-      "id": "dataset-common-voice-ps-v24",
-      "title": "Common Voice Scripted Speech 24.0 - Pashto",
-      "url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
-      "category": "dataset",
-      "source": "mozilla",
-      "status": "verified",
-      "review_state": "verified",
-      "summary": "Large open Pashto speech dataset for ASR training and evaluation.",
-      "primary_use": "ASR training and evaluation",
-      "tasks": [
-        "asr"
-      ],
-      "tags": [
-        "pashto",
-        "speech",
-        "asr"
-      ],
-      "evidence_text": "Official dataset page is for Pashto.",
-      "evidence_url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
-      "markers": [
-        "Pashto"
-      ],
-      "signal_origin": "direct",
-      "direct_pashto_signal": true,
-      "quality_flags": []
-    },
     {
       "id": "dataset-google-fleurs",
       "title": "Google FLEURS",
@@ -219,34 +192,6 @@
       "evidence_url": "https://huggingface.co/datasets/google/fleurs/blob/main/fleurs.py",
       "markers": [
         "ps_af"
-      ],
-      "signal_origin": "direct",
-      "direct_pashto_signal": true,
-      "quality_flags": []
-    },
-    {
-      "id": "benchmark-common-voice-ps-v24",
-      "title": "Common Voice Pashto v24 Benchmark",
-      "url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
-      "category": "benchmark",
-      "source": "mozilla",
-      "status": "verified",
-      "review_state": "verified",
-      "summary": "Core benchmark reference for project-level Pashto ASR tracking.",
-      "primary_use": "ASR baseline tracking",
-      "tasks": [
-        "asr",
-        "benchmarking"
-      ],
-      "tags": [
-        "pashto",
-        "benchmark",
-        "asr"
-      ],
-      "evidence_text": "Official Pashto split and versioned release.",
-      "evidence_url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
-      "markers": [
-        "Pashto"
       ],
       "signal_origin": "direct",
       "direct_pashto_signal": true,
