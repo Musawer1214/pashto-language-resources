@@ -7,7 +7,6 @@ _Tip: all links below are clickable and reviewed through the resource pipeline._
 | Resource | Link | Pashto Evidence | Primary Use |
 |---|---|---|---|
 | Belebele Pashto Benchmark | [huggingface](https://huggingface.co/datasets/facebook/belebele) | [Includes pbt_Arab language variant. (`pbt_Arab`)](https://huggingface.co/datasets/facebook/belebele) | NLP benchmark reporting |
-| Common Voice Pashto v24 Benchmark | [mozilla](https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14) | [Official Pashto split and versioned release. (`Pashto`)](https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14) | ASR baseline tracking |
 | FLEURS Pashto Benchmark | [huggingface](https://huggingface.co/datasets/google/fleurs) | [Dataset includes ps_af split. (`ps_af`)](https://huggingface.co/datasets/google/fleurs/blob/main/fleurs.py) | ASR benchmark reporting |
 | FLORES-200 Pashto Benchmark | [github](https://github.com/facebookresearch/flores/tree/main/flores200) | [Language list includes pbt_Arab. (`pbt_Arab`)](https://raw.githubusercontent.com/facebookresearch/flores/main/flores200/README.md) | MT benchmark with BLEU and chrF |
 
