@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-03-23T05:27:35.265134+00:00",
+  "generated_on": "2026-03-24T05:20:42.205950+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 1,
+  "candidate_count": 4,
   "candidates": [
     {
       "id": "candidate-kaggle-dataset-areebaakhtar-english-pashto-parallel-translation-dataset",
@@ -39,6 +39,77 @@
         "candidate",
         "dataset",
         "kaggle"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingua",
+      "title": "Enhancing NER Performance in Low-Resource Pakistani Languages using Cross-Lingual Data Augmentation",
+      "url": "https://underline.io/lecture/117794-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingual-data-augmentation",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Named Entity Recognition (NER), a fundamental task in Natural Language Processing (NLP), has shown significant advancements for high-resource languages. However, due to a lack of annotated datasets and limited representation in Pre-trained",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://underline.io/lecture/117794-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingual-data-augmentation",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-hasnainayaz-qehwa-pashto-llm-gguf",
+      "title": "hasnainayaz/qehwa-pashto-llm-gguf",
+      "url": "https://huggingface.co/hasnainayaz/qehwa-pashto-llm-gguf",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/hasnainayaz/qehwa-pashto-llm-gguf",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-pakistanizing-pashtun-the-linguistic-and-cultural-disruption-and-re-invention-of",
+      "title": "Pakistanizing Pashtun: The linguistic and cultural disruption and re-invention of Pashtun",
+      "url": "https://aura.american.edu/articles/thesis/Pakistanizing_Pashtun_The_linguistic_and_cultural_disruption_and_re-invention_of_Pashtun/23832027/1",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This dissertation explores how the Pakistani nationalist project and state making practices disrupt Pashtun culture and Pashto language, and how Pashtun respond to these cultural and linguistic disruptions. Focusing on two indigenous Pashtu",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://aura.american.edu/articles/thesis/Pakistanizing_Pashtun_The_linguistic_and_cultural_disruption_and_re-invention_of_Pashtun/23832027/1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
       ]
     }
   ],
