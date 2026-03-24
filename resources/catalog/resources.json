@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-03-23",
+  "updated_on": "2026-03-24",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7375,6 +7375,28 @@
         "candidate",
         "project",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-hasnainayaz-qehwa-pashto-llm-gguf",
+      "title": "hasnainayaz/qehwa-pashto-llm-gguf",
+      "url": "https://huggingface.co/hasnainayaz/qehwa-pashto-llm-gguf",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/hasnainayaz/qehwa-pashto-llm-gguf",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "model"
       ]
     }
   ]
