@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-03-24T05:20:42.205950+00:00",
+  "generated_on": "2026-03-26T05:29:07.390296+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 4,
+  "candidate_count": 9,
   "candidates": [
     {
       "id": "candidate-kaggle-dataset-areebaakhtar-english-pashto-parallel-translation-dataset",
@@ -66,18 +66,18 @@
       ]
     },
     {
-      "id": "candidate-hf-model-hasnainayaz-qehwa-pashto-llm-gguf",
-      "title": "hasnainayaz/qehwa-pashto-llm-gguf",
-      "url": "https://huggingface.co/hasnainayaz/qehwa-pashto-llm-gguf",
-      "category": "model",
-      "source": "huggingface",
+      "id": "candidate-zenodo-paper-identity-formation-language-and-migration-dynamics",
+      "title": "Identity formation, language and migration dynamics",
+      "url": "https://zenodo.org/records/18433193",
+      "category": "paper",
+      "source": "zenodo",
       "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "summary": "The volume examines migration from the Middle East and North Africa (MENA) region to the German diaspora, offering a multifaceted perspective that combines historical and contemporary insights. It moves beyond viewing migration as a momenta",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/hasnainayaz/qehwa-pashto-llm-gguf",
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/18433193",
         "markers": [
           "pashto"
         ]
@@ -85,7 +85,80 @@
       "tags": [
         "pashto",
         "candidate",
-        "model"
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-identity-formation-language-and-migration-dynamics",
+      "title": "Identity formation, language and migration dynamics",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The volume examines migration from the Middle East and North Africa (MENA) regionto the German diaspora, offering a multifaceted perspective that combines historical andcontemporary insights. It moves beyond viewing migration as a momentary",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
+      "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
+      "url": "https://zenodo.org/records/19214881",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "candidate",
+      "summary": "Abstract The Yusufzai (Yousafzai) are one of the largest Pashtun tribes, historically concentrated in northern Khyber Pakhtunkhwa and parts of Afghanistan and India. Their origins have been debated using historical, linguistic, and—more rec",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/19214881",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
+      "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "AbstractThe Yusufzai (Yousafzai) are one of the largest Pashtun tribes, historically concentrated in northern Khyber Pakhtunkhwa and parts of Afghanistan and India. Their origins have been debated using historical, linguistic, and—more rece",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
       ]
     },
     {
@@ -101,6 +174,54 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://aura.american.edu/articles/thesis/Pakistanizing_Pashtun_The_linguistic_and_cultural_disruption_and_re-invention_of_Pashtun/23832027/1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-perspectives-of-newly-arrived-kurdish-and-afghan-families-in-germany-on-their-he",
+      "title": "Perspectives of newly arrived Kurdish and Afghan families in Germany on their heritage languages and linguistic situation",
+      "url": "https://zenodo.org/records/18845604",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "candidate",
+      "summary": "The linguistic situation of newly arrived families threatened by forced migration in Germany after 2015 is characterised by attempts to learn German as the new official language and an unclear status of other languages, which played a role",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/18845604",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-perspectives-of-newly-arrived-kurdish-and-afghan-families-in-germany-on-their-he",
+      "title": "Perspectives of newly arrived Kurdish and Afghan families in Germany on their heritage languages and linguistic situation",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.18845603",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The linguistic situation of newly arrived families threatened by forced migration in Germany after 2015 is characterised by attempts to learn German as the new official language and an unclear status of other languages,which played a role i",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18845603",
         "markers": [
           "pashto"
         ]

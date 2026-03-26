@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-03-24T00:00:00Z",
-  "count": 169,
+  "generated_on": "2026-03-26T00:00:00Z",
+  "count": 172,
   "resources": [
     {
       "id": "paper-s2-psocr-lmm-pashto",
@@ -5041,6 +5041,90 @@
       "quality_flags": [
         "automated_discovery",
         "placeholder_primary_use",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-identity-formation-language-and-migration-dynamics",
+      "title": "Identity formation, language and migration dynamics",
+      "url": "https://zenodo.org/records/18433193",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "The volume examines migration from the Middle East and North Africa (MENA) region to the German diaspora, offering a multifaceted perspective that combines historical and contemporary insights. It moves beyond viewing migration as a momenta",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/18433193",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
+      "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
+      "url": "https://zenodo.org/records/19214881",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Abstract The Yusufzai (Yousafzai) are one of the largest Pashtun tribes, historically concentrated in northern Khyber Pakhtunkhwa and parts of Afghanistan and India. Their origins have been debated using historical, linguistic, and—more rec",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/19214881",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-perspectives-of-newly-arrived-kurdish-and-afghan-families-in-germany-on-their-he",
+      "title": "Perspectives of newly arrived Kurdish and Afghan families in Germany on their heritage languages and linguistic situation",
+      "url": "https://zenodo.org/records/18845604",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "The linguistic situation of newly arrived families threatened by forced migration in Germany after 2015 is characterised by attempts to learn German as the new official language and an unclear status of other languages, which played a role",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/18845604",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
         "missing_tasks"
       ]
     }
