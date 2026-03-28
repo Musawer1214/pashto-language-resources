@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-03-26T05:29:07.390296+00:00",
+  "generated_on": "2026-03-27T05:29:59.243226+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,8 +15,32 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 9,
+  "candidate_count": 8,
   "candidates": [
+    {
+      "id": "candidate-datacite-paper-cinema-films-made-by-women-screen-writers-directors-and-producers-in-islamic-cul",
+      "title": "Cinema: Films made by women screen writers, directors, and producers in Islamic cultures: Commercial films: Pakistan",
+      "url": "https://figshare.com/articles/journal_contribution/Cinema_Films_made_by_women_screen_writers_directors_and_producers_in_Islamic_cultures_Commercial_films_Pakistan/7325690",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This article examines multilingual commercial films by Pakistani women screenwriters, directors, and producersfrom Sindh, Punjab and Khyber Pakhtunkhwa (KPK). Against the backdrop of political inconsistency, some eighty women have made abou",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://figshare.com/articles/journal_contribution/Cinema_Films_made_by_women_screen_writers_directors_and_producers_in_Islamic_cultures_Commercial_films_Pakistan/7325690",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
     {
       "id": "candidate-kaggle-dataset-areebaakhtar-english-pashto-parallel-translation-dataset",
       "title": "English–Pashto Parallel Translation Dataset",
@@ -66,33 +90,9 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-identity-formation-language-and-migration-dynamics",
-      "title": "Identity formation, language and migration dynamics",
-      "url": "https://zenodo.org/records/18433193",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "The volume examines migration from the Middle East and North Africa (MENA) region to the German diaspora, offering a multifaceted perspective that combines historical and contemporary insights. It moves beyond viewing migration as a momenta",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/18433193",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-datacite-project-identity-formation-language-and-migration-dynamics",
       "title": "Identity formation, language and migration dynamics",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.18433193",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -101,7 +101,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433193",
         "markers": [
           "pashto"
         ]
@@ -114,33 +114,9 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
-      "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
-      "url": "https://zenodo.org/records/19214881",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "Abstract The Yusufzai (Yousafzai) are one of the largest Pashtun tribes, historically concentrated in northern Khyber Pakhtunkhwa and parts of Afghanistan and India. Their origins have been debated using historical, linguistic, and—more rec",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/19214881",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
       "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -149,7 +125,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
         "markers": [
           "pashto"
         ]
@@ -186,30 +162,6 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-perspectives-of-newly-arrived-kurdish-and-afghan-families-in-germany-on-their-he",
-      "title": "Perspectives of newly arrived Kurdish and Afghan families in Germany on their heritage languages and linguistic situation",
-      "url": "https://zenodo.org/records/18845604",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "The linguistic situation of newly arrived families threatened by forced migration in Germany after 2015 is characterised by attempts to learn German as the new official language and an unclear status of other languages, which played a role",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/18845604",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-datacite-project-perspectives-of-newly-arrived-kurdish-and-afghan-families-in-germany-on-their-he",
       "title": "Perspectives of newly arrived Kurdish and Afghan families in Germany on their heritage languages and linguistic situation",
       "url": "https://zenodo.org/doi/10.5281/zenodo.18845603",
@@ -230,6 +182,30 @@
         "pashto",
         "candidate",
         "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-role-of-pashto-theatre-and-other-performing-arts-in-inculcating-the-spirit-of-cu",
+      "title": "Role of Pashto Theatre and Other Performing Arts in Inculcating the Spirit of Cultural Renaissance and Promoting Nationalistic &amp; Ethical Values Among Pashtuns: An Analytical Overview",
+      "url": "https://figshare.com/articles/journal_contribution/PASHTO_THEATRE_FINAL_pdf/12152349",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Theater reflects the social fabric of a society. It is not just a medium of entertainment; rather it's a vibrant tool for cultural conservation. Cultures that lack arts and its allied forms rapidly stagnate and finally get diminished. If la",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://figshare.com/articles/journal_contribution/PASHTO_THEATRE_FINAL_pdf/12152349",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
         "datacite"
       ]
     }
