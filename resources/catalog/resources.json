@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-03-26",
+  "updated_on": "2026-03-31",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7466,6 +7466,50 @@
         "pashto",
         "paper",
         "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-arxiv-pashto-common-voice-building-the-first-open-speech-corpus-for-a-60-million-speak",
+      "title": "Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language",
+      "url": "http://arxiv.org/abs/2603.27021v1",
+      "category": "paper",
+      "source": "arxiv",
+      "status": "verified",
+      "summary": "We present the Pashto Common Voice corpus -- the first large-scale, openly licensed speech resource for Pashto, a language with over 60 million native speakers largely absent from open speech technology. Through a community effort spanning",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
+        "evidence_url": "http://arxiv.org/abs/2603.27021v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-dataset-cleaned",
+      "title": "tasal9/ZamAI-Pashto-Dataset-Cleaned",
+      "url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-Dataset-Cleaned",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-Dataset-Cleaned",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
       ]
     }
   ]

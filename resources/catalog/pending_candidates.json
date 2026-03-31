@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-03-27T05:29:59.243226+00:00",
+  "generated_on": "2026-03-31T05:42:01.462265+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -12,24 +12,71 @@
     "zenodo",
     "dataverse",
     "datacite",
-    "arxiv",
-    "semantic-scholar"
+    "arxiv"
   ],
-  "candidate_count": 8,
+  "candidate_count": 14,
   "candidates": [
     {
-      "id": "candidate-datacite-paper-cinema-films-made-by-women-screen-writers-directors-and-producers-in-islamic-cul",
-      "title": "Cinema: Films made by women screen writers, directors, and producers in Islamic cultures: Commercial films: Pakistan",
-      "url": "https://figshare.com/articles/journal_contribution/Cinema_Films_made_by_women_screen_writers_directors_and_producers_in_Islamic_cultures_Commercial_films_Pakistan/7325690",
-      "category": "paper",
+      "id": "candidate-datacite-project-b-building-relationships-to-improve-discharge-guidance-for-south-asian-families-",
+      "title": "<b>Building Relationships to Improve Discharge Guidance for South Asian Families of Children with Congenital Heart Disease in England: A </b><b>Mixed Methods Study</b>",
+      "url": "https://figshare.com/articles/online_resource/_b_Building_Relationships_to_Improve_Discharge_Guidance_for_South_Asian_Families_of_Children_with_Congenital_Heart_Disease_in_England_A_b_b_Mixed_Methods_Study_b_/29505107",
+      "category": "project",
       "source": "datacite",
       "status": "candidate",
-      "summary": "This article examines multilingual commercial films by Pakistani women screenwriters, directors, and producersfrom Sindh, Punjab and Khyber Pakhtunkhwa (KPK). Against the backdrop of political inconsistency, some eighty women have made abou",
+      "summary": "Study context Approximately 8 in 1,000 babies in the UK are born with a heart defect (NHS, 2021). Children with complex heart conditions often require early interventions. These babies need dedicated care, thus parents need comprehensive in",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://figshare.com/articles/journal_contribution/Cinema_Films_made_by_women_screen_writers_directors_and_producers_in_Islamic_cultures_Commercial_films_Pakistan/7325690",
+        "evidence_url": "https://figshare.com/articles/online_resource/_b_Building_Relationships_to_Improve_Discharge_Guidance_for_South_Asian_Families_of_Children_with_Congenital_Heart_Disease_in_England_A_b_b_Mixed_Methods_Study_b_/29505107",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-cinema-pakistan",
+      "title": "Cinema (Pakistan)",
+      "url": "https://figshare.com/articles/journal_contribution/Cinema_Pakistan_/13266335",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The entry discusses the commercial cinema of Pakistan. It briefly refers to the film production in the pre-Partition era, and points to the works of famous Pakistani film directors who migrated to Pakistan after the 1947-Partition, includes",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://figshare.com/articles/journal_contribution/Cinema_Pakistan_/13266335",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-cinema-films-made-by-women-screen-writers-directors-and-producers-in-islamic-cul",
+      "title": "Cinema: Films made by women screen writers, directors, and producers in Islamic cultures: Commercial films: Pakistan",
+      "url": "https://figshare.com/articles/journal_contribution/Untitled_Item/13269329",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This entry examines multilingual commercial films by Pakistani women screen writers, directors, and producers. Set against the backdrop of Pakistan’s political inconsistency — the problems of migration and rehabilitation, East-West polity i",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://figshare.com/articles/journal_contribution/Untitled_Item/13269329",
         "markers": [
           "pashto"
         ]
@@ -116,7 +163,7 @@
     {
       "id": "candidate-datacite-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
       "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -125,7 +172,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
         "markers": [
           "pashto"
         ]
@@ -134,6 +181,30 @@
         "pashto",
         "candidate",
         "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-dataset-pakistan-multilingual-speech-corpus",
+      "title": "Pakistan Multilingual Speech Corpus",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19323536",
+      "category": "dataset",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The dataset consists of 25,000 audio clips spanning five major Pakistani languages: Urdu, Punjabi, Pashto, Sindhi, and Saraiki. The dataset combines publicly available sources with manually collected data to address the scarcity of resource",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19323536",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
         "datacite"
       ]
     },
@@ -159,6 +230,53 @@
         "candidate",
         "project",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-pashto-common-voice-building-the-first-open-speech-corpus-for-a-60-million-speak",
+      "title": "Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language",
+      "url": "https://arxiv.org/abs/2603.27021",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "We present the Pashto Common Voice corpus -- the first large-scale, openly licensed speech resource for Pashto, a language with over 60 million native speakers largely absent from open speech technology. Through a community effort spanning",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://arxiv.org/abs/2603.27021",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-arxiv-pashto-common-voice-building-the-first-open-speech-corpus-for-a-60-million-speak",
+      "title": "Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language",
+      "url": "http://arxiv.org/abs/2603.27021v1",
+      "category": "paper",
+      "source": "arxiv",
+      "status": "candidate",
+      "summary": "We present the Pashto Common Voice corpus -- the first large-scale, openly licensed speech resource for Pashto, a language with over 60 million native speakers largely absent from open speech technology. Through a community effort spanning",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
+        "evidence_url": "http://arxiv.org/abs/2603.27021v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper"
       ]
     },
     {
@@ -208,7 +326,33 @@
         "paper",
         "datacite"
       ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-dataset-cleaned",
+      "title": "tasal9/ZamAI-Pashto-Dataset-Cleaned",
+      "url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-Dataset-Cleaned",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-Dataset-Cleaned",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
+      ]
     }
+  ],
+  "errors": [
+    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
     {
