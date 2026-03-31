@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-03-26T00:00:00Z",
-  "count": 129,
+  "generated_on": "2026-03-31T00:00:00Z",
+  "count": 130,
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -3842,6 +3842,34 @@
       ],
       "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
       "evidence_url": "https://huggingface.co/hasnainayaz/qehwa-pashto-llm-gguf",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-dataset-cleaned",
+      "title": "tasal9/ZamAI-Pashto-Dataset-Cleaned",
+      "url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-Dataset-Cleaned",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-Dataset-Cleaned",
       "markers": [
         "pashto"
       ],
