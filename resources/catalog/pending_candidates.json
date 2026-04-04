@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-04-03T05:30:20.559260+00:00",
+  "generated_on": "2026-04-04T05:19:17.036309+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -12,8 +12,7 @@
     "zenodo",
     "dataverse",
     "datacite",
-    "arxiv",
-    "semantic-scholar"
+    "arxiv"
   ],
   "candidate_count": 13,
   "candidates": [
@@ -140,7 +139,7 @@
     {
       "id": "candidate-datacite-project-identity-formation-language-and-migration-dynamics",
       "title": "Identity formation, language and migration dynamics",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.18433193",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -149,7 +148,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433193",
         "markers": [
           "pashto"
         ]
@@ -329,6 +328,9 @@
         "datacite"
       ]
     }
+  ],
+  "errors": [
+    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
     {
