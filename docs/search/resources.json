@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-03-31T00:00:00Z",
-  "count": 130,
+  "generated_on": "2026-04-09T00:00:00Z",
+  "count": 131,
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -3870,6 +3870,34 @@
       ],
       "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
       "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-Dataset-Cleaned",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-tbogamer22-pakhtovoice-orpheus-60h",
+      "title": "TBOGamer22/PakhtoVoice-Orpheus-60H",
+      "url": "https://huggingface.co/TBOGamer22/PakhtoVoice-Orpheus-60H",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "model"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/TBOGamer22/PakhtoVoice-Orpheus-60H",
       "markers": [
         "pashto"
       ],

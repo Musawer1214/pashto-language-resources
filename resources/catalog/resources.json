@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-03-31",
+  "updated_on": "2026-04-09",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7510,6 +7510,72 @@
       "tags": [
         "pashto",
         "dataset"
+      ]
+    },
+    {
+      "id": "candidate-arxiv-benchmarking-multilingual-speech-models-on-pashto-zero-shot-asr-script-failure-a",
+      "title": "Benchmarking Multilingual Speech Models on Pashto: Zero-Shot ASR, Script Failure, and Cross-Domain Evaluation",
+      "url": "http://arxiv.org/abs/2604.04598v1",
+      "category": "paper",
+      "source": "arxiv",
+      "status": "verified",
+      "summary": "Pashto is spoken by approximately 60--80 million people but has no published benchmarks for multilingual automatic speech recognition (ASR) on any shared public test set. This paper reports the first reproducible multi-model evaluation on p",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
+        "evidence_url": "http://arxiv.org/abs/2604.04598v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper"
+      ]
+    },
+    {
+      "id": "candidate-arxiv-fine-tuning-whisper-for-pashto-asr-strategies-and-scale",
+      "title": "Fine-tuning Whisper for Pashto ASR: strategies and scale",
+      "url": "http://arxiv.org/abs/2604.06507v1",
+      "category": "paper",
+      "source": "arxiv",
+      "status": "verified",
+      "summary": "Pashto is absent from Whisper's pre-training corpus despite being one of CommonVoice's largest language collections, leaving off-the-shelf models unusable: all Whisper sizes output Arabic, Dari, or Urdu script on Pashto audio, achieving wor",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
+        "evidence_url": "http://arxiv.org/abs/2604.06507v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-tbogamer22-pakhtovoice-orpheus-60h",
+      "title": "TBOGamer22/PakhtoVoice-Orpheus-60H",
+      "url": "https://huggingface.co/TBOGamer22/PakhtoVoice-Orpheus-60H",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/TBOGamer22/PakhtoVoice-Orpheus-60H",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "model"
       ]
     }
   ]
