@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-04-03T05:30:20.559260+00:00",
+  "generated_on": "2026-04-09T05:46:07.537522+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 13,
+  "candidate_count": 17,
   "candidates": [
     {
       "id": "candidate-datacite-project-b-building-relationships-to-improve-discharge-guidance-for-south-asian-families-",
@@ -39,6 +39,53 @@
         "candidate",
         "project",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-benchmarking-multilingual-speech-models-on-pashto-zero-shot-asr-script-failure-a",
+      "title": "Benchmarking Multilingual Speech Models on Pashto: Zero-Shot ASR, Script Failure, and Cross-Domain Evaluation",
+      "url": "https://arxiv.org/abs/2604.04598",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Pashto is spoken by approximately 60--80 million people but has no published benchmarks for multilingual automatic speech recognition (ASR) on any shared public test set. This paper reports the first reproducible multi-model evaluation on p",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://arxiv.org/abs/2604.04598",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-arxiv-benchmarking-multilingual-speech-models-on-pashto-zero-shot-asr-script-failure-a",
+      "title": "Benchmarking Multilingual Speech Models on Pashto: Zero-Shot ASR, Script Failure, and Cross-Domain Evaluation",
+      "url": "http://arxiv.org/abs/2604.04598v1",
+      "category": "paper",
+      "source": "arxiv",
+      "status": "candidate",
+      "summary": "Pashto is spoken by approximately 60--80 million people but has no published benchmarks for multilingual automatic speech recognition (ASR) on any shared public test set. This paper reports the first reproducible multi-model evaluation on p",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
+        "evidence_url": "http://arxiv.org/abs/2604.04598v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper"
       ]
     },
     {
@@ -114,18 +161,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingua",
-      "title": "Enhancing NER Performance in Low-Resource Pakistani Languages using Cross-Lingual Data Augmentation",
-      "url": "https://underline.io/lecture/117794-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingual-data-augmentation",
-      "category": "project",
+      "id": "candidate-datacite-paper-fine-tuning-whisper-for-pashto-asr-strategies-and-scale",
+      "title": "Fine-tuning Whisper for Pashto ASR: strategies and scale",
+      "url": "https://arxiv.org/abs/2604.06507",
+      "category": "paper",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Named Entity Recognition (NER), a fundamental task in Natural Language Processing (NLP), has shown significant advancements for high-resource languages. However, due to a lack of annotated datasets and limited representation in Pre-trained",
+      "summary": "Pashto is absent from Whisper's pre-training corpus despite being one of CommonVoice's largest language collections, leaving off-the-shelf models unusable: all Whisper sizes output Arabic, Dari, or Urdu script on Pashto audio, achieving wor",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://underline.io/lecture/117794-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingual-data-augmentation",
+        "evidence_url": "https://arxiv.org/abs/2604.06507",
         "markers": [
           "pashto"
         ]
@@ -133,8 +180,31 @@
       "tags": [
         "pashto",
         "candidate",
-        "project",
+        "paper",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-arxiv-fine-tuning-whisper-for-pashto-asr-strategies-and-scale",
+      "title": "Fine-tuning Whisper for Pashto ASR: strategies and scale",
+      "url": "http://arxiv.org/abs/2604.06507v1",
+      "category": "paper",
+      "source": "arxiv",
+      "status": "candidate",
+      "summary": "Pashto is absent from Whisper's pre-training corpus despite being one of CommonVoice's largest language collections, leaving off-the-shelf models unusable: all Whisper sizes output Arabic, Dari, or Urdu script on Pashto audio, achieving wor",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
+        "evidence_url": "http://arxiv.org/abs/2604.06507v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper"
       ]
     },
     {
@@ -234,30 +304,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-pakistanizing-pashtun-the-linguistic-and-cultural-disruption-and-re-invention-of",
-      "title": "Pakistanizing Pashtun: The linguistic and cultural disruption and re-invention of Pashtun",
-      "url": "https://aura.american.edu/articles/thesis/Pakistanizing_Pashtun_The_linguistic_and_cultural_disruption_and_re-invention_of_Pashtun/23832027/1",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This dissertation explores how the Pakistani nationalist project and state making practices disrupt Pashtun culture and Pashto language, and how Pashtun respond to these cultural and linguistic disruptions. Focusing on two indigenous Pashtu",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://aura.american.edu/articles/thesis/Pakistanizing_Pashtun_The_linguistic_and_cultural_disruption_and_re-invention_of_Pashtun/23832027/1",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-pashto-common-voice-building-the-first-open-speech-corpus-for-a-60-million-speak",
       "title": "Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language",
       "url": "https://arxiv.org/abs/2603.27021",
@@ -306,6 +352,30 @@
       ]
     },
     {
+      "id": "candidate-datacite-dataset-remember-forward-the-patient-message-complete-plate-set",
+      "title": "Remember Forward -- The Patient Message: Complete Plate Set",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19433177",
+      "category": "dataset",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Remember Forward is an open-source time capsule system. The Patient Message is a set of laser-engraver-ready SVG plate designs intended to preserve human knowledge through catastrophic events -- readable by a finder 200 to 2,000 years from",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19433177",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-datacite-paper-role-of-pashto-theatre-and-other-performing-arts-in-inculcating-the-spirit-of-cu",
       "title": "Role of Pashto Theatre and Other Performing Arts in Inculcating the Spirit of Cultural Renaissance and Promoting Nationalistic &amp; Ethical Values Among Pashtuns: An Analytical Overview",
       "url": "https://figshare.com/articles/journal_contribution/PASHTO_THEATRE_FINAL_pdf/12152349",
@@ -327,6 +397,29 @@
         "candidate",
         "paper",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-tbogamer22-pakhtovoice-orpheus-60h",
+      "title": "TBOGamer22/PakhtoVoice-Orpheus-60H",
+      "url": "https://huggingface.co/TBOGamer22/PakhtoVoice-Orpheus-60H",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/TBOGamer22/PakhtoVoice-Orpheus-60H",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
       ]
     }
   ],
