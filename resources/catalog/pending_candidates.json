@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-04-09T05:46:07.537522+00:00",
+  "generated_on": "2026-04-11T05:22:42.042486+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 17,
+  "candidate_count": 15,
   "candidates": [
     {
       "id": "candidate-datacite-project-b-building-relationships-to-improve-discharge-guidance-for-south-asian-families-",
@@ -42,6 +42,54 @@
       ]
     },
     {
+      "id": "candidate-datacite-paper-abstracts-and-authors-of-dari-and-pashto-articles-english",
+      "title": "Abstracts and Authors of Dari and Pashto Articles (English)",
+      "url": "https://opendata.uni-halle.de//handle/1981185920/124826",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://opendata.uni-halle.de//handle/1981185920/124826",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-abstracts-and-authors-of-english-articles-pashto",
+      "title": "Abstracts and Authors of English Articles (Pashto)",
+      "url": "https://opendata.uni-halle.de//handle/1981185920/124828",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://opendata.uni-halle.de//handle/1981185920/124828",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-datacite-paper-benchmarking-multilingual-speech-models-on-pashto-zero-shot-asr-script-failure-a",
       "title": "Benchmarking Multilingual Speech Models on Pashto: Zero-Shot ASR, Script Failure, and Cross-Domain Evaluation",
       "url": "https://arxiv.org/abs/2604.04598",
@@ -54,77 +102,6 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://arxiv.org/abs/2604.04598",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-arxiv-benchmarking-multilingual-speech-models-on-pashto-zero-shot-asr-script-failure-a",
-      "title": "Benchmarking Multilingual Speech Models on Pashto: Zero-Shot ASR, Script Failure, and Cross-Domain Evaluation",
-      "url": "http://arxiv.org/abs/2604.04598v1",
-      "category": "paper",
-      "source": "arxiv",
-      "status": "candidate",
-      "summary": "Pashto is spoken by approximately 60--80 million people but has no published benchmarks for multilingual automatic speech recognition (ASR) on any shared public test set. This paper reports the first reproducible multi-model evaluation on p",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
-        "evidence_url": "http://arxiv.org/abs/2604.04598v1",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-cinema-pakistan",
-      "title": "Cinema (Pakistan)",
-      "url": "https://figshare.com/articles/journal_contribution/Cinema_Pakistan_/13266335",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "The entry discusses the commercial cinema of Pakistan. It briefly refers to the film production in the pre-Partition era, and points to the works of famous Pakistani film directors who migrated to Pakistan after the 1947-Partition, includes",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://figshare.com/articles/journal_contribution/Cinema_Pakistan_/13266335",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-cinema-films-made-by-women-screen-writers-directors-and-producers-in-islamic-cul",
-      "title": "Cinema: Films made by women screen writers, directors, and producers in Islamic cultures: Commercial films: Pakistan",
-      "url": "https://figshare.com/articles/journal_contribution/Untitled_Item/13269329",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This entry examines multilingual commercial films by Pakistani women screen writers, directors, and producers. Set against the backdrop of Pakistan’s political inconsistency — the problems of migration and rehabilitation, East-West polity i",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://figshare.com/articles/journal_contribution/Untitled_Item/13269329",
         "markers": [
           "pashto"
         ]
@@ -185,53 +162,6 @@
       ]
     },
     {
-      "id": "candidate-arxiv-fine-tuning-whisper-for-pashto-asr-strategies-and-scale",
-      "title": "Fine-tuning Whisper for Pashto ASR: strategies and scale",
-      "url": "http://arxiv.org/abs/2604.06507v1",
-      "category": "paper",
-      "source": "arxiv",
-      "status": "candidate",
-      "summary": "Pashto is absent from Whisper's pre-training corpus despite being one of CommonVoice's largest language collections, leaving off-the-shelf models unusable: all Whisper sizes output Arabic, Dari, or Urdu script on Pashto audio, achieving wor",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
-        "evidence_url": "http://arxiv.org/abs/2604.06507v1",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-identity-formation-language-and-migration-dynamics",
-      "title": "Identity formation, language and migration dynamics",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "The volume examines migration from the Middle East and North Africa (MENA) regionto the German diaspora, offering a multifaceted perspective that combines historical andcontemporary insights. It moves beyond viewing migration as a momentary",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-datacite-project-male-birth-control-pashto",
       "title": "Male Birth Control [Pashto]",
       "url": "https://zenodo.org/doi/10.5281/zenodo.19390996",
@@ -256,9 +186,80 @@
       ]
     },
     {
+      "id": "candidate-datacite-paper-male-birth-control-pashto-transcript",
+      "title": "Male Birth Control [Pashto] Transcript",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19487939",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487939",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-male-contraception-pashto-slides",
+      "title": "Male Contraception (Pashto) Slides",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19487777",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487777",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-mradermacher-pakhtovoice-orpheus-60h-gguf",
+      "title": "mradermacher/PakhtoVoice-Orpheus-60H-GGUF",
+      "url": "https://huggingface.co/mradermacher/PakhtoVoice-Orpheus-60H-GGUF",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/mradermacher/PakhtoVoice-Orpheus-60H-GGUF",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
       "id": "candidate-datacite-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
       "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -267,7 +268,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
         "markers": [
           "pashto"
         ]
@@ -328,18 +329,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-perspectives-of-newly-arrived-kurdish-and-afghan-families-in-germany-on-their-he",
-      "title": "Perspectives of newly arrived Kurdish and Afghan families in Germany on their heritage languages and linguistic situation",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.18845603",
-      "category": "project",
+      "id": "candidate-datacite-paper-pharmaceutical-intoxication-in-pashto-popular-music-a-critical-discourse-analysi",
+      "title": "PHARMACEUTICAL INTOXICATION IN PASHTO POPULAR MUSIC: A CRITICAL DISCOURSE ANALYSIS OF \"GABICA KHORE\" AND ITS SOCIOCULTURAL RECEPTION IN KHYBER PAKHTUNKHWA",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19495002",
+      "category": "paper",
       "source": "datacite",
       "status": "candidate",
-      "summary": "The linguistic situation of newly arrived families threatened by forced migration in Germany after 2015 is characterised by attempts to learn German as the new official language and an unclear status of other languages,which played a role i",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18845603",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19495002",
         "markers": [
           "pashto"
         ]
@@ -347,7 +348,7 @@
       "tags": [
         "pashto",
         "candidate",
-        "project",
+        "paper",
         "datacite"
       ]
     },
@@ -373,53 +374,6 @@
         "candidate",
         "dataset",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-role-of-pashto-theatre-and-other-performing-arts-in-inculcating-the-spirit-of-cu",
-      "title": "Role of Pashto Theatre and Other Performing Arts in Inculcating the Spirit of Cultural Renaissance and Promoting Nationalistic &amp; Ethical Values Among Pashtuns: An Analytical Overview",
-      "url": "https://figshare.com/articles/journal_contribution/PASHTO_THEATRE_FINAL_pdf/12152349",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Theater reflects the social fabric of a society. It is not just a medium of entertainment; rather it's a vibrant tool for cultural conservation. Cultures that lack arts and its allied forms rapidly stagnate and finally get diminished. If la",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://figshare.com/articles/journal_contribution/PASHTO_THEATRE_FINAL_pdf/12152349",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-hf-model-tbogamer22-pakhtovoice-orpheus-60h",
-      "title": "TBOGamer22/PakhtoVoice-Orpheus-60H",
-      "url": "https://huggingface.co/TBOGamer22/PakhtoVoice-Orpheus-60H",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/TBOGamer22/PakhtoVoice-Orpheus-60H",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
       ]
     }
   ],
