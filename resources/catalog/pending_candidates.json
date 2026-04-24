@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-04-11T05:22:42.042486+00:00",
+  "generated_on": "2026-04-24T06:04:11.639182+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -17,30 +17,6 @@
   ],
   "candidate_count": 15,
   "candidates": [
-    {
-      "id": "candidate-datacite-project-b-building-relationships-to-improve-discharge-guidance-for-south-asian-families-",
-      "title": "<b>Building Relationships to Improve Discharge Guidance for South Asian Families of Children with Congenital Heart Disease in England: A </b><b>Mixed Methods Study</b>",
-      "url": "https://figshare.com/articles/online_resource/_b_Building_Relationships_to_Improve_Discharge_Guidance_for_South_Asian_Families_of_Children_with_Congenital_Heart_Disease_in_England_A_b_b_Mixed_Methods_Study_b_/29505107",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Study context Approximately 8 in 1,000 babies in the UK are born with a heart defect (NHS, 2021). Children with complex heart conditions often require early interventions. These babies need dedicated care, thus parents need comprehensive in",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://figshare.com/articles/online_resource/_b_Building_Relationships_to_Improve_Discharge_Guidance_for_South_Asian_Families_of_Children_with_Congenital_Heart_Disease_in_England_A_b_b_Mixed_Methods_Study_b_/29505107",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
     {
       "id": "candidate-datacite-paper-abstracts-and-authors-of-dari-and-pashto-articles-english",
       "title": "Abstracts and Authors of Dari and Pashto Articles (English)",
@@ -111,6 +87,30 @@
         "candidate",
         "paper",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-kaggle-dataset-karimnaimy-common-voice-25-0-pashto-asr-dataset",
+      "title": "Common Voice 25.0 Pashto ASR Dataset",
+      "url": "https://www.kaggle.com/datasets/karimnaimy/common-voice-pashto-25",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "Large-scale CC0 Pashto speech dataset for Automatic Speech Recognition (ASR)",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/karimnaimy/common-voice-pashto-25",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
       ]
     },
     {
@@ -234,32 +234,9 @@
       ]
     },
     {
-      "id": "candidate-hf-model-mradermacher-pakhtovoice-orpheus-60h-gguf",
-      "title": "mradermacher/PakhtoVoice-Orpheus-60H-GGUF",
-      "url": "https://huggingface.co/mradermacher/PakhtoVoice-Orpheus-60H-GGUF",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/mradermacher/PakhtoVoice-Orpheus-60H-GGUF",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
       "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -268,7 +245,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
         "markers": [
           "pashto"
         ]
@@ -305,18 +282,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-pashto-common-voice-building-the-first-open-speech-corpus-for-a-60-million-speak",
-      "title": "Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language",
-      "url": "https://arxiv.org/abs/2603.27021",
-      "category": "paper",
+      "id": "candidate-datacite-project-pakistanizing-pashtun-the-linguistic-and-cultural-disruption-and-re-invention-of",
+      "title": "Pakistanizing Pashtun: The linguistic and cultural disruption and re-invention of Pashtun",
+      "url": "https://aura.american.edu/articles/thesis/Pakistanizing_Pashtun_The_linguistic_and_cultural_disruption_and_re-invention_of_Pashtun/23832027/1",
+      "category": "project",
       "source": "datacite",
       "status": "candidate",
-      "summary": "We present the Pashto Common Voice corpus -- the first large-scale, openly licensed speech resource for Pashto, a language with over 60 million native speakers largely absent from open speech technology. Through a community effort spanning",
+      "summary": "This dissertation explores how the Pakistani nationalist project and state making practices disrupt Pashtun culture and Pashto language, and how Pashtun respond to these cultural and linguistic disruptions. Focusing on two indigenous Pashtu",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://arxiv.org/abs/2603.27021",
+        "evidence_url": "https://aura.american.edu/articles/thesis/Pakistanizing_Pashtun_The_linguistic_and_cultural_disruption_and_re-invention_of_Pashtun/23832027/1",
         "markers": [
           "pashto"
         ]
@@ -324,7 +301,7 @@
       "tags": [
         "pashto",
         "candidate",
-        "paper",
+        "project",
         "datacite"
       ]
     },
@@ -373,6 +350,30 @@
         "pashto",
         "candidate",
         "dataset",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-script-collapse-in-multilingual-asr-defining-and-measuring-script-fidelity-rate",
+      "title": "Script Collapse in Multilingual ASR: Defining and Measuring Script Fidelity Rate",
+      "url": "https://arxiv.org/abs/2604.08786",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Word error rate (WER) is the dominant metric for automatic speech recognition, yet it cannot detect a systematic failure mode: models that produce fluent output in the wrong writing system. We define Script Fidelity Rate (SFR), the fraction",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://arxiv.org/abs/2604.08786",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
         "datacite"
       ]
     }
@@ -475,16 +476,9 @@
       "url": "https://www.kaggle.com/datasets/mahibullahmudaser/pashtochracterssample",
       "reason": "URL returned hard-missing HTTP status 404.",
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
-    },
-    {
-      "id": "candidate-kaggle-dataset-aimalrezvan-pashto-language-characters",
-      "title": "Pashto_language_characters",
-      "url": "https://www.kaggle.com/datasets/aimalrezvan/pashto-language-characters",
-      "reason": "URL returned hard-missing HTTP status 404.",
-      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     }
   ],
   "warnings": [
-    "Skipped 15 candidate(s) that matched prior hard-missing removal log entries."
+    "Skipped 14 candidate(s) that matched prior hard-missing removal log entries."
   ]
 }
