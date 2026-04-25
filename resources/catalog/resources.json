@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-04-11",
+  "updated_on": "2026-04-25",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7598,6 +7598,28 @@
       "tags": [
         "pashto",
         "model"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-junaid008-pashto-largest-corpus",
+      "title": "junaid008/pashto-largest-corpus",
+      "url": "https://huggingface.co/datasets/junaid008/pashto-largest-corpus",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/junaid008/pashto-largest-corpus",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
       ]
     }
   ]
