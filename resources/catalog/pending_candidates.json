@@ -1,11 +1,10 @@
 {
-  "generated_on": "2026-04-24T06:04:11.639182+00:00",
+  "generated_on": "2026-04-25T05:44:44.824859+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
     "huggingface-models",
     "huggingface-spaces",
-    "github-repositories",
     "gitlab-projects",
     "openalex",
     "crossref",
@@ -15,7 +14,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 15,
+  "candidate_count": 16,
   "candidates": [
     {
       "id": "candidate-datacite-paper-abstracts-and-authors-of-dari-and-pashto-articles-english",
@@ -162,6 +161,29 @@
       ]
     },
     {
+      "id": "candidate-hf-dataset-junaid008-pashto-largest-corpus",
+      "title": "junaid008/pashto-largest-corpus",
+      "url": "https://huggingface.co/datasets/junaid008/pashto-largest-corpus",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/junaid008/pashto-largest-corpus",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
+      ]
+    },
+    {
       "id": "candidate-datacite-project-male-birth-control-pashto",
       "title": "Male Birth Control [Pashto]",
       "url": "https://zenodo.org/doi/10.5281/zenodo.19390996",
@@ -188,7 +210,7 @@
     {
       "id": "candidate-datacite-paper-male-birth-control-pashto-transcript",
       "title": "Male Birth Control [Pashto] Transcript",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19487939",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -197,7 +219,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487939",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
         "markers": [
           "pashto"
         ]
@@ -236,7 +258,7 @@
     {
       "id": "candidate-datacite-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
       "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -245,7 +267,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
         "markers": [
           "pashto"
         ]
@@ -377,6 +399,9 @@
         "datacite"
       ]
     }
+  ],
+  "errors": [
+    "github-repositories: HTTP Error 403: rate limit exceeded"
   ],
   "skipped_prior_removals": [
     {

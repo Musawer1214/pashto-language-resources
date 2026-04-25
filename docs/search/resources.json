@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-04-11T00:00:00Z",
-  "count": 132,
+  "generated_on": "2026-04-25T00:00:00Z",
+  "count": 133,
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -3926,6 +3926,34 @@
       ],
       "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
       "evidence_url": "https://huggingface.co/mradermacher/PakhtoVoice-Orpheus-60H-GGUF",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-junaid008-pashto-largest-corpus",
+      "title": "junaid008/pashto-largest-corpus",
+      "url": "https://huggingface.co/datasets/junaid008/pashto-largest-corpus",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/datasets/junaid008/pashto-largest-corpus",
       "markers": [
         "pashto"
       ],
