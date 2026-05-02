@@ -1,10 +1,11 @@
 {
-  "generated_on": "2026-04-25T05:44:44.824859+00:00",
+  "generated_on": "2026-05-02T06:02:29.437752+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
     "huggingface-models",
     "huggingface-spaces",
+    "github-repositories",
     "gitlab-projects",
     "openalex",
     "crossref",
@@ -14,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 16,
+  "candidate_count": 18,
   "candidates": [
     {
       "id": "candidate-datacite-paper-abstracts-and-authors-of-dari-and-pashto-articles-english",
@@ -161,18 +162,18 @@
       ]
     },
     {
-      "id": "candidate-hf-dataset-junaid008-pashto-largest-corpus",
-      "title": "junaid008/pashto-largest-corpus",
-      "url": "https://huggingface.co/datasets/junaid008/pashto-largest-corpus",
-      "category": "dataset",
+      "id": "candidate-hf-model-habibkhan1-zama-pushto-final-model",
+      "title": "habibkhan1/zama_pushto_final_model",
+      "url": "https://huggingface.co/habibkhan1/zama_pushto_final_model",
+      "category": "model",
       "source": "huggingface",
       "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/junaid008/pashto-largest-corpus",
+        "evidence_url": "https://huggingface.co/habibkhan1/zama_pushto_final_model",
         "markers": [
           "pashto"
         ]
@@ -180,22 +181,45 @@
       "tags": [
         "pashto",
         "candidate",
-        "dataset"
+        "model"
       ]
     },
     {
-      "id": "candidate-datacite-project-male-birth-control-pashto",
-      "title": "Male Birth Control [Pashto]",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19390996",
+      "id": "candidate-hf-model-habibkhan1-zama-pushto-model1",
+      "title": "habibkhan1/zama_pushto_model1",
+      "url": "https://huggingface.co/habibkhan1/zama_pushto_model1",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/habibkhan1/zama_pushto_model1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-language-barrier-and-its-effect-on-learning-at-the-public-primary-school-level-i",
+      "title": "Language Barrier and its Effect on Learning at the Public Primary School Level in Lahore",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.17728944",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "summary": "Context and Purpose: Linguistic shift in general education and the use of English as a medium of instruction (EMI) at the primary level poses a large language barrier to the learners of other languages. This paper particularly examined the",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19390996",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.17728944",
         "markers": [
           "pashto"
         ]
@@ -258,7 +282,7 @@
     {
       "id": "candidate-datacite-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
       "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -267,7 +291,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214880",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
         "markers": [
           "pashto"
         ]
@@ -276,30 +300,6 @@
         "pashto",
         "candidate",
         "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-dataset-pakistan-multilingual-speech-corpus",
-      "title": "Pakistan Multilingual Speech Corpus",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19323536",
-      "category": "dataset",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "The dataset consists of ~35,000 audio clips spanning seven major Pakistani languages: Urdu, Punjabi, Pashto, Sindhi, Saraiki, Balochi, and Kashmiri. The dataset combines publicly available sources with manually collected data to address the",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19323536",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
         "datacite"
       ]
     },
@@ -352,18 +352,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-dataset-remember-forward-the-patient-message-complete-plate-set",
-      "title": "Remember Forward -- The Patient Message: Complete Plate Set",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19433177",
+      "id": "candidate-datacite-dataset-pold-pashto-offensive-language-dataset",
+      "title": "POLD - Pashto Offensive Language Dataset",
+      "url": "https://www.kaggle.com/dsv/15986116",
       "category": "dataset",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Remember Forward is an open-source time capsule system. The Patient Message is a set of laser-engraver-ready SVG plate designs intended to preserve human knowledge through catastrophic events -- readable by a finder 200 to 2,000 years from",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19433177",
+        "evidence_url": "https://www.kaggle.com/dsv/15986116",
         "markers": [
           "pashto"
         ]
@@ -372,6 +372,30 @@
         "pashto",
         "candidate",
         "dataset",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-reality",
+      "title": "Reality",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "English: \"So, what is this reality, after all?\" Mandarin Chinese: \"那么,这现实到底是什么呢?\" Hindi: \"तो आखिर यह वास्तविकता क्या है?\" Spanish: \"¿Y qué es esta realidad, después de todo?\" French: \"Alors, qu'est-ce que cette réalité, après tout ?\" Arabic",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
         "datacite"
       ]
     },
@@ -398,10 +422,31 @@
         "paper",
         "datacite"
       ]
+    },
+    {
+      "id": "candidate-datacite-project-the-world-is-established-through-the-work-of-existence-the-performance-of-gham-k",
+      "title": "The world is established through the work of existence : the performance of Gham-Khadi among Pukhtun Bibiane in Northern Pakistan.",
+      "url": "https://www.repository.cam.ac.uk/handle/1810/236168",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This thesis explores the social lives of elite Pukhtun women or Bibiane in northern Pakistan, with an ethnographic focus on the enactment of particular life-cycle or gham-khadi ceremonies (funerals and weddings). The widely used Pukhto term",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://www.repository.cam.ac.uk/handle/1810/236168",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
     }
-  ],
-  "errors": [
-    "github-repositories: HTTP Error 403: rate limit exceeded"
   ],
   "skipped_prior_removals": [
     {
@@ -419,16 +464,16 @@
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
-      "id": "candidate-kaggle-dataset-drijaz-pold-pashto-offensive-language-dataset",
-      "title": "POLD - Pashto Offensive Language Dataset",
-      "url": "https://www.kaggle.com/datasets/drijaz/pold-pashto-offensive-language-dataset",
+      "id": "candidate-kaggle-dataset-drijaz-pashto-word-embeddings",
+      "title": "Pashto Word Embeddings",
+      "url": "https://www.kaggle.com/datasets/drijaz/pashto-word-embeddings",
       "reason": "URL returned hard-missing HTTP status 404.",
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
-      "id": "candidate-kaggle-dataset-drijaz-pashto-word-embeddings",
-      "title": "Pashto Word Embeddings",
-      "url": "https://www.kaggle.com/datasets/drijaz/pashto-word-embeddings",
+      "id": "candidate-kaggle-dataset-drijaz-pold-pashto-offensive-language-dataset",
+      "title": "POLD - Pashto Offensive Language Dataset",
+      "url": "https://www.kaggle.com/datasets/drijaz/pold-pashto-offensive-language-dataset",
       "reason": "URL returned hard-missing HTTP status 404.",
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
