@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-05-02T06:02:29.437752+00:00",
+  "generated_on": "2026-05-07T06:30:23.562965+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 18,
+  "candidate_count": 16,
   "candidates": [
     {
       "id": "candidate-datacite-paper-abstracts-and-authors-of-dari-and-pashto-articles-english",
@@ -162,18 +162,18 @@
       ]
     },
     {
-      "id": "candidate-hf-model-habibkhan1-zama-pushto-final-model",
-      "title": "habibkhan1/zama_pushto_final_model",
-      "url": "https://huggingface.co/habibkhan1/zama_pushto_final_model",
-      "category": "model",
-      "source": "huggingface",
+      "id": "candidate-datacite-paper-forgotten-refugees-understanding-the-language-and-literacy-practices-of-afghan-r",
+      "title": "Forgotten refugees : understanding the language and literacy practices of Afghan refugees in Pakistan",
+      "url": "https://doi.library.ubc.ca/10.14288/1.0394794",
+      "category": "paper",
+      "source": "datacite",
       "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "summary": "Most refugees arriving in permanent resettlement countries, such as Canada, come from first asylum countries, or countries that refugees move to first to escape the crisis in their homelands. Refugees arrive in permanent resettlement countr",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/habibkhan1/zama_pushto_final_model",
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://doi.library.ubc.ca/10.14288/1.0394794",
         "markers": [
           "pashto"
         ]
@@ -181,30 +181,8 @@
       "tags": [
         "pashto",
         "candidate",
-        "model"
-      ]
-    },
-    {
-      "id": "candidate-hf-model-habibkhan1-zama-pushto-model1",
-      "title": "habibkhan1/zama_pushto_model1",
-      "url": "https://huggingface.co/habibkhan1/zama_pushto_model1",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/habibkhan1/zama_pushto_model1",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
+        "paper",
+        "datacite"
       ]
     },
     {
@@ -388,30 +366,6 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-script-collapse-in-multilingual-asr-defining-and-measuring-script-fidelity-rate",
-      "title": "Script Collapse in Multilingual ASR: Defining and Measuring Script Fidelity Rate",
-      "url": "https://arxiv.org/abs/2604.08786",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Word error rate (WER) is the dominant metric for automatic speech recognition, yet it cannot detect a systematic failure mode: models that produce fluent output in the wrong writing system. We define Script Fidelity Rate (SFR), the fraction",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://arxiv.org/abs/2604.08786",
         "markers": [
           "pashto"
         ]
