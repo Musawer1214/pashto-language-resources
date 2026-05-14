@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-05-07T06:30:23.562965+00:00",
+  "generated_on": "2026-05-14T06:45:44.781022+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -12,11 +12,34 @@
     "zenodo",
     "dataverse",
     "datacite",
-    "arxiv",
-    "semantic-scholar"
+    "arxiv"
   ],
   "candidate_count": 16,
   "candidates": [
+    {
+      "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
+      "title": "A Study of the Relationship between the Pashto Language and Indo-Aryan Languages",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20154600",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Pashto is a historic language of the northeastern subgroup of the Aryan branch within the Indo-European language family. Based on its phonological, morphological, and syntactic features, it is directly descended from its parent Aryan langua",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20154600",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
     {
       "id": "candidate-datacite-paper-abstracts-and-authors-of-dari-and-pashto-articles-english",
       "title": "Abstracts and Authors of Dari and Pashto Articles (English)",
@@ -54,30 +77,6 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://opendata.uni-halle.de//handle/1981185920/124828",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-benchmarking-multilingual-speech-models-on-pashto-zero-shot-asr-script-failure-a",
-      "title": "Benchmarking Multilingual Speech Models on Pashto: Zero-Shot ASR, Script Failure, and Cross-Domain Evaluation",
-      "url": "https://arxiv.org/abs/2604.04598",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Pashto is spoken by approximately 60--80 million people but has no published benchmarks for multilingual automatic speech recognition (ASR) on any shared public test set. This paper reports the first reproducible multi-model evaluation on p",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://arxiv.org/abs/2604.04598",
         "markers": [
           "pashto"
         ]
@@ -138,30 +137,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-fine-tuning-whisper-for-pashto-asr-strategies-and-scale",
-      "title": "Fine-tuning Whisper for Pashto ASR: strategies and scale",
-      "url": "https://arxiv.org/abs/2604.06507",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Pashto is absent from Whisper's pre-training corpus despite being one of CommonVoice's largest language collections, leaving off-the-shelf models unusable: all Whisper sizes output Arabic, Dari, or Urdu script on Pashto audio, achieving wor",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://arxiv.org/abs/2604.06507",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-forgotten-refugees-understanding-the-language-and-literacy-practices-of-afghan-r",
       "title": "Forgotten refugees : understanding the language and literacy practices of Afghan refugees in Pakistan",
       "url": "https://doi.library.ubc.ca/10.14288/1.0394794",
@@ -186,6 +161,30 @@
       ]
     },
     {
+      "id": "candidate-datacite-project-identity-formation-language-and-migration-dynamics",
+      "title": "Identity formation, language and migration dynamics",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The volume examines migration from the Middle East and North Africa (MENA) regionto the German diaspora, offering a multifaceted perspective that combines historical andcontemporary insights. It moves beyond viewing migration as a momentary",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-datacite-project-language-barrier-and-its-effect-on-learning-at-the-public-primary-school-level-i",
       "title": "Language Barrier and its Effect on Learning at the Public Primary School Level in Lahore",
       "url": "https://zenodo.org/doi/10.5281/zenodo.17728944",
@@ -206,6 +205,30 @@
         "pashto",
         "candidate",
         "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-language-status-and-lexical-change-in-torwali",
+      "title": "Language status and lexical change in Torwali",
+      "url": "https://doi.library.ubc.ca/10.14288/1.0448625",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This thesis examines the language status and lexical change in the Torwali lexicon to assess the influence and threat posed by predominant languages. Based on fieldwork and interviews with participants from different age groups in the Torwa",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://doi.library.ubc.ca/10.14288/1.0448625",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
         "datacite"
       ]
     },
@@ -246,30 +269,6 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487777",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-origins-of-the-yusufzai-tribe-a-pashtun-tribe-a-genetic-perspective",
-      "title": "Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "AbstractThe Yusufzai (Yousafzai) are one of the largest Pashtun tribes, historically concentrated in northern Khyber Pakhtunkhwa and parts of Afghanistan and India. Their origins have been debated using historical, linguistic, and—more rece",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19214881",
         "markers": [
           "pashto"
         ]
@@ -356,7 +355,7 @@
     {
       "id": "candidate-datacite-paper-reality",
       "title": "Reality",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -365,7 +364,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
         "markers": [
           "pashto"
         ]
@@ -401,6 +400,9 @@
         "datacite"
       ]
     }
+  ],
+  "errors": [
+    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
     {
