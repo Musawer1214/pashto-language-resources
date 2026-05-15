@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-05-02",
+  "updated_on": "2026-05-15",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -3310,30 +3310,6 @@
       ]
     },
     {
-      "id": "candidate-gh-project-haroon-blip-khan-pukhtoon",
-      "title": "Haroon-blip/khan-pukhtoon",
-      "url": "https://github.com/Haroon-blip/khan-pukhtoon",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Asslama o alaikom guys",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/Haroon-blip/khan-pukhtoon",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github"
-      ]
-    },
-    {
       "id": "candidate-gh-project-haseebjanhamraz-pashtofonts",
       "title": "haseebjanhamraz/PashtoFonts",
       "url": "https://github.com/haseebjanhamraz/PashtoFonts",
@@ -3639,30 +3615,6 @@
       ]
     },
     {
-      "id": "candidate-gh-project-muhammadullah7-pakhtoonn",
-      "title": "MuhammadUllah7/PAKHTOONN",
-      "url": "https://github.com/MuhammadUllah7/PAKHTOONN",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Candidate Pashto-related GitHub repository.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/MuhammadUllah7/PAKHTOONN",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github"
-      ]
-    },
-    {
       "id": "candidate-dataverse-dataset-multi-language-conversational-telephone-speech-2011-central-asian",
       "title": "Multi-Language Conversational Telephone Speech 2011 -- Central Asian",
       "url": "https://hdl.handle.net/11272.1/AB2/YW9PX3",
@@ -3809,32 +3761,6 @@
       ]
     },
     {
-      "id": "candidate-gh-project-nisarmasid-nisar-pakhtoon",
-      "title": "nisarmasid/NisAr-PakhtoOn",
-      "url": "https://github.com/nisarmasid/NisAr-PakhtoOn",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Config files for my GitHub profile.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/nisarmasid/NisAr-PakhtoOn",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github",
-        "config",
-        "github-config"
-      ]
-    },
-    {
       "id": "candidate-gh-project-omid-persian-log2vis",
       "title": "omid/Persian-Log2Vis",
       "url": "https://github.com/omid/Persian-Log2Vis",
@@ -3883,30 +3809,6 @@
         "candidate",
         "paper",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
-      "title": "Pakhtoon9900/Pakhtoon-",
-      "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Candidate Pashto-related GitHub repository.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/Pakhtoon9900/Pakhtoon-",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github"
       ]
     },
     {
@@ -4147,30 +4049,6 @@
       ]
     },
     {
-      "id": "candidate-gh-project-pukhtoon203-pukhtoon",
-      "title": "Pukhtoon203/PUKHTOON",
-      "url": "https://github.com/Pukhtoon203/PUKHTOON",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Installation : 😈 apt update  😈 apt upgrade  😈 apt install git  😈 pkg install python  😈 pkg install python2 -y  😈 pip2 install requests  😈 pip2 install mechanize  😈 git clone https://github.com/pikhtoon203/",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/Pukhtoon203/PUKHTOON",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github"
-      ]
-    },
-    {
       "id": "candidate-dataverse-dataset-rats-language-identification",
       "title": "RATS Language Identification",
       "url": "https://hdl.handle.net/11272.1/AB2/UP3WJC",
@@ -4288,30 +4166,6 @@
         "candidate",
         "paper",
         "openalex"
-      ]
-    },
-    {
-      "id": "candidate-gh-project-shawanonymouse-pakhtoon",
-      "title": "ShawAnonymouse/Pakhtoon",
-      "url": "https://github.com/ShawAnonymouse/Pakhtoon",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Candidate Pashto-related GitHub repository.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/ShawAnonymouse/Pakhtoon",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github"
       ]
     },
     {
@@ -5357,58 +5211,6 @@
         "pashto",
         "candidate",
         "paper"
-      ]
-    },
-    {
-      "id": "candidate-gh-project-pukhtoonmafia009-pukhtoonmafia009",
-      "title": "Pukhtoonmafia009/Pukhtoonmafia009",
-      "url": "https://github.com/Pukhtoonmafia009/Pukhtoonmafia009",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Config files for my GitHub profile.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/Pukhtoonmafia009/Pukhtoonmafia009",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github",
-        "config",
-        "github-config"
-      ]
-    },
-    {
-      "id": "candidate-gh-project-pukhtoonyar406-pukhtoonyar406",
-      "title": "pukhtoonyar406/pukhtoonyar406",
-      "url": "https://github.com/pukhtoonyar406/pukhtoonyar406",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Config files for my GitHub profile.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/pukhtoonyar406/pukhtoonyar406",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github",
-        "config",
-        "github-config"
       ]
     },
     {

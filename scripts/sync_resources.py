@@ -32,6 +32,25 @@ USER_AGENT = "pashto-resource-sync/1.0"
 MAX_FETCH_RETRIES = 4
 RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
 HARD_REMOVE_HTTP_CODES = {404, 410, 451}
+BLOCKING_REMOVAL_REASON_MARKERS = (
+    "hard-missing http status",
+    "unavailable",
+    "deleted",
+    "removed",
+    "empty",
+    "contentless",
+    "zero tracked files",
+    "only a license file",
+    "no reusable resource content",
+    "not a reusable",
+    "not a pashto",
+    "no pashto signal",
+    "lacks direct pashto signal",
+    "low-confidence",
+    "profile/config",
+    "personal",
+    "generic web page",
+)
 PASHTO_QUERY_TERMS = ["pashto", "pukhto", "pushto", "pakhto"]
 PASHTO_TEXT_MARKERS = ("pashto", "pukhto", "pushto", "pakhto")
 PASHTO_SCRIPT_MARKERS = ("پښتو", "پشتو")
@@ -1093,7 +1112,11 @@ def _load_prior_hard_removals(path: Path) -> tuple[set[str], set[str], dict[str,
         hard_missing = status_code in HARD_REMOVE_HTTP_CODES
         if not hard_missing and isinstance(reasons, list):
             hard_missing = any("hard-missing http status" in str(reason).casefold() for reason in reasons)
-        if not hard_missing:
+        blocking_removal = hard_missing
+        if not blocking_removal and isinstance(reasons, list):
+            lowered_reasons = " ".join(str(reason).casefold() for reason in reasons)
+            blocking_removal = any(marker in lowered_reasons for marker in BLOCKING_REMOVAL_REASON_MARKERS)
+        if not blocking_removal:
             continue
 
         blocked_entry = {
@@ -1101,7 +1124,7 @@ def _load_prior_hard_removals(path: Path) -> tuple[set[str], set[str], dict[str,
             "title": entry.get("title", ""),
             "url": entry.get("url", ""),
             "removed_on": entry.get("removed_on", ""),
-            "reason": reasons[0] if isinstance(reasons, list) and reasons else "Previously removed after hard-missing probe.",
+            "reason": reasons[0] if isinstance(reasons, list) and reasons else "Previously removed by resource quality guardrails.",
         }
         entry_id = blocked_entry["id"]
         entry_url = _canonical_url(str(blocked_entry["url"]))
@@ -1133,7 +1156,7 @@ def _filter_prior_hard_removals(
                     "id": rid,
                     "title": item.get("title", ""),
                     "url": item.get("url", ""),
-                    "reason": previous.get("reason", "Matched a prior hard-missing removal log entry."),
+                    "reason": previous.get("reason", "Matched a prior blocking removal log entry."),
                     "previous_removed_on": previous.get("removed_on", ""),
                 }
             )
@@ -1212,7 +1235,7 @@ def main() -> int:
     if skipped_prior_removals:
         payload["skipped_prior_removals"] = skipped_prior_removals
         payload["warnings"] = [
-            f"Skipped {len(skipped_prior_removals)} candidate(s) that matched prior hard-missing removal log entries."
+            f"Skipped {len(skipped_prior_removals)} candidate(s) that matched prior blocking removal log entries."
         ]
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1228,7 +1251,7 @@ def main() -> int:
                 print(
                     f"Candidate sync complete: {len(unique_candidates)} new candidates, "
                     f"{len(source_errors)} source errors, "
-                    f"{len(skipped_prior_removals)} skipped from prior hard removals, no file changes"
+                    f"{len(skipped_prior_removals)} skipped from prior blocking removals, no file changes"
                 )
                 return 0
 
@@ -1237,7 +1260,7 @@ def main() -> int:
     print(
         f"Candidate sync complete: {len(unique_candidates)} new candidates, "
         f"{len(source_errors)} source errors, "
-        f"{len(skipped_prior_removals)} skipped from prior hard removals"
+        f"{len(skipped_prior_removals)} skipped from prior blocking removals"
     )
     return 0
 

@@ -22,10 +22,26 @@ from urllib.request import Request, urlopen
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((https?://[^)\s]+)\)")
 CODE_URL_RE = re.compile(r"`(https?://[^`\s]+)`")
 RAW_URL_RE = re.compile(r"https?://[^\s)>\]]+")
+IGNORED_DIRS = {
+    ".git",
+    ".pytest_cache",
+    ".venv",
+    "artifacts",
+    "build",
+    "checkpoints",
+    "dist",
+    "output",
+    "outputs",
+    "test-results",
+}
 
 
 def md_files(root: Path) -> list[Path]:
-    return sorted(path for path in root.rglob("*.md") if ".git" not in path.parts)
+    return sorted(
+        path
+        for path in root.rglob("*.md")
+        if not any(part in IGNORED_DIRS for part in path.relative_to(root).parts[:-1])
+    )
 
 
 def lint_markdown_links(path: Path) -> tuple[list[str], set[str]]:

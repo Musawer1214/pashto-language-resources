@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-03-23",
+  "updated_on": "2026-05-15",
   "entries": [
     {
       "removed_on": "2026-02-21T19:47:22.435531+00:00",
@@ -1261,6 +1261,150 @@
       "evidence": {
         "status_code": 404,
         "final_url": "https://datacollective.mozillafoundation.org/datasets/cmj8u3pnb00llnxxbfvxo3b14",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-15T01:30:21.392333+00:00",
+      "id": "candidate-gh-project-haroon-blip-khan-pukhtoon",
+      "title": "Haroon-blip/khan-pukhtoon",
+      "url": "https://github.com/Haroon-blip/khan-pukhtoon",
+      "reasons": [
+        "Git clone inspection found only a LICENSE file and no reusable resource content.",
+        "Automated GitHub candidate has no task tags and no Pashto language technology artifact."
+      ],
+      "evidence": {
+        "status_code": null,
+        "final_url": "https://github.com/Haroon-blip/khan-pukhtoon",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-15T01:30:21.392333+00:00",
+      "id": "candidate-gh-project-muhammadullah7-pakhtoonn",
+      "title": "MuhammadUllah7/PAKHTOONN",
+      "url": "https://github.com/MuhammadUllah7/PAKHTOONN",
+      "reasons": [
+        "Repository content is a personal Python script/archive, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
+        "Automated GitHub candidate has no task tags and no Pashto language technology artifact."
+      ],
+      "evidence": {
+        "status_code": null,
+        "final_url": "https://github.com/MuhammadUllah7/PAKHTOONN",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-15T01:30:21.392333+00:00",
+      "id": "candidate-gh-project-nisarmasid-nisar-pakhtoon",
+      "title": "nisarmasid/NisAr-PakhtoOn",
+      "url": "https://github.com/nisarmasid/NisAr-PakhtoOn",
+      "reasons": [
+        "Repository is a personal GitHub profile README, not a reusable Pashto resource.",
+        "Automated GitHub candidate has no task tags and no Pashto language technology artifact."
+      ],
+      "evidence": {
+        "status_code": null,
+        "final_url": "https://github.com/nisarmasid/NisAr-PakhtoOn",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-15T01:30:21.392333+00:00",
+      "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
+      "title": "Pakhtoon9900/Pakhtoon-",
+      "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
+      "reasons": [
+        "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
+        "Automated GitHub candidate has no task tags and no Pashto language technology artifact."
+      ],
+      "evidence": {
+        "status_code": null,
+        "final_url": "https://github.com/Pakhtoon9900/Pakhtoon-",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-15T01:30:21.392333+00:00",
+      "id": "candidate-gh-project-pukhtoon203-pukhtoon",
+      "title": "Pukhtoon203/PUKHTOON",
+      "url": "https://github.com/Pukhtoon203/PUKHTOON",
+      "reasons": [
+        "Git clone inspection found zero tracked files; repository has no reusable resource content.",
+        "Automated GitHub candidate has no task tags and no Pashto language technology artifact."
+      ],
+      "evidence": {
+        "status_code": null,
+        "final_url": "https://github.com/Pukhtoon203/PUKHTOON",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-15T01:30:21.392333+00:00",
+      "id": "candidate-gh-project-shawanonymouse-pakhtoon",
+      "title": "ShawAnonymouse/Pakhtoon",
+      "url": "https://github.com/ShawAnonymouse/Pakhtoon",
+      "reasons": [
+        "Repository content is personal/social Python scripts, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
+        "Automated GitHub candidate has no task tags and no Pashto language technology artifact."
+      ],
+      "evidence": {
+        "status_code": null,
+        "final_url": "https://github.com/ShawAnonymouse/Pakhtoon",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-15T01:30:21.392333+00:00",
+      "id": "candidate-gh-project-pukhtoonmafia009-pukhtoonmafia009",
+      "title": "Pukhtoonmafia009/Pukhtoonmafia009",
+      "url": "https://github.com/Pukhtoonmafia009/Pukhtoonmafia009",
+      "reasons": [
+        "Repository is a GitHub profile/config repository, not a reusable Pashto resource.",
+        "Automated GitHub candidate has no task tags and no Pashto language technology artifact."
+      ],
+      "evidence": {
+        "status_code": null,
+        "final_url": "https://github.com/Pukhtoonmafia009/Pukhtoonmafia009",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-15T01:30:21.392333+00:00",
+      "id": "candidate-gh-project-pukhtoonyar406-pukhtoonyar406",
+      "title": "pukhtoonyar406/pukhtoonyar406",
+      "url": "https://github.com/pukhtoonyar406/pukhtoonyar406",
+      "reasons": [
+        "Git clone inspection found an empty repository with zero tracked files.",
+        "Automated GitHub candidate has no task tags and no Pashto language technology artifact."
+      ],
+      "evidence": {
+        "status_code": null,
+        "final_url": "https://github.com/pukhtoonyar406/pukhtoonyar406",
         "metadata_pashto": true,
         "direct_pashto": true,
         "page_pashto": false,

@@ -39,6 +39,46 @@ def test_review_resources_removes_hard_missing_urls() -> None:
     assert report["removals"][0]["evidence"]["signal_origin"] == "direct"
 
 
+def test_review_resources_removes_deleted_non_github_resource() -> None:
+    resource = _resource(
+        rid="candidate-hf-dataset-deleted",
+        title="Pashto Deleted Dataset",
+        url="https://huggingface.co/datasets/example/pashto-deleted",
+    )
+    resource["source"] = "huggingface"
+    resource["primary_use"] = "Automated discovery entry for Pashto resource tracking."
+    catalog = {"version": "1.0.0", "updated_on": "2026-02-20", "resources": [resource]}
+
+    def probe(_: str, __: float) -> UrlProbe:
+        return UrlProbe(status_code=200, content_sample="This dataset has been deleted. Pashto")
+
+    updated, report = review_resources(catalog, probe_fn=probe)
+
+    assert report["removed"] == 1
+    assert updated["resources"] == []
+    assert any("resource is unavailable" in reason for reason in report["removals"][0]["reasons"])
+
+
+def test_review_resources_removes_contentless_non_github_candidate() -> None:
+    resource = _resource(
+        rid="candidate-kaggle-dataset-empty",
+        title="Pashto Empty Dataset",
+        url="https://www.kaggle.com/datasets/example/pashto-empty",
+    )
+    resource["source"] = "kaggle"
+    resource["primary_use"] = "Automated discovery entry for Pashto resource tracking."
+    catalog = {"version": "1.0.0", "updated_on": "2026-02-20", "resources": [resource]}
+
+    def probe(_: str, __: float) -> UrlProbe:
+        return UrlProbe(status_code=200, content_sample="No files have been uploaded. Pashto")
+
+    updated, report = review_resources(catalog, probe_fn=probe)
+
+    assert report["removed"] == 1
+    assert updated["resources"] == []
+    assert any("empty or contentless" in reason for reason in report["removals"][0]["reasons"])
+
+
 def test_review_resources_keeps_resource_when_probe_is_inconclusive() -> None:
     catalog = {
         "version": "1.0.0",
@@ -113,3 +153,48 @@ def test_review_resources_enforces_pashto_relevance_only_when_enabled() -> None:
     assert len(updated_relaxed["resources"]) == 1
     assert report_strict["removed"] == 1
     assert updated_strict["resources"] == []
+
+
+def test_review_resources_removes_empty_github_candidate() -> None:
+    github_resource = _resource(
+        rid="candidate-gh-project-empty",
+        title="Example/empty-pashto",
+        url="https://github.com/example/empty-pashto",
+    )
+    github_resource["source"] = "github"
+    github_resource["category"] = "project"
+    github_resource["tasks"] = []
+    github_resource["primary_use"] = "Automated discovery entry for Pashto resource tracking."
+    catalog = {"version": "1.0.0", "updated_on": "2026-02-20", "resources": [github_resource]}
+
+    def probe(_: str, __: float) -> UrlProbe:
+        return UrlProbe(status_code=200, content_sample="This repository is empty. Pashto")
+
+    updated, report = review_resources(catalog, probe_fn=probe)
+
+    assert report["removed"] == 1
+    assert updated["resources"] == []
+    assert any("GitHub repository is empty" in reason for reason in report["removals"][0]["reasons"])
+
+
+def test_review_resources_removes_github_profile_candidate() -> None:
+    github_resource = _resource(
+        rid="candidate-gh-project-profile",
+        title="ExamplePashto/ExamplePashto",
+        url="https://github.com/ExamplePashto/ExamplePashto",
+    )
+    github_resource["source"] = "github"
+    github_resource["category"] = "project"
+    github_resource["tasks"] = []
+    github_resource["summary"] = "Config files for my GitHub profile."
+    github_resource["primary_use"] = "Automated discovery entry for Pashto resource tracking."
+    catalog = {"version": "1.0.0", "updated_on": "2026-02-20", "resources": [github_resource]}
+
+    def probe(_: str, __: float) -> UrlProbe:
+        return UrlProbe(status_code=200, content_sample="Pashto appears on your GitHub profile.")
+
+    updated, report = review_resources(catalog, probe_fn=probe)
+
+    assert report["removed"] == 1
+    assert updated["resources"] == []
+    assert any("profile/config repository" in reason for reason in report["removals"][0]["reasons"])

@@ -99,3 +99,43 @@ def test_sync_skips_candidates_that_match_prior_hard_removals(tmp_path) -> None:
 
     assert [item["id"] for item in kept] == ["candidate-hf-dataset-live"]
     assert skipped[0]["id"] == "candidate-kaggle-pashto-dead"
+
+
+def test_sync_skips_candidates_that_match_prior_contentless_removals(tmp_path) -> None:
+    removal_log = {
+        "updated_on": "2026-05-15",
+        "entries": [
+            {
+                "removed_on": "2026-05-15T00:00:00Z",
+                "id": "candidate-hf-dataset-empty",
+                "title": "Pashto Empty Dataset",
+                "url": "https://huggingface.co/datasets/example/pashto-empty",
+                "reasons": ["Automated candidate live page appears empty or contentless."],
+                "evidence": {"status_code": 200},
+            }
+        ],
+    }
+    path = tmp_path / "removal_log.json"
+    path.write_text(json.dumps(removal_log, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    blocked_ids, blocked_urls, lookup = sync_module._load_prior_hard_removals(path)
+    kept, skipped = sync_module._filter_prior_hard_removals(
+        [
+            {
+                "id": "candidate-hf-dataset-empty",
+                "title": "Pashto Empty Dataset",
+                "url": "https://huggingface.co/datasets/example/pashto-empty",
+            },
+            {
+                "id": "candidate-hf-dataset-live",
+                "title": "Pashto Live Dataset",
+                "url": "https://huggingface.co/datasets/example/pashto-live",
+            },
+        ],
+        blocked_ids,
+        blocked_urls,
+        lookup,
+    )
+
+    assert [item["id"] for item in kept] == ["candidate-hf-dataset-live"]
+    assert skipped[0]["id"] == "candidate-hf-dataset-empty"

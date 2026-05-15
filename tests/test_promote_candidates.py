@@ -2,6 +2,7 @@ from datetime import date
 
 import scripts.promote_candidates as promote_module
 from scripts.promote_candidates import PLACEHOLDER_PRIMARY_USE, promote_candidates
+from scripts.review_existing_resources import UrlProbe
 
 
 def _catalog() -> dict:
@@ -162,6 +163,52 @@ def test_promote_candidates_skips_unavailable_when_url_check_enabled(monkeypatch
     assert stats["unavailable"] == 1
 
 
+def test_promote_candidates_skips_contentless_non_github_candidate(monkeypatch) -> None:
+    catalog = _catalog()
+    candidate = _candidate(
+        rid="candidate-hf-dataset-empty",
+        title="Pashto Empty Dataset",
+        url="https://huggingface.co/datasets/example/pashto-empty",
+    )
+    candidate["source"] = "huggingface"
+    pending = {"candidate_count": 1, "candidates": [candidate]}
+
+    monkeypatch.setattr(
+        promote_module,
+        "probe_resource_url",
+        lambda *_args, **_kwargs: UrlProbe(status_code=200, content_sample="No files have been uploaded. Pashto"),
+    )
+
+    promoted, stats = promote_candidates(catalog, pending, verify_urls=True)
+
+    assert promoted == []
+    assert stats["promoted"] == 0
+    assert stats["unavailable"] == 1
+
+
+def test_promote_candidates_skips_deleted_non_github_candidate(monkeypatch) -> None:
+    catalog = _catalog()
+    candidate = _candidate(
+        rid="candidate-zenodo-dataset-deleted",
+        title="Pashto Deleted Dataset",
+        url="https://zenodo.org/records/123",
+    )
+    candidate["source"] = "zenodo"
+    pending = {"candidate_count": 1, "candidates": [candidate]}
+
+    monkeypatch.setattr(
+        promote_module,
+        "probe_resource_url",
+        lambda *_args, **_kwargs: UrlProbe(status_code=200, content_sample="This resource has been deleted. Pashto"),
+    )
+
+    promoted, stats = promote_candidates(catalog, pending, verify_urls=True)
+
+    assert promoted == []
+    assert stats["promoted"] == 0
+    assert stats["unavailable"] == 1
+
+
 def test_promote_candidates_leaves_review_confidence_entries_pending_by_default() -> None:
     catalog = _catalog()
     review_candidate = _candidate(
@@ -174,6 +221,25 @@ def test_promote_candidates_leaves_review_confidence_entries_pending_by_default(
     review_candidate["summary"] = "Candidate paper returned from Semantic Scholar search for Pashto."
     review_candidate["tasks"] = []
     pending = {"candidate_count": 1, "candidates": [review_candidate]}
+
+    promoted, stats = promote_candidates(catalog, pending)
+
+    assert promoted == []
+    assert stats["needs_review"] == 1
+
+
+def test_promote_candidates_leaves_untagged_github_candidates_pending() -> None:
+    catalog = _catalog()
+    github_candidate = _candidate(
+        rid="candidate-gh-project-pashto-example",
+        title="Example/pashto-project",
+        url="https://github.com/example/pashto-project",
+        category="project",
+    )
+    github_candidate["source"] = "github"
+    github_candidate["tasks"] = []
+    github_candidate["summary"] = "Pashto project discovered from GitHub metadata."
+    pending = {"candidate_count": 1, "candidates": [github_candidate]}
 
     promoted, stats = promote_candidates(catalog, pending)
 

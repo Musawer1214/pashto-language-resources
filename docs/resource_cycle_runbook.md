@@ -47,6 +47,7 @@ Use this when you want candidates without immediate promotion:
 
 - Auto-promotion requires dedupe + URL availability + catalog validation.
 - Existing entries are removed only for strong reasons, logged in `resources/catalog/removal_log.json`.
+- URL availability checks cover every source type. Hard 404/410/451 responses, deleted/unavailable page text, and empty/contentless automated entries block promotion and future re-adds.
 - Keep only Pashto-centric resources.
 - Generated files must always be committed after catalog changes.
 

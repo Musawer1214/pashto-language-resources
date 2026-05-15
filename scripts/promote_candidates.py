@@ -19,9 +19,9 @@ except ModuleNotFoundError:
     from validate_resource_catalog import validate_resource
 
 try:
-    from scripts.review_existing_resources import probe_resource_url
+    from scripts.review_existing_resources import probe_resource_url, resource_probe_rejection_reasons
 except ModuleNotFoundError:
-    from review_existing_resources import probe_resource_url
+    from review_existing_resources import probe_resource_url, resource_probe_rejection_reasons
 
 try:
     from scripts.resource_quality import PLACEHOLDER_PRIMARY_USE, assess_candidate_confidence
@@ -30,18 +30,6 @@ except ModuleNotFoundError:
 
 
 AUTO_PROMOTED_PRIMARY_USE = "Cataloged Pashto resource discovered through the automated intake pipeline."
-NOT_FOUND_PATTERNS = (
-    "repository not found",
-    "model not found",
-    "dataset not found",
-    "space not found",
-    "page not found",
-    "not found",
-    "this repository does not exist",
-    "we couldn't find",
-)
-
-
 def _canonical_url(value: str) -> str:
     return value.rstrip("/")
 
@@ -67,15 +55,12 @@ def _prepare_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
     return promoted
 
 
-def _candidate_url_unavailable(url: str, timeout: float) -> bool:
-    probe = probe_resource_url(url, timeout)
-    if probe.hard_missing:
+def _candidate_url_unavailable(candidate: dict[str, Any], timeout: float) -> bool:
+    url = str(candidate.get("url", "")).strip()
+    if not url:
         return True
-    if probe.content_sample:
-        lowered = probe.content_sample.casefold()
-        if any(pattern in lowered for pattern in NOT_FOUND_PATTERNS):
-            return True
-    return False
+    probe = probe_resource_url(url, timeout)
+    return bool(resource_probe_rejection_reasons(candidate, probe))
 
 
 def promote_candidates(
@@ -135,7 +120,7 @@ def promote_candidates(
             stats["duplicate"] += 1
             continue
 
-        if verify_urls and _candidate_url_unavailable(url, url_timeout):
+        if verify_urls and _candidate_url_unavailable(candidate, url_timeout):
             stats["unavailable"] += 1
             continue
 

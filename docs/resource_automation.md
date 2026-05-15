@@ -57,3 +57,9 @@ This project uses automation to keep Pashto, Pukhto, and Pushto AI resources cur
 ## 📚 Related Guide
 
 - Full runbook: [resource_cycle_runbook.md](resource_cycle_runbook.md)
+
+## Quality Guardrails
+
+- Existing resources are removed only with strong evidence: hard-missing HTTP status, deleted/unavailable page text, duplicate IDs/URLs, empty/contentless automated entries, or missing Pashto relevance when strict review is enabled.
+- New candidates are auto-promoted only after the same URL probe rules pass. Empty pages, deleted records, and contentless repositories/datasets are left out for every source, not only GitHub.
+- Removed resources are logged in `resources/catalog/removal_log.json`; future syncs skip candidates that match those blocked IDs or URLs so bad entries are not re-added by the daily workflow.

@@ -35,20 +35,74 @@ except ModuleNotFoundError:
 USER_AGENT = "pashto-resource-review/1.0"
 MAX_BODY_BYTES = 120_000
 HARD_REMOVE_HTTP_CODES = {404, 410, 451}
-NOT_FOUND_PATTERNS = (
+STRONG_UNAVAILABLE_PATTERNS = (
     "repository not found",
     "model not found",
     "dataset not found",
     "space not found",
+    "project not found",
+    "record not found",
+    "resource not found",
+    "doi not found",
+    "this item does not exist",
+    "this resource does not exist",
+    "this dataset does not exist",
+    "this model does not exist",
+    "this repository does not exist",
+    "this space does not exist",
+    "this project does not exist",
+    "this item has been deleted",
+    "this resource has been deleted",
+    "this dataset has been deleted",
+    "this model has been deleted",
+    "this repository has been deleted",
+    "this space has been deleted",
+    "this project has been deleted",
+    "this record has been deleted",
+    "this page has been removed",
+    "this resource has been removed",
+    "has been withdrawn",
+    "no longer available",
+    "is no longer available",
+)
+WEAK_UNAVAILABLE_PATTERNS = (
     "page not found",
     "not found",
-    "this repository does not exist",
     "we couldn't find",
+)
+CONTENTLESS_RESOURCE_PATTERNS = (
+    "this repository is empty",
+    "repository is empty",
+    "empty repository",
+    "this project is empty",
+    "project is empty",
+    "empty project",
+    "this dataset is empty",
+    "dataset is empty",
+    "empty dataset",
+    "this model repository is empty",
+    "model repository is empty",
+    "no files have been uploaded",
+    "there are no files",
+    "no files found",
+    "no reusable resource content",
+    "zero tracked files",
+    "only a license file",
 )
 AUTOMATED_PRIMARY_USE = "Automated discovery entry for Pashto resource tracking."
 PASHTO_WORD_RE = re.compile(r"(?<![A-Za-z0-9])(pashto|pukhto|pushto|pakhto)(?![A-Za-z0-9])", re.IGNORECASE)
 PASHTO_CODE_RE = re.compile(r"\b(ps(_af)?|pus|pbt[_-]?arab)\b", re.IGNORECASE)
 PASHTO_SCRIPT_MARKERS = ("پښتو", "پشتو")
+GITHUB_PROFILE_PATTERNS = (
+    "config files for my github profile",
+    "special repository because its `readme.md`",
+    "special repository because its readme.md",
+    "appears on your github profile",
+)
+GITHUB_EMPTY_PATTERNS = (
+    "this repository is empty",
+    "repository is empty",
+)
 
 
 @dataclass
@@ -117,9 +171,79 @@ def _resource_has_direct_pashto_signal(resource: dict[str, Any]) -> bool:
 def _is_automated_candidate_like(resource: dict[str, Any]) -> bool:
     rid = resource.get("id")
     primary_use = resource.get("primary_use")
+    status = resource.get("status")
+    tags = resource.get("tags")
     return (isinstance(rid, str) and rid.startswith("candidate-")) or (
         isinstance(primary_use, str) and primary_use.strip() == AUTOMATED_PRIMARY_USE
+    ) or (
+        isinstance(status, str) and status.strip() == "candidate"
+    ) or (
+        isinstance(tags, list) and "candidate" in tags
     )
+
+
+def _is_github_candidate_like(resource: dict[str, Any]) -> bool:
+    source = str(resource.get("source", "")).strip().casefold()
+    url = str(resource.get("url", "")).strip().casefold()
+    return _is_automated_candidate_like(resource) and (source == "github" or "github.com/" in url)
+
+
+def _github_profile_marker(resource: dict[str, Any], content_sample: str) -> bool:
+    values = [
+        str(resource.get("title", "")),
+        str(resource.get("summary", "")),
+        str(resource.get("primary_use", "")),
+        content_sample,
+    ]
+    text = "\n".join(values).casefold()
+    return any(pattern in text for pattern in GITHUB_PROFILE_PATTERNS)
+
+
+def _github_empty_marker(content_sample: str) -> bool:
+    text = content_sample.casefold()
+    return any(pattern in text for pattern in GITHUB_EMPTY_PATTERNS)
+
+
+def _content_unavailable_marker(content_sample: str, *, page_pashto: bool) -> bool:
+    text = content_sample.casefold()
+    if any(pattern in text for pattern in STRONG_UNAVAILABLE_PATTERNS):
+        return True
+    return not page_pashto and any(pattern in text for pattern in WEAK_UNAVAILABLE_PATTERNS)
+
+
+def _contentless_resource_marker(content_sample: str) -> bool:
+    text = content_sample.casefold()
+    return any(pattern in text for pattern in CONTENTLESS_RESOURCE_PATTERNS)
+
+
+def resource_probe_rejection_reasons(resource: dict[str, Any], probe: UrlProbe) -> list[str]:
+    """Return strong removal/promotion-block reasons from a URL probe.
+
+    These checks intentionally focus on permanent conditions that are meaningful
+    for every source: hard-missing HTTP status, deleted/unavailable pages, and
+    empty/contentless automated candidates. Transient network failures remain
+    warnings handled by the caller.
+    """
+
+    reasons: list[str] = []
+    if probe.hard_missing:
+        status_code = probe.status_code if probe.status_code is not None else "unknown"
+        reasons.append(f"URL returned hard-missing HTTP status {status_code}.")
+
+    page_pashto = _contains_pashto_marker(probe.content_sample)
+    if probe.content_sample and _content_unavailable_marker(probe.content_sample, page_pashto=page_pashto):
+        reasons.append("Live page content indicates resource is unavailable.")
+
+    if _is_automated_candidate_like(resource) and _contentless_resource_marker(probe.content_sample):
+        reasons.append("Automated candidate live page appears empty or contentless.")
+
+    if _is_github_candidate_like(resource):
+        if _github_empty_marker(probe.content_sample):
+            reasons.append("GitHub repository is empty.")
+        if _github_profile_marker(resource, probe.content_sample):
+            reasons.append("GitHub profile/config repository, not a reusable Pashto resource.")
+
+    return reasons
 
 
 def _canonical_url(value: str) -> str:
@@ -259,20 +383,15 @@ def review_resources(
         probe = UrlProbe()
         if isinstance(url, str) and url.strip():
             probe = probe_results.get(url, UrlProbe())
-            if probe.hard_missing:
-                status_code = probe.status_code if probe.status_code is not None else "unknown"
-                reasons.append(f"URL returned hard-missing HTTP status {status_code}.")
-            elif probe.uncertain_error:
+            if probe.uncertain_error:
                 warnings.append(f"{rid or f'resource-{index}'} URL probe inconclusive: {probe.uncertain_error}")
+            else:
+                reasons.extend(resource_probe_rejection_reasons(resource, probe))
 
         metadata_pashto = _resource_metadata_has_pashto_signal(resource)
         direct_pashto = _resource_has_direct_pashto_signal(resource)
         page_pashto = _contains_pashto_marker(probe.content_sample)
         signal_origin = "direct" if direct_pashto else "metadata" if metadata_pashto else "none"
-        page_not_found = any(pattern in probe.content_sample.casefold() for pattern in NOT_FOUND_PATTERNS)
-
-        if page_not_found and not page_pashto:
-            reasons.append("Live page content indicates resource is unavailable.")
 
         if enforce_pashto_relevance and not metadata_pashto and not page_pashto:
             reasons.append("No Pashto signal found in metadata or live page content.")

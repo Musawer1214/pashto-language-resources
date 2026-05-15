@@ -20,6 +20,8 @@ dist/
 
 # Large/generated folders
 outputs/
+output/
+test-results/
 checkpoints/
 artifacts/
 

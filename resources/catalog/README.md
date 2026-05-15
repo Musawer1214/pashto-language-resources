@@ -24,6 +24,8 @@ This folder contains machine-readable resource data used by docs and GitHub Page
 ## ✅ Promotion Guardrails
 
 - Auto-promotion accepts only valid, non-duplicate entries.
+- Auto-promotion rejects candidates whose live pages are hard-missing, deleted, unavailable, empty, or contentless, regardless of source.
+- Resources removed for blocking quality reasons are recorded in `removal_log.json` so future syncs do not re-add the same bad ID or URL.
 - Keep only Pashto-centric resources.
 - Reject entries where Pashto appears only as a side reference.
 - Accepted Pashto variants include:

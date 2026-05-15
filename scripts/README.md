@@ -39,9 +39,9 @@ python -m pytest -q
 - `sync_resources.py`
   Discover new candidates from public sources into `resources/catalog/pending_candidates.json`.
 - `promote_candidates.py`
-  Promote only high-confidence, non-duplicate candidates into `resources/catalog/resources.json`.
+  Promote only high-confidence, non-duplicate candidates into `resources/catalog/resources.json`; live URL checks reject hard-missing, deleted, unavailable, empty, or contentless candidates from any source.
 - `review_existing_resources.py`
-  Audit existing catalog entries and remove stale/low-signal ones with logged reasons.
+  Audit existing catalog entries and remove stale/low-signal ones with logged reasons. Removal-log entries also block the same bad IDs/URLs from being re-added by future syncs.
 - `run_resource_cycle.py`
   Run the full repeatable cycle in one command.
 

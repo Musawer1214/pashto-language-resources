@@ -32,6 +32,7 @@ HIGH_CONFIDENCE_SOURCES = {
     "dataverse",
     "arxiv",
 }
+REPOSITORY_SOURCES = {"github", "gitlab"}
 
 
 def contains_pashto_marker(value: Any) -> bool:
@@ -172,6 +173,10 @@ def assess_candidate_confidence(resource: dict[str, Any]) -> tuple[str, list[str
         reasons.append("generic_discovery_summary")
     if not tasks:
         reasons.append("missing_tasks")
+
+    if source in REPOSITORY_SOURCES and not tasks:
+        reasons.append("repository_candidate_missing_tasks")
+        return "review", reasons
 
     if signal_origin == "direct" and (source in HIGH_CONFIDENCE_SOURCES or tasks):
         return "high", reasons
