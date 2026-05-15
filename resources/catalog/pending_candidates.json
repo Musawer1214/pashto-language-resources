@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-05-14T06:45:44.781022+00:00",
+  "generated_on": "2026-05-15T06:53:19.496425+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -12,9 +12,9 @@
     "zenodo",
     "dataverse",
     "datacite",
-    "arxiv"
+    "semantic-scholar"
   ],
-  "candidate_count": 16,
+  "candidate_count": 17,
   "candidates": [
     {
       "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
@@ -86,6 +86,29 @@
         "candidate",
         "paper",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-codewithnawab-pashto-corpus-v1",
+      "title": "codewithnawaB/pashto-corpus-v1",
+      "url": "https://huggingface.co/datasets/codewithnawaB/pashto-corpus-v1",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/codewithnawaB/pashto-corpus-v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
       ]
     },
     {
@@ -235,7 +258,7 @@
     {
       "id": "candidate-datacite-paper-male-birth-control-pashto-transcript",
       "title": "Male Birth Control [Pashto] Transcript",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19487939",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -244,7 +267,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487939",
         "markers": [
           "pashto"
         ]
@@ -402,7 +425,7 @@
     }
   ],
   "errors": [
-    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
+    "arxiv: pashto: HTTP Error 429: Unknown Error; pukhto: HTTP Error 429: Unknown Error; pushto: The read operation timed out; pakhto: HTTP Error 429: Unknown Error"
   ],
   "skipped_prior_removals": [
     {

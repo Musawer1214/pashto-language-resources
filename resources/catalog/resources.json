@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-05-02",
+  "updated_on": "2026-05-15",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7664,6 +7664,28 @@
       "tags": [
         "pashto",
         "model"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-codewithnawab-pashto-corpus-v1",
+      "title": "codewithnawaB/pashto-corpus-v1",
+      "url": "https://huggingface.co/datasets/codewithnawaB/pashto-corpus-v1",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/codewithnawaB/pashto-corpus-v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
       ]
     }
   ]

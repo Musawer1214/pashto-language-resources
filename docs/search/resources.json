@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-05-02T00:00:00Z",
-  "count": 135,
+  "generated_on": "2026-05-15T00:00:00Z",
+  "count": 136,
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -4010,6 +4010,34 @@
       ],
       "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
       "evidence_url": "https://huggingface.co/habibkhan1/zama_pushto_model1",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-codewithnawab-pashto-corpus-v1",
+      "title": "codewithnawaB/pashto-corpus-v1",
+      "url": "https://huggingface.co/datasets/codewithnawaB/pashto-corpus-v1",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/datasets/codewithnawaB/pashto-corpus-v1",
       "markers": [
         "pashto"
       ],
