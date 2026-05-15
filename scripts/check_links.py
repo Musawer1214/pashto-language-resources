@@ -20,8 +20,10 @@ from urllib.request import Request, urlopen
 
 
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((https?://[^)\s]+)\)")
+HTML_ATTR_URL_RE = re.compile(r"""(?:href|src|content)=["'](https?://[^"']+)["']""")
+CSS_URL_RE = re.compile(r"""url\(["']?(https?://[^"')]+)["']?\)""")
 CODE_URL_RE = re.compile(r"`(https?://[^`\s]+)`")
-RAW_URL_RE = re.compile(r"https?://[^\s)>\]]+")
+RAW_URL_RE = re.compile(r"""https?://[^\s)>\]"']+""")
 IGNORED_DIRS = {
     ".git",
     ".pytest_cache",
@@ -52,6 +54,10 @@ def lint_markdown_links(path: Path) -> tuple[list[str], set[str]]:
     for line_no, line in enumerate(lines, start=1):
         for match in MARKDOWN_LINK_RE.finditer(line):
             urls.add(match.group(1))
+        for match in HTML_ATTR_URL_RE.finditer(line):
+            urls.add(match.group(1))
+        for match in CSS_URL_RE.finditer(line):
+            urls.add(match.group(1))
 
         for match in CODE_URL_RE.finditer(line):
             errors.append(
@@ -67,6 +73,14 @@ def lint_markdown_links(path: Path) -> tuple[list[str], set[str]]:
             if start >= 1 and line[start - 1] == "(":
                 continue
             if end < len(line) and line[end : end + 1] == ")":
+                continue
+
+            # Skip URLs inside HTML attributes in markdown files that use
+            # layout: null with full HTML bodies.
+            prefix = line[max(0, start - 24) : start].lower()
+            if prefix.endswith(
+                ('href="', "href='", 'src="', "src='", 'content="', "content='", 'url("', "url('", "url(")
+            ):
                 continue
 
             # Skip URLs inside backticks (already handled above).

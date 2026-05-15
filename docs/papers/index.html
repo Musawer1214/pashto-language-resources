@@ -10,8 +10,8 @@ permalink: /papers/
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pashto Papers Search</title>
-  <meta name="description" content="Search Pashto (Pukhto/Pashto) papers and documentation resources for ASR, TTS, NLP, translation, and OCR work.">
-  <meta name="keywords" content="Pashto papers, Pukhto papers, Pashto research, Pashto NLP papers, Pashto ASR papers, Pashto TTS papers">
+  <meta name="description" content="Search Pashto (Pukhto/Pashto) papers and documentation resources for ASR, TTS, NLP, translation, OCR, and benchmark work.">
+  <meta name="keywords" content="Pashto papers, Pukhto papers, Pashto research, Pashto NLP papers, Pashto ASR papers, Pashto TTS papers, Pashto OCR papers">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://musawer1214.github.io/pashto-language-resources/papers/">
   <meta property="og:type" content="website">
@@ -28,7 +28,7 @@ permalink: /papers/
       "@type": "CollectionPage",
       "name": "Pashto Papers Search",
       "url": "https://musawer1214.github.io/pashto-language-resources/papers/",
-      "description": "Search Pashto papers and documentation resources for ASR, TTS, NLP, translation, and OCR.",
+      "description": "Search Pashto papers and documentation resources for ASR, TTS, NLP, translation, OCR, and benchmarks.",
       "inLanguage": "en",
       "about": [
         "Pashto papers",
@@ -42,568 +42,1270 @@ permalink: /papers/
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Noto+Naskh+Arabic:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f3f2ea;
-      --panel: #fffdf7;
-      --ink: #1d2628;
-      --muted: #55656a;
-      --line: #d5ddd8;
-      --brand: #0f6f61;
-      --brand-soft: #dcf2ee;
-      --accent: #b9621f;
-      --accent-soft: #f8e6d7;
-      --shadow: 0 14px 36px rgba(16, 29, 35, 0.12);
-      --radius-lg: 18px;
-      --radius-md: 12px;
-      --radius-sm: 9px;
+      --page: #f5f7f2;
+      --surface: #ffffff;
+      --surface-2: #f8faf7;
+      --ink: #17201d;
+      --muted: #61706b;
+      --soft: #8a9792;
+      --line: #d9e0dc;
+      --line-strong: #b8c6c0;
+      --brand: #0c786d;
+      --brand-dark: #075a54;
+      --brand-soft: #dff3ef;
+      --coral: #df6048;
+      --coral-soft: #ffe7df;
+      --gold: #f4b63d;
+      --violet: #7457d9;
+      --sky: #2585c7;
+      --ok: #16805d;
+      --warn: #a05d00;
+      --shadow: 0 12px 32px rgba(33, 45, 41, 0.09);
+      --card-shadow: 0 8px 18px rgba(33, 45, 41, 0.08);
+      --radius-panel: 14px;
+      --radius-card: 8px;
+      --radius-control: 8px;
     }
 
     * { box-sizing: border-box; }
 
+    html { scroll-behavior: smooth; }
+
     body {
       margin: 0;
-      color: var(--ink);
-      font-family: "Manrope", "Segoe UI", sans-serif;
       min-height: 100vh;
+      color: var(--ink);
+      font-family: "Inter", "Segoe UI", Arial, sans-serif;
       background:
-        radial-gradient(circle at 8% 8%, #ffe0bf 0, rgba(255, 224, 191, 0) 30%),
-        radial-gradient(circle at 92% 7%, #d2ece4 0, rgba(210, 236, 228, 0) 35%),
-        var(--bg);
+        linear-gradient(180deg, #eef4f0 0, var(--page) 360px),
+        var(--page);
     }
 
-    a { color: var(--brand); }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.34;
+      background-image:
+        linear-gradient(rgba(23, 32, 29, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(23, 32, 29, 0.05) 1px, transparent 1px);
+      background-size: 34px 34px;
+      mask-image: linear-gradient(180deg, #000 0, transparent 74%);
+    }
 
-    .container {
-      max-width: 1180px;
+    a {
+      color: var(--brand-dark);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button { cursor: pointer; }
+
+    input,
+    select {
+      min-width: 0;
+      width: 100%;
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-control);
+      background: #fff;
+      color: var(--ink);
+    }
+
+    input { padding: 0 14px 0 44px; }
+
+    select {
+      padding: 0 34px 0 12px;
+      appearance: none;
+      background-image:
+        linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+        linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+      background-position:
+        calc(100% - 17px) 19px,
+        calc(100% - 12px) 19px;
+      background-size: 5px 5px;
+      background-repeat: no-repeat;
+    }
+
+    input:focus,
+    select:focus,
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid rgba(12, 120, 109, 0.23);
+      outline-offset: 2px;
+      border-color: var(--brand);
+    }
+
+    .page-shell {
+      max-width: 1280px;
       margin: 0 auto;
-      padding: 22px 18px 42px;
+      padding: 20px 20px 52px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .brand-lockup {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      min-width: 0;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .mark {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: var(--ink);
+      color: #fff;
+      font-family: "Noto Naskh Arabic", serif;
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 1;
+      box-shadow: 0 8px 18px rgba(23, 32, 29, 0.22);
+    }
+
+    .brand-copy { min-width: 0; }
+
+    .brand-copy strong {
+      display: block;
+      font-size: 15px;
+      line-height: 1.15;
+    }
+
+    .brand-copy span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.2;
+    }
+
+    .top-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .top-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      min-height: 36px;
+      padding: 0 11px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-control);
+      background: rgba(255, 255, 255, 0.74);
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .top-link:hover {
+      border-color: var(--line-strong);
+      background: #fff;
     }
 
     .hero {
-      background: linear-gradient(130deg, #fffef9, #f5faf8);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow);
-      padding: 20px;
-      margin-bottom: 14px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(330px, 0.9fr);
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 18px;
     }
 
-    .hero-top {
+    .hero-main {
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
-      align-items: flex-start;
-      gap: 14px;
-      flex-wrap: wrap;
+      gap: 22px;
+      min-height: 310px;
+      border-radius: var(--radius-panel);
+      padding: 26px;
+      background:
+        linear-gradient(135deg, rgba(12, 120, 109, 0.95), rgba(23, 32, 29, 0.98)),
+        var(--ink);
+      color: #fff;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero-main::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.18;
+      background:
+        repeating-linear-gradient(120deg, transparent 0 16px, rgba(255, 255, 255, 0.12) 17px 18px);
+    }
+
+    .hero-main > * {
+      position: relative;
+      z-index: 1;
     }
 
     .eyebrow {
-      margin: 0 0 8px;
+      margin: 0 0 10px;
+      color: #bff4eb;
       font-size: 12px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--accent);
       font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
     }
 
     h1 {
       margin: 0;
-      font-size: 34px;
-      line-height: 1.08;
-      letter-spacing: -0.02em;
+      max-width: 720px;
+      font-size: 42px;
+      line-height: 1.04;
+      letter-spacing: 0;
     }
 
     .subtitle {
-      margin: 10px 0 0;
-      color: var(--muted);
+      margin: 14px 0 0;
+      max-width: 680px;
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 16px;
       line-height: 1.55;
-      max-width: 760px;
     }
 
-    .stat-row {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(120px, 1fr));
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .primary-action,
+    .secondary-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       gap: 8px;
-      width: min(380px, 100%);
+      min-height: 42px;
+      padding: 0 14px;
+      border-radius: var(--radius-control);
+      font-weight: 800;
+      font-size: 14px;
+      text-decoration: none;
     }
 
-    .stat {
+    .primary-action {
+      border: 1px solid #fff;
+      background: #fff;
+      color: var(--brand-dark);
+    }
+
+    .secondary-action {
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      color: #fff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .hero-side {
+      display: grid;
+      gap: 12px;
+      align-content: stretch;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .metric {
       border: 1px solid var(--line);
-      border-radius: var(--radius-md);
-      background: var(--panel);
-      padding: 10px;
-      text-align: center;
+      border-radius: var(--radius-card);
+      background: var(--surface);
+      padding: 13px;
+      min-height: 92px;
+      box-shadow: var(--card-shadow);
     }
 
-    .stat strong {
+    .metric strong {
       display: block;
-      font-size: 20px;
+      font-size: 27px;
       line-height: 1;
-      color: var(--brand);
     }
 
-    .stat span {
+    .metric span {
       display: block;
-      margin-top: 4px;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .snapshot {
+      display: grid;
+      gap: 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-panel);
+      background: var(--surface);
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .snapshot-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .snapshot h2 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .timestamp {
       color: var(--muted);
       font-size: 12px;
       font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
+      text-align: right;
     }
 
-    .quick-links {
-      margin-top: 14px;
-      display: flex;
-      flex-wrap: wrap;
+    .mini-bars {
+      display: grid;
       gap: 8px;
     }
 
-    .pill-link {
-      border: 1px solid #b8cec6;
-      border-radius: 999px;
-      background: #f8fcfa;
-      color: var(--brand);
-      text-decoration: none;
+    .mini-bar {
+      display: grid;
+      grid-template-columns: minmax(84px, 112px) 1fr 34px;
+      align-items: center;
+      gap: 8px;
+      min-height: 28px;
+      border: 0;
+      background: transparent;
+      color: var(--ink);
+      padding: 0;
+      text-align: left;
+    }
+
+    .mini-bar span:first-child {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
       font-size: 13px;
       font-weight: 700;
-      padding: 7px 12px;
     }
 
-    .toolbar {
-      margin-bottom: 12px;
+    .track {
+      height: 8px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #edf1ee;
+    }
+
+    .fill {
+      display: block;
+      height: 100%;
+      width: 0;
+      border-radius: inherit;
+      background: var(--brand);
+      transition: width 280ms ease;
+    }
+
+    .mini-count {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .workbench {
       display: grid;
-      gap: 12px;
+      grid-template-columns: 300px minmax(0, 1fr);
+      gap: 18px;
+      align-items: start;
     }
 
-    .panel {
+    .filters {
+      position: sticky;
+      top: 14px;
+      display: grid;
+      gap: 14px;
       border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      background: var(--panel);
+      border-radius: var(--radius-panel);
+      background: rgba(255, 255, 255, 0.86);
+      padding: 14px;
       box-shadow: var(--shadow);
-      padding: 16px;
+      backdrop-filter: blur(14px);
     }
 
-    .controls {
-      display: grid;
-      grid-template-columns: 2fr repeat(5, minmax(140px, 1fr));
-      gap: 10px;
+    .search-field { position: relative; }
+
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      width: 18px;
+      height: 18px;
+      transform: translateY(-50%);
+      color: var(--muted);
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      pointer-events: none;
     }
 
     .field {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
+      display: grid;
+      gap: 7px;
     }
 
-    .field label {
+    .field label,
+    .section-label {
+      color: var(--muted);
       font-size: 11px;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
       font-weight: 800;
-      color: var(--muted);
+      letter-spacing: 0;
+      text-transform: uppercase;
     }
 
-    input, select {
-      width: 100%;
+    .mode-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+      padding: 4px;
       border: 1px solid var(--line);
-      border-radius: var(--radius-sm);
+      border-radius: var(--radius-control);
+      background: var(--surface-2);
+    }
+
+    .mode-btn {
+      min-height: 36px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .mode-btn.active {
+      background: #fff;
+      color: var(--brand-dark);
+      box-shadow: 0 4px 12px rgba(33, 45, 41, 0.1);
+    }
+
+    .quick-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .quick-btn,
+    .chip-btn,
+    .icon-btn,
+    .load-more {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-control);
       background: #fff;
       color: var(--ink);
-      padding: 10px;
-      font: inherit;
+      font-weight: 800;
     }
 
-    input:focus, select:focus, button:focus {
-      outline: 2px solid #7bc7b8;
-      outline-offset: 1px;
-      border-color: #7bc7b8;
-    }
-
-    .action-row {
-      margin-top: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 10px;
-      align-items: center;
-    }
-
-    .group {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 7px;
-      align-items: center;
-    }
-
-    .btn {
-      border: 1px solid var(--line);
-      background: #fff;
-      color: var(--ink);
-      border-radius: 999px;
-      padding: 7px 12px;
+    .quick-btn {
+      min-height: 38px;
+      padding: 0 10px;
       font-size: 13px;
-      font-weight: 700;
-      cursor: pointer;
+      text-align: left;
     }
 
-    .btn:hover { border-color: #98b9ae; }
-
-    .btn.brand {
-      background: var(--brand);
-      color: #fff;
-      border-color: var(--brand);
+    .quick-btn:hover,
+    .chip-btn:hover,
+    .icon-btn:hover,
+    .load-more:hover {
+      border-color: var(--line-strong);
+      background: var(--surface-2);
     }
 
-    .btn.light {
-      background: #f6faf8;
-      color: var(--brand);
-      border-color: #b9d8cf;
+    .quick-btn.active,
+    .chip-btn.active {
+      border-color: rgba(12, 120, 109, 0.4);
+      background: var(--brand-soft);
+      color: var(--brand-dark);
     }
 
-    .btn.active {
-      background: var(--accent-soft);
-      border-color: #efc08f;
-      color: #915117;
+    .filter-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
     }
 
-    .intent-row {
-      margin-top: 10px;
+    .filter-actions .icon-btn {
+      justify-content: center;
+      min-height: 40px;
+    }
+
+    .results-pane { min-width: 0; }
+
+    .results-toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: start;
+      margin-bottom: 14px;
+    }
+
+    .result-summary { min-width: 0; }
+
+    .count-line {
       display: flex;
       flex-wrap: wrap;
-      gap: 7px;
-    }
-
-    .intent {
-      border: 1px solid #cfdad4;
-      background: #fbfdfc;
-      border-radius: 999px;
-      padding: 6px 11px;
-      font-size: 13px;
-      font-weight: 700;
-      cursor: pointer;
-      color: var(--muted);
-    }
-
-    .intent:hover { border-color: #9cb8af; color: var(--ink); }
-
-    .summary {
-      margin: 0 2px 12px;
-      display: flex;
-      justify-content: space-between;
+      gap: 8px;
       align-items: center;
-      gap: 10px;
+      margin: 0;
       color: var(--muted);
       font-size: 14px;
     }
 
-    .badge {
-      background: var(--brand-soft);
-      color: var(--brand);
-      border: 1px solid #b7dccc;
-      padding: 4px 9px;
-      border-radius: 999px;
-      font-weight: 700;
-      font-size: 12px;
+    .count-line strong {
+      color: var(--ink);
+      font-size: 18px;
     }
 
-    .results {
+    .active-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 10px;
+      min-height: 30px;
+    }
+
+    .active-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 28px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--muted);
+      padding: 0 5px 0 10px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .active-chip button {
+      display: grid;
+      place-items: center;
+      width: 20px;
+      height: 20px;
+      border: 0;
+      border-radius: 50%;
+      background: #eef2ef;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .icon-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 40px;
+      padding: 0 11px;
+      font-size: 13px;
+    }
+
+    .icon-btn.primary {
+      border-color: var(--brand-dark);
+      background: var(--brand-dark);
+      color: #fff;
+    }
+
+    .view-toggle {
+      display: flex;
+      gap: 4px;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-control);
+      background: #fff;
+    }
+
+    .view-btn {
+      display: grid;
+      place-items: center;
+      width: 32px;
+      height: 32px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+    }
+
+    .view-btn.active {
+      background: var(--ink);
+      color: #fff;
+    }
+
+    .icon {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      color: currentColor;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .source-strip,
+    .task-strip {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 2px 1px 12px;
+      margin-bottom: 8px;
+      scrollbar-color: var(--line-strong) transparent;
+    }
+
+    .chip-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 36px;
+      flex: 0 0 auto;
+      padding: 0 11px;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .chip-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      background: #edf1ee;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .cards {
       list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(286px, 1fr));
+      gap: 12px;
       margin: 0;
       padding: 0;
+    }
+
+    .cards.list { grid-template-columns: 1fr; }
+
+    .resource-card {
       display: grid;
       gap: 12px;
-    }
-
-    .results.grid { grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
-    .results.list { grid-template-columns: 1fr; }
-
-    .card {
+      align-content: start;
+      min-width: 0;
       border: 1px solid var(--line);
-      border-radius: var(--radius-md);
-      background: var(--panel);
-      box-shadow: var(--shadow);
-      padding: 13px;
-      display: flex;
-      flex-direction: column;
-      gap: 9px;
-      animation: cardIn 360ms ease;
+      border-left: 4px solid var(--brand);
+      border-radius: var(--radius-card);
+      background: var(--surface);
+      padding: 14px;
+      box-shadow: var(--card-shadow);
+      transition: box-shadow 160ms ease, border-color 160ms ease;
     }
 
-    .chips {
+    .resource-card:hover {
+      border-color: var(--line-strong);
+      box-shadow: 0 12px 24px rgba(33, 45, 41, 0.12);
+    }
+
+    .resource-card[data-source="arxiv"] { border-left-color: var(--coral); }
+    .resource-card[data-source="crossref"] { border-left-color: var(--gold); }
+    .resource-card[data-source="datacite"] { border-left-color: var(--violet); }
+    .resource-card[data-source="openalex"] { border-left-color: var(--sky); }
+    .resource-card[data-source="zenodo"] { border-left-color: var(--brand); }
+    .resource-card[data-source="other"] { border-left-color: #54616a; }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .card-labels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-width: 0;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      max-width: 100%;
+      border-radius: 999px;
+      padding: 0 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--muted);
+      background: #eef2ef;
+    }
+
+    .tag.status {
+      color: var(--ok);
+      background: #e1f5eb;
+    }
+
+    .tag.status.automated {
+      color: var(--warn);
+      background: #fff0d8;
+    }
+
+    .save-btn {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 34px;
+      height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: #fff;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .save-btn.saved {
+      border-color: var(--gold);
+      background: #fff8e6;
+      color: #9b6400;
+    }
+
+    .card-title {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.28;
+      letter-spacing: 0;
+    }
+
+    .card-title a {
+      color: var(--ink);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .card-title a:hover { text-decoration: underline; }
+
+    .summary-text,
+    .primary-use,
+    .detail-row {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.48;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .task-list {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
     }
 
-    .chip {
+    .task-pill {
       border-radius: 999px;
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      padding: 3px 8px;
-      border: 1px solid transparent;
-    }
-
-    .chip.category { background: var(--brand-soft); color: var(--brand); border-color: #b7dccc; }
-    .chip.source { background: var(--accent-soft); color: #915117; border-color: #efc89f; }
-    .chip.status { background: #edf2ff; color: #3f4f86; border-color: #d0dbf6; }
-
-    .title {
-      margin: 0;
-      font-size: 17px;
-      line-height: 1.3;
-      overflow-wrap: anywhere;
-      word-break: break-word;
-    }
-
-    .title a {
-      color: var(--ink);
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-      display: inline-block;
-      max-width: 100%;
-      overflow-wrap: anywhere;
-      word-break: break-word;
-    }
-
-    .title a:hover { border-bottom-color: currentColor; }
-
-    .text {
-      margin: 0;
+      background: var(--surface-2);
       color: var(--muted);
-      line-height: 1.48;
-      font-size: 13px;
-      overflow-wrap: anywhere;
-      word-break: break-word;
-    }
-
-    .meta-links {
-      margin-top: auto;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      align-items: center;
-    }
-
-    .mini-link {
+      padding: 5px 8px;
       font-size: 12px;
       font-weight: 700;
-      color: var(--brand);
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: center;
+      margin-top: 2px;
+    }
+
+    .card-link,
+    .details-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 34px;
+      border-radius: var(--radius-control);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .card-link {
+      color: var(--brand-dark);
       text-decoration: none;
-      display: inline-block;
-      max-width: 100%;
-      overflow-wrap: anywhere;
-      word-break: break-word;
     }
 
-    .tasks {
-      font-size: 12px;
-      color: var(--muted);
-      margin: 0;
-      overflow-wrap: anywhere;
-      word-break: break-word;
+    .details-toggle {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      padding: 0 10px;
     }
 
-    .empty {
-      border: 1px dashed #b9c4bd;
-      border-radius: var(--radius-md);
-      padding: 26px;
-      background: #fcfcfa;
-      color: var(--muted);
-      text-align: center;
+    .details-panel {
+      display: none;
+      gap: 8px;
+      border-top: 1px solid var(--line);
+      padding-top: 11px;
     }
 
-    .crawl {
-      margin: 0 2px 12px;
-      color: var(--muted);
-      line-height: 1.5;
+    .resource-card.expanded .details-panel {
+      display: grid;
+    }
+
+    .footer-row {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0 0;
+    }
+
+    .load-more {
+      min-height: 42px;
+      padding: 0 18px;
       font-size: 14px;
     }
 
-    .crawl ul {
+    .empty {
+      display: grid;
+      gap: 8px;
+      justify-items: start;
+      border: 1px dashed var(--line-strong);
+      border-radius: var(--radius-card);
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--muted);
+      padding: 22px;
+    }
+
+    .crawler-links {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .crawler-links ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
       margin: 8px 0 0;
       padding-left: 18px;
     }
 
-    @keyframes cardIn {
-      from { opacity: 0; transform: translateY(5px); }
-      to { opacity: 1; transform: translateY(0); }
+    .toast {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      max-width: min(320px, calc(100vw - 36px));
+      border-radius: var(--radius-control);
+      background: var(--ink);
+      color: #fff;
+      padding: 11px 14px;
+      box-shadow: var(--shadow);
+      font-size: 13px;
+      font-weight: 800;
+      opacity: 0;
+      transform: translateY(8px);
+      pointer-events: none;
+      transition: opacity 160ms ease, transform 160ms ease;
     }
 
-    @media (max-width: 1020px) {
-      .controls { grid-template-columns: repeat(3, minmax(140px, 1fr)); }
-      .controls .field.search { grid-column: span 3; }
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
     }
 
-    @media (max-width: 720px) {
-      h1 { font-size: 30px; }
-      .controls { grid-template-columns: 1fr 1fr; }
-      .controls .field.search { grid-column: span 2; }
-      .summary { flex-direction: column; align-items: flex-start; }
-      .stat-row { width: 100%; }
-      .crawl { display: none; }
+    @media (max-width: 1060px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-main {
+        min-height: 260px;
+      }
+
+      .workbench {
+        grid-template-columns: 1fr;
+      }
+
+      .filters {
+        position: static;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .filters .field:first-child,
+      .filters .field:nth-child(2),
+      .filter-actions {
+        grid-column: span 2;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .page-shell {
+        padding: 16px 12px 40px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .top-links {
+        justify-content: flex-start;
+      }
+
+      .top-link {
+        min-height: 34px;
+        font-size: 12px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .metric-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .filters {
+        grid-template-columns: 1fr;
+      }
+
+      .filters .field:first-child,
+      .filters .field:nth-child(2),
+      .filter-actions {
+        grid-column: span 1;
+      }
+
+      .results-toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .toolbar-actions {
+        justify-content: flex-start;
+      }
     }
 
     @media (max-width: 520px) {
-      .controls { grid-template-columns: 1fr; }
-      .controls .field.search { grid-column: span 1; }
-      h1 { font-size: 28px; }
+      h1 {
+        font-size: 30px;
+      }
+
+      .hero-actions,
+      .filter-actions {
+        align-items: stretch;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .primary-action,
+      .secondary-action {
+        width: 100%;
+      }
+
+      .quick-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
-  <main class="container">
-    <header class="hero">
-      <div class="hero-top">
-        <div>
-          <p class="eyebrow">Pukhto / Pashto Resources</p>
-          <h1>Pashto Papers Search</h1>
-          <p class="subtitle">
-            Filter Pashto papers and documentation-focused resources for Automatic Speech Recognition (ASR), Text-to-Speech (TTS), Natural Language Processing (NLP), translation, and OCR.
-            Share paper-search states with URL parameters and jump back to technical resources when needed.
-          </p>
-        </div>
-        <div class="stat-row" aria-label="Catalog metrics">
-          <div class="stat"><strong id="statTotal">-</strong><span>Total</span></div>
-          <div class="stat"><strong id="statVerified">-</strong><span>Verified</span></div>
-          <div class="stat"><strong id="statTasks">-</strong><span>Task Tags</span></div>
-        </div>
-      </div>
-      <nav class="quick-links" aria-label="Quick links">
-        <a class="pill-link" href="../">Docs Home</a>
-        <a class="pill-link" href="../search/">Technical Search</a>
-        <a class="pill-link" href="../pashto_datasets.html">Datasets Page</a>
-        <a class="pill-link" href="../pashto_asr.html">ASR Page</a>
-        <a class="pill-link" href="../pashto_tts.html">TTS Page</a>
-        <a class="pill-link" href="https://github.com/Musawer1214/pashto-language-resources">GitHub</a>
-        <a class="pill-link" href="https://huggingface.co/Musawer14/pashto-language-resources">Hugging Face</a>
+  <main class="page-shell">
+    <header class="topbar">
+      <a class="brand-lockup" href="../" aria-label="Pashto Language Resources Hub home">
+        <span class="mark" aria-hidden="true">ps</span>
+        <span class="brand-copy">
+          <strong>Pashto Resources Hub</strong>
+          <span>Paper and research explorer</span>
+        </span>
+      </a>
+      <nav class="top-links" aria-label="Main navigation">
+        <a class="top-link" href="../search/">Technical Search</a>
+        <a class="top-link" href="../pashto_datasets.html">Datasets</a>
+        <a class="top-link" href="../pashto_asr.html">ASR</a>
+        <a class="top-link" href="../pashto_tts.html">TTS</a>
+        <a class="top-link" href="https://github.com/Musawer1214/pashto-language-resources">GitHub</a>
       </nav>
     </header>
 
-    <section class="toolbar panel" aria-label="Search controls">
-      <div class="controls">
-        <div class="field search">
+    <section class="hero" aria-label="Pashto paper search overview">
+      <div class="hero-main">
+        <div>
+          <p class="eyebrow">Pukhto / Pashto research</p>
+          <h1>Find Pashto papers, studies, and documentation.</h1>
+          <p class="subtitle">Search paper-focused resources with source filters, task shortcuts, saved reading lists, shareable URLs, and quick links back to the technical catalog.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="primary-action" href="#papers-panel">Start Reading</a>
+          <a class="secondary-action" href="../search/">Open Technical Search</a>
+        </div>
+      </div>
+
+      <aside class="hero-side" aria-label="Paper catalog snapshot">
+        <div class="metric-grid">
+          <div class="metric">
+            <strong id="statTotal">-</strong>
+            <span>Total papers</span>
+          </div>
+          <div class="metric">
+            <strong id="statVerified">-</strong>
+            <span>Curated</span>
+          </div>
+          <div class="metric">
+            <strong id="statSaved">0</strong>
+            <span>Saved here</span>
+          </div>
+        </div>
+        <div class="snapshot">
+          <div class="snapshot-head">
+            <h2>Source mix</h2>
+            <span class="timestamp" id="generatedAt">Updated -</span>
+          </div>
+          <div class="mini-bars" id="sourceBars" aria-label="Source distribution"></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="workbench" id="papers-panel" aria-label="Papers workbench">
+      <aside class="filters" aria-label="Paper filters">
+        <div class="field">
           <label for="q">Search</label>
-          <input id="q" type="search" placeholder="Try: OCR, ASR, translation, benchmark, corpus, language model" autocomplete="off">
+          <div class="search-field">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m16.5 16.5 4 4"></path>
+            </svg>
+            <input id="q" type="search" placeholder="Search title, method, task, or evidence" autocomplete="off">
+          </div>
         </div>
+
         <div class="field">
-          <label for="category">Category</label>
-          <select id="category"></select>
+          <span class="section-label">Mode</span>
+          <div class="mode-row" role="group" aria-label="Search mode">
+            <button type="button" class="mode-btn active" data-mode="all" aria-pressed="true">All</button>
+            <button type="button" class="mode-btn" data-mode="verified" aria-pressed="false">Curated</button>
+            <button type="button" class="mode-btn" data-mode="saved" aria-pressed="false">Saved</button>
+          </div>
         </div>
-        <div class="field">
-          <label for="source">Source</label>
-          <select id="source"></select>
-        </div>
+
         <div class="field">
           <label for="task">Task</label>
           <select id="task"></select>
         </div>
+
         <div class="field">
-          <label for="status">Review State</label>
-          <select id="status"></select>
+          <label for="source">Source</label>
+          <select id="source"></select>
         </div>
+
         <div class="field">
           <label for="sort">Sort</label>
           <select id="sort">
-            <option value="relevance">Relevance</option>
-            <option value="title_asc">Title (A-Z)</option>
-            <option value="title_desc">Title (Z-A)</option>
-            <option value="source_asc">Source (A-Z)</option>
+            <option value="relevance">Curated first</option>
+            <option value="title_asc">Title A-Z</option>
+            <option value="title_desc">Title Z-A</option>
+            <option value="source_asc">Source A-Z</option>
           </select>
         </div>
-      </div>
 
-        <div class="action-row">
-          <div class="group" role="group" aria-label="Result view mode">
-          <button type="button" class="btn active" id="viewGrid" aria-pressed="true">Grid View</button>
-          <button type="button" class="btn" id="viewList" aria-pressed="false">List View</button>
+        <div class="field">
+          <span class="section-label">Quick filters</span>
+          <div class="quick-grid" aria-label="Quick filters">
+            <button type="button" class="quick-btn" data-intent="asr">ASR</button>
+            <button type="button" class="quick-btn" data-intent="tts">TTS</button>
+            <button type="button" class="quick-btn" data-intent="nlp">NLP</button>
+            <button type="button" class="quick-btn" data-intent="mt">MT</button>
+            <button type="button" class="quick-btn" data-intent="ocr">OCR</button>
+            <button type="button" class="quick-btn" data-intent="verified">Curated</button>
           </div>
-        <div class="group">
-          <button type="button" class="btn light" id="clearFilters">Clear Filters</button>
-          <button type="button" class="btn brand" id="copyLink">Copy Search Link</button>
         </div>
-      </div>
 
-      <div class="intent-row" aria-label="Quick intent filters">
-        <button type="button" class="intent" data-intent="asr">ASR</button>
-        <button type="button" class="intent" data-intent="tts">TTS</button>
-        <button type="button" class="intent" data-intent="nlp">NLP</button>
-        <button type="button" class="intent" data-intent="mt">Translation</button>
-        <button type="button" class="intent" data-intent="ocr">OCR</button>
-        <button type="button" class="intent" data-intent="verified">Curated Only</button>
-      </div>
+        <div class="filter-actions">
+          <button type="button" class="icon-btn" id="clearFilters" title="Clear filters" aria-label="Clear filters">
+            <span aria-hidden="true">x</span>
+            Clear
+          </button>
+          <button type="button" class="icon-btn primary" id="copyLink" title="Copy search link" aria-label="Copy search link">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M10 13a5 5 0 0 0 7.1 0l2-2a5 5 0 0 0-7.1-7.1l-1.1 1.1"></path>
+              <path d="M14 11a5 5 0 0 0-7.1 0l-2 2a5 5 0 0 0 7.1 7.1l1.1-1.1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+      </aside>
+
+      <section class="results-pane" aria-label="Paper results">
+        <div class="results-toolbar">
+          <div class="result-summary">
+            <p class="count-line" aria-live="polite">
+              <strong id="countText">Loading...</strong>
+              <span id="countDetail">Fetching papers</span>
+            </p>
+            <div class="active-filters" id="activeFilters" aria-label="Active filters"></div>
+          </div>
+          <div class="toolbar-actions">
+            <div class="view-toggle" role="group" aria-label="Result view">
+              <button type="button" class="view-btn active" id="viewGrid" title="Grid view" aria-label="Grid view" aria-pressed="true">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                </svg>
+              </button>
+              <button type="button" class="view-btn" id="viewList" title="List view" aria-label="List view" aria-pressed="false">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 6h13"></path>
+                  <path d="M8 12h13"></path>
+                  <path d="M8 18h13"></path>
+                  <path d="M3 6h.01"></path>
+                  <path d="M3 12h.01"></path>
+                  <path d="M3 18h.01"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="source-strip" id="sourceStrip" aria-label="Source shortcuts"></div>
+        <div class="task-strip" id="taskStrip" aria-label="Task shortcuts"></div>
+
+        <noscript>
+          JavaScript is needed for filtering. Paper links below remain accessible.
+        </noscript>
+
+        <ul id="results" class="cards"></ul>
+        <div class="footer-row">
+          <button type="button" class="load-more" id="loadMore" hidden>Load more</button>
+        </div>
+
+        <section class="crawler-links" aria-label="Paper resources and crawlable links">
+          Browse direct paper resources:
+          <ul>
+            <li><a href="https://github.com/Musawer1214/pashto-language-resources/blob/main/resources/papers/README.md">Pashto papers</a></li>
+            <li><a href="https://musawer1214.github.io/pashto-language-resources/search/">Technical resource search</a></li>
+          </ul>
+        </section>
+      </section>
     </section>
-
-    <div class="summary" aria-live="polite">
-      <span id="countText">Loading resources...</span>
-      <span class="badge" id="generatedAt">Catalog timestamp: -</span>
-    </div>
-
-    <section class="crawl" aria-label="Paper resources and crawlable links">
-      Browse Pashto paper resources directly:
-      <ul>
-        <li><a href="https://github.com/Musawer1214/pashto-language-resources/blob/main/resources/papers/README.md">Pashto papers</a></li>
-        <li><a href="https://musawer1214.github.io/pashto-language-resources/search/">Technical resource search (non-paper)</a></li>
-      </ul>
-    </section>
-
-    <noscript>
-      JavaScript is needed for filtering. Paper links above remain fully accessible.
-    </noscript>
-
-    <ul id="results" class="results grid"></ul>
   </main>
 
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
   <script>
+    const STORAGE_KEY = "pashto-paper-search-saved";
+    const PAGE_SIZE = 24;
+
     const state = {
       all: [],
       filtered: [],
-      view: "grid"
+      saved: new Set(),
+      view: "grid",
+      mode: "all",
+      visibleCount: PAGE_SIZE,
+      lastPointerAction: {
+        key: "",
+        time: 0
+      }
     };
 
     const els = {
       q: document.getElementById("q"),
-      category: document.getElementById("category"),
       source: document.getElementById("source"),
       task: document.getElementById("task"),
-      status: document.getElementById("status"),
       sort: document.getElementById("sort"),
       results: document.getElementById("results"),
       countText: document.getElementById("countText"),
+      countDetail: document.getElementById("countDetail"),
       generatedAt: document.getElementById("generatedAt"),
       statTotal: document.getElementById("statTotal"),
       statVerified: document.getElementById("statVerified"),
-      statTasks: document.getElementById("statTasks"),
+      statSaved: document.getElementById("statSaved"),
+      sourceBars: document.getElementById("sourceBars"),
+      sourceStrip: document.getElementById("sourceStrip"),
+      taskStrip: document.getElementById("taskStrip"),
+      activeFilters: document.getElementById("activeFilters"),
       viewGrid: document.getElementById("viewGrid"),
       viewList: document.getElementById("viewList"),
       clearFilters: document.getElementById("clearFilters"),
       copyLink: document.getElementById("copyLink"),
-      intents: [...document.querySelectorAll(".intent")]
+      loadMore: document.getElementById("loadMore"),
+      toast: document.getElementById("toast"),
+      modeButtons: [...document.querySelectorAll(".mode-btn")],
+      quickButtons: [...document.querySelectorAll(".quick-btn")]
     };
 
     const TASK_LABELS = {
-      "asr": "Automatic Speech Recognition (ASR)",
-      "tts": "Text-to-Speech (TTS)",
-      "nlp": "Natural Language Processing (NLP)",
-      "mt": "Machine Translation (MT)",
-      "llm": "Large Language Model (LLM)",
-      "ocr": "Optical Character Recognition (OCR)",
-      "pos-tagging": "Part-of-Speech Tagging",
+      "asr": "ASR",
+      "tts": "TTS",
+      "nlp": "NLP",
+      "mt": "Machine Translation",
+      "llm": "LLM",
+      "ocr": "OCR",
+      "pos-tagging": "POS tagging",
       "benchmarking": "Benchmarking",
       "classification": "Classification",
       "demo": "Demo",
       "dictionary": "Dictionary",
       "research": "Research",
-      "sentiment": "Sentiment Analysis",
+      "sentiment": "Sentiment",
       "tooling": "Tooling",
       "translation": "Translation"
-    };
-
-    const CATEGORY_LABELS = {
-      "paper": "Paper",
     };
 
     const SOURCE_LABELS = {
@@ -623,68 +1325,10 @@ permalink: /papers/
     };
 
     const STATUS_LABELS = {
-      "verified": "Curated Verified",
-      "automated_verified": "Automated Verified",
+      "verified": "Curated",
+      "automated_verified": "Automated",
       "candidate": "Candidate"
     };
-
-    function toTitleCase(value) {
-      return String(value || "")
-        .replace(/[_-]+/g, " ")
-        .split(/\s+/)
-        .filter(Boolean)
-        .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
-        .join(" ");
-    }
-
-    function replaceAbbreviation(text, shortForm, expanded) {
-      const fullPhrase = expanded.replace(/\s*\([^)]*\)\s*$/, "");
-      if (new RegExp(fullPhrase, "i").test(text)) {
-        return text;
-      }
-      return text.replace(new RegExp(`\\b${shortForm}\\b`, "gi"), expanded);
-    }
-
-    function formatDisplayText(value) {
-      let text = String(value || "").trim();
-      if (!text) return text;
-
-      text = text
-        .replace(/\bhuggingface\b/gi, "Hugging Face")
-        .replace(/\bgithub\b/gi, "GitHub")
-        .replace(/\bgitlab\b/gi, "GitLab")
-        .replace(/\bopenalex\b/gi, "OpenAlex")
-        .replace(/\barxiv\b/gi, "arXiv");
-
-      text = replaceAbbreviation(text, "ASR", "Automatic Speech Recognition (ASR)");
-      text = replaceAbbreviation(text, "TTS", "Text-to-Speech (TTS)");
-      text = replaceAbbreviation(text, "NLP", "Natural Language Processing (NLP)");
-      text = replaceAbbreviation(text, "MT", "Machine Translation (MT)");
-      text = replaceAbbreviation(text, "LLM", "Large Language Model (LLM)");
-      text = replaceAbbreviation(text, "OCR", "Optical Character Recognition (OCR)");
-
-      return text.charAt(0).toUpperCase() + text.slice(1);
-    }
-
-    function formatTaskLabel(value) {
-      const key = String(value || "").toLowerCase();
-      return TASK_LABELS[key] || toTitleCase(value);
-    }
-
-    function formatCategoryLabel(value) {
-      const key = String(value || "").toLowerCase();
-      return CATEGORY_LABELS[key] || toTitleCase(value);
-    }
-
-    function formatSourceLabel(value) {
-      const key = String(value || "").toLowerCase();
-      return SOURCE_LABELS[key] || toTitleCase(value);
-    }
-
-    function formatStatusLabel(value) {
-      const key = String(value || "").toLowerCase();
-      return STATUS_LABELS[key] || toTitleCase(value);
-    }
 
     function esc(value) {
       return String(value || "")
@@ -695,71 +1339,184 @@ permalink: /papers/
         .replace(/'/g, "&#39;");
     }
 
+    function toTitleCase(value) {
+      return String(value || "")
+        .replace(/[_-]+/g, " ")
+        .split(/\s+/)
+        .filter(Boolean)
+        .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+        .join(" ");
+    }
+
     function uniqSorted(values) {
       return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
     }
 
-    function fillSelect(select, options, allLabel, labelFormatter = toTitleCase) {
-      select.innerHTML = "";
-      const allOption = document.createElement("option");
-      allOption.value = "";
-      allOption.textContent = allLabel;
-      select.appendChild(allOption);
-      for (const opt of options) {
-        const entry = document.createElement("option");
-        entry.value = opt;
-        entry.textContent = labelFormatter(opt);
-        select.appendChild(entry);
-      }
-      const field = select.closest(".field");
-      if (field) {
-        field.hidden = options.length <= 1;
-      }
+    function countBy(items, getter) {
+      return items.reduce((acc, item) => {
+        const value = getter(item);
+        if (!value) return acc;
+        acc[value] = (acc[value] || 0) + 1;
+        return acc;
+      }, {});
     }
 
-    function updateMetrics() {
-      const verified = state.all.filter((r) => r.status === "verified").length;
-      const tasks = uniqSorted(state.all.flatMap((r) => r.tasks || [])).length;
-      els.statTotal.textContent = String(state.all.length);
-      els.statVerified.textContent = String(verified);
-      els.statTasks.textContent = String(tasks);
+    function formatTask(value) {
+      return TASK_LABELS[String(value || "").toLowerCase()] || toTitleCase(value);
     }
 
-    function setView(view) {
-      state.view = view === "list" ? "list" : "grid";
-      els.results.classList.toggle("grid", state.view === "grid");
-      els.results.classList.toggle("list", state.view === "list");
-      els.viewGrid.classList.toggle("active", state.view === "grid");
-      els.viewList.classList.toggle("active", state.view === "list");
-      els.viewGrid.setAttribute("aria-pressed", state.view === "grid" ? "true" : "false");
-      els.viewList.setAttribute("aria-pressed", state.view === "list" ? "true" : "false");
-      syncUrl();
+    function formatSource(value) {
+      return SOURCE_LABELS[String(value || "").toLowerCase()] || toTitleCase(value);
+    }
+
+    function formatStatus(value) {
+      return STATUS_LABELS[String(value || "").toLowerCase()] || toTitleCase(value);
     }
 
     function reviewState(resource) {
       return resource.review_state || resource.status || "unknown";
     }
 
+    function resourceKey(resource) {
+      return resource.id || resource.url || resource.title;
+    }
+
+    function showToast(message) {
+      els.toast.textContent = message;
+      els.toast.classList.add("show");
+      window.clearTimeout(showToast.timeout);
+      showToast.timeout = window.setTimeout(() => {
+        els.toast.classList.remove("show");
+      }, 1500);
+    }
+
+    function closestFromEvent(event, selector) {
+      const target = event.target instanceof Element ? event.target : event.target && event.target.parentElement;
+      return target ? target.closest(selector) : null;
+    }
+
+    function loadSaved() {
+      try {
+        const raw = window.localStorage.getItem(STORAGE_KEY);
+        state.saved = new Set(raw ? JSON.parse(raw) : []);
+      } catch (_error) {
+        state.saved = new Set();
+      }
+    }
+
+    function persistSaved() {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify([...state.saved]));
+      els.statSaved.textContent = String(state.saved.size);
+    }
+
+    function fillSelect(select, options, allLabel, formatter) {
+      select.innerHTML = "";
+      const empty = document.createElement("option");
+      empty.value = "";
+      empty.textContent = allLabel;
+      select.appendChild(empty);
+      options.forEach((option) => {
+        const entry = document.createElement("option");
+        entry.value = option;
+        entry.textContent = formatter(option);
+        select.appendChild(entry);
+      });
+    }
+
+    function fillMetricBars() {
+      const counts = countBy(state.all, (item) => item.source);
+      const top = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 6);
+      const max = Math.max(...top.map((entry) => entry[1]), 1);
+
+      els.sourceBars.innerHTML = top.map(([source, count]) => `
+        <button type="button" class="mini-bar" data-source-bar="${esc(source)}">
+          <span>${esc(formatSource(source))}</span>
+          <span class="track"><span class="fill" style="width: ${(count / max) * 100}%"></span></span>
+          <span class="mini-count">${count}</span>
+        </button>
+      `).join("");
+    }
+
+    function fillShortcutStrips() {
+      const sourceCounts = countBy(state.all, (item) => item.source);
+      const taskCounts = state.all.reduce((acc, item) => {
+        (item.tasks || []).forEach((task) => {
+          acc[task] = (acc[task] || 0) + 1;
+        });
+        return acc;
+      }, {});
+
+      els.sourceStrip.innerHTML = Object.entries(sourceCounts)
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([source, count]) => `
+          <button type="button" class="chip-btn" data-source="${esc(source)}">
+            ${esc(formatSource(source))}
+            <span class="chip-count">${count}</span>
+          </button>
+        `).join("");
+
+      els.taskStrip.innerHTML = Object.entries(taskCounts)
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([task, count]) => `
+          <button type="button" class="chip-btn" data-task="${esc(task)}">
+            ${esc(formatTask(task))}
+            <span class="chip-count">${count}</span>
+          </button>
+        `).join("");
+    }
+
+    function updateMetrics() {
+      const verified = state.all.filter((resource) => reviewState(resource) === "verified").length;
+      els.statTotal.textContent = String(state.all.length);
+      els.statVerified.textContent = String(verified);
+      els.statSaved.textContent = String(state.saved.size);
+    }
+
+    function setView(view, shouldRender = true) {
+      state.view = view === "list" ? "list" : "grid";
+      els.results.classList.toggle("list", state.view === "list");
+      els.viewGrid.classList.toggle("active", state.view === "grid");
+      els.viewList.classList.toggle("active", state.view === "list");
+      els.viewGrid.setAttribute("aria-pressed", state.view === "grid" ? "true" : "false");
+      els.viewList.setAttribute("aria-pressed", state.view === "list" ? "true" : "false");
+      if (shouldRender) {
+        renderResults();
+        syncUrl();
+      }
+    }
+
+    function setMode(mode) {
+      state.mode = ["all", "verified", "saved"].includes(mode) ? mode : "all";
+      els.modeButtons.forEach((button) => {
+        const active = button.dataset.mode === state.mode;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+      applyFilters();
+    }
+
     function matchesQuery(resource, query) {
       if (!query) return true;
-      const hay = [
+      const haystack = [
         resource.title,
         resource.summary,
         resource.primary_use,
         resource.category,
         resource.source,
-        resource.status,
+        reviewState(resource),
         ...(resource.tags || []),
         ...(resource.tasks || []),
         ...(resource.markers || []),
         resource.evidence_text
       ].join(" ").toLowerCase();
-      return hay.includes(query);
+      return haystack.includes(query);
     }
 
     function sortItems(items) {
-      const mode = els.sort.value;
       const sorted = [...items];
+      const mode = els.sort.value;
       if (mode === "title_asc") {
         sorted.sort((a, b) => (a.title || "").localeCompare(b.title || ""));
       } else if (mode === "title_desc") {
@@ -768,9 +1525,12 @@ permalink: /papers/
         sorted.sort((a, b) => (a.source || "").localeCompare(b.source || "") || (a.title || "").localeCompare(b.title || ""));
       } else {
         sorted.sort((a, b) => {
-          const av = reviewState(a) === "verified" ? 0 : 1;
-          const bv = reviewState(b) === "verified" ? 0 : 1;
-          if (av !== bv) return av - bv;
+          const aSaved = state.saved.has(resourceKey(a)) ? 0 : 1;
+          const bSaved = state.saved.has(resourceKey(b)) ? 0 : 1;
+          if (aSaved !== bSaved) return aSaved - bSaved;
+          const aVerified = reviewState(a) === "verified" ? 0 : 1;
+          const bVerified = reviewState(b) === "verified" ? 0 : 1;
+          if (aVerified !== bVerified) return aVerified - bVerified;
           return (a.title || "").localeCompare(b.title || "");
         });
       }
@@ -778,94 +1538,143 @@ permalink: /papers/
     }
 
     function applyFilters() {
-      const q = els.q.value.trim().toLowerCase();
-      const category = els.category.value;
-      const source = els.source.value;
+      const query = els.q.value.trim().toLowerCase();
       const task = els.task.value;
-      const status = els.status.value;
+      const source = els.source.value;
 
       state.filtered = sortItems(state.all.filter((resource) => {
-        if (!matchesQuery(resource, q)) return false;
-        if (category && resource.category !== category) return false;
-        if (source && resource.source !== source) return false;
-        if (status && reviewState(resource) !== status) return false;
+        if (state.mode === "verified" && reviewState(resource) !== "verified") return false;
+        if (state.mode === "saved" && !state.saved.has(resourceKey(resource))) return false;
         if (task && !(resource.tasks || []).includes(task)) return false;
-        return true;
+        if (source && resource.source !== source) return false;
+        return matchesQuery(resource, query);
       }));
 
+      state.visibleCount = PAGE_SIZE;
+      updateShortcutState();
+      renderActiveFilters();
       renderResults();
       syncUrl();
     }
 
-    function chip(label, cls) {
-      return `<span class="chip ${cls}">${esc(label)}</span>`;
+    function updateShortcutState() {
+      [...document.querySelectorAll("[data-source]")].forEach((button) => {
+        button.classList.toggle("active", button.dataset.source === els.source.value);
+      });
+      [...document.querySelectorAll("[data-task]")].forEach((button) => {
+        button.classList.toggle("active", button.dataset.task === els.task.value);
+      });
+      els.quickButtons.forEach((button) => {
+        const intent = button.dataset.intent;
+        const active =
+          (intent === "asr" && els.task.value === "asr") ||
+          (intent === "tts" && els.task.value === "tts") ||
+          (intent === "nlp" && els.task.value === "nlp") ||
+          (intent === "mt" && els.task.value === "mt") ||
+          (intent === "ocr" && els.task.value === "ocr") ||
+          (intent === "verified" && state.mode === "verified");
+        button.classList.toggle("active", active);
+      });
     }
 
-    function activeFilterLabels() {
-      const labels = [];
-      if (els.q.value.trim()) labels.push(`Search: ${els.q.value.trim()}`);
-      if (els.category.value) labels.push(`Category: ${formatCategoryLabel(els.category.value)}`);
-      if (els.source.value) labels.push(`Source: ${formatSourceLabel(els.source.value)}`);
-      if (els.task.value) labels.push(`Task: ${formatTaskLabel(els.task.value)}`);
-      if (els.status.value) labels.push(`Review State: ${formatStatusLabel(els.status.value)}`);
-      return labels;
+    function activeFilterData() {
+      const filters = [];
+      if (state.mode !== "all") filters.push({ key: "mode", label: state.mode === "saved" ? "Saved" : "Curated" });
+      if (els.q.value.trim()) filters.push({ key: "q", label: `Search: ${els.q.value.trim()}` });
+      if (els.task.value) filters.push({ key: "task", label: formatTask(els.task.value) });
+      if (els.source.value) filters.push({ key: "source", label: formatSource(els.source.value) });
+      if (els.sort.value !== "relevance") filters.push({ key: "sort", label: els.sort.options[els.sort.selectedIndex].textContent });
+      return filters;
+    }
+
+    function renderActiveFilters() {
+      const filters = activeFilterData();
+      els.activeFilters.innerHTML = filters.map((filter) => `
+        <span class="active-chip">
+          ${esc(filter.label)}
+          <button type="button" data-clear-one="${esc(filter.key)}" aria-label="Remove ${esc(filter.label)}">x</button>
+        </span>
+      `).join("");
+    }
+
+    function statusClass(resource) {
+      return reviewState(resource) === "automated_verified" ? "automated" : "";
+    }
+
+    function taskPills(resource) {
+      const tasks = (resource.tasks || []).slice(0, 5);
+      if (!tasks.length) return '<span class="task-pill">No task tag</span>';
+      return tasks.map((task) => `<span class="task-pill">${esc(formatTask(task))}</span>`).join("");
+    }
+
+    function renderCard(resource) {
+      const key = resourceKey(resource);
+      const saved = state.saved.has(key);
+      const url = resource.url || "#";
+      const evidenceUrl = resource.evidence_url || url;
+      const summary = resource.summary || "No summary provided.";
+      const primaryUse = resource.primary_use || "No primary use recorded.";
+      const review = reviewState(resource);
+
+      return `
+        <li class="resource-card" data-resource-key="${esc(key)}" data-source="${esc(resource.source || "unknown")}">
+          <div class="card-top">
+            <div class="card-labels">
+              <span class="tag">Paper</span>
+              <span class="tag">${esc(formatSource(resource.source || "unknown"))}</span>
+              <span class="tag status ${statusClass(resource)}">${esc(formatStatus(review))}</span>
+            </div>
+            <button type="button" class="save-btn ${saved ? "saved" : ""}" data-save="${esc(key)}" title="${saved ? "Remove saved paper" : "Save paper"}" aria-label="${saved ? "Remove saved paper" : "Save paper"}" aria-pressed="${saved ? "true" : "false"}">${saved ? "*" : "+"}</button>
+          </div>
+          <h2 class="card-title"><a href="${esc(url)}" target="_blank" rel="noreferrer">${esc(resource.title || "Untitled paper")}</a></h2>
+          <p class="summary-text">${esc(summary)}</p>
+          <p class="primary-use"><strong>Use:</strong> ${esc(primaryUse)}</p>
+          <div class="task-list" aria-label="Tasks">${taskPills(resource)}</div>
+          <div class="card-footer">
+            <a class="card-link" href="${esc(url)}" target="_blank" rel="noreferrer">Open paper</a>
+            <button type="button" class="details-toggle" data-expand="${esc(key)}">Details</button>
+          </div>
+          <div class="details-panel">
+            <div class="detail-row"><strong>Pashto evidence:</strong> <a href="${esc(evidenceUrl)}" target="_blank" rel="noreferrer">${esc(resource.evidence_text || "Evidence link")}</a></div>
+            <div class="detail-row"><strong>Markers:</strong> ${esc((resource.markers || []).join(", ") || "Not recorded")}</div>
+            <div class="detail-row"><strong>Tags:</strong> ${esc((resource.tags || []).join(", ") || "Not recorded")}</div>
+          </div>
+        </li>
+      `;
     }
 
     function renderResults() {
-      const items = state.filtered;
-      els.countText.textContent = `${items.length} result${items.length === 1 ? "" : "s"} of ${state.all.length}`;
+      const total = state.filtered.length;
+      const visible = state.filtered.slice(0, state.visibleCount);
+      els.countText.textContent = `${total} result${total === 1 ? "" : "s"}`;
+      els.countDetail.textContent = total ? `Showing ${visible.length} of ${total}` : "Try a broader search or clear filters";
 
-      if (!items.length) {
-        const filters = activeFilterLabels();
-        const detail = filters.length
-          ? `<p>Active filters: ${esc(filters.join(" | "))}</p>`
-          : "<p>No active filters are applied.</p>";
-        els.results.innerHTML = `<li class="empty"><strong>No matches.</strong>${detail}<button type="button" class="btn light" data-empty-clear>Clear Filters</button></li>`;
-        return;
-      }
-
-      els.results.innerHTML = items.map((resource) => {
-        const title = esc(resource.title || "Untitled resource");
-        const url = esc(resource.url || "#");
-        const summary = esc(formatDisplayText(resource.summary || "No summary provided."));
-        const primaryUse = esc(formatDisplayText(resource.primary_use || "Not available"));
-        const evidenceText = esc(formatDisplayText(resource.evidence_text || "Evidence link"));
-        const evidenceUrl = esc(resource.evidence_url || resource.url || "#");
-        const tasks = (resource.tasks || []).map((t) => esc(formatTaskLabel(t))).join(", ") || "Not available";
-        const review = reviewState(resource);
-        const reviewNote = review === "automated_verified"
-          ? '<p class="text"><strong>Review Note:</strong> Automated intake entry. Confirm tasks and primary use before treating it as curated.</p>'
-          : "";
-
-        return `
-          <li class="card">
-            <div class="chips">
-              ${chip(formatCategoryLabel(resource.category || "unknown"), "category")}
-              ${chip(formatSourceLabel(resource.source || "unknown"), "source")}
-              ${chip(formatStatusLabel(review), "status")}
-            </div>
-            <h2 class="title"><a href="${url}" target="_blank" rel="noreferrer">${title}</a></h2>
-            <p class="text">${summary}</p>
-            <p class="text"><strong>Primary Use:</strong> ${primaryUse}</p>
-            ${reviewNote}
-            <p class="tasks"><strong>Tasks:</strong> ${tasks}</p>
-            <div class="meta-links">
-              <a class="mini-link" href="${url}" target="_blank" rel="noreferrer">Open Resource</a>
-              <a class="mini-link" href="${evidenceUrl}" target="_blank" rel="noreferrer">Pashto Evidence: ${evidenceText}</a>
-            </div>
+      if (!total) {
+        const savedNote = state.mode === "saved" && !state.saved.size
+          ? "Saved papers will appear here after you press the plus button on a card."
+          : "No papers match the current filters.";
+        els.results.innerHTML = `
+          <li class="empty">
+            <strong>No matches found</strong>
+            <span>${esc(savedNote)}</span>
+            <button type="button" class="icon-btn" data-empty-clear>Clear filters</button>
           </li>
         `;
-      }).join("");
+      } else {
+        els.results.innerHTML = visible.map(renderCard).join("");
+      }
+
+      els.loadMore.hidden = state.visibleCount >= total;
+      els.loadMore.textContent = `Load ${Math.min(PAGE_SIZE, Math.max(total - state.visibleCount, 0))} more`;
     }
 
     function syncUrl() {
       const params = new URLSearchParams();
       if (els.q.value.trim()) params.set("q", els.q.value.trim());
-      if (els.category.value) params.set("category", els.category.value);
-      if (els.source.value) params.set("source", els.source.value);
       if (els.task.value) params.set("task", els.task.value);
-      if (els.status.value) params.set("status", els.status.value);
-      if (els.sort.value && els.sort.value !== "relevance") params.set("sort", els.sort.value);
+      if (els.source.value) params.set("source", els.source.value);
+      if (state.mode !== "all") params.set("mode", state.mode);
+      if (els.sort.value !== "relevance") params.set("sort", els.sort.value);
       if (state.view !== "grid") params.set("view", state.view);
 
       const next = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ""}`;
@@ -875,39 +1684,57 @@ permalink: /papers/
     function applyUrlState() {
       const params = new URLSearchParams(window.location.search);
       if (params.get("q")) els.q.value = params.get("q");
-      if (params.get("category")) els.category.value = params.get("category");
-      if (params.get("source")) els.source.value = params.get("source");
       if (params.get("task")) els.task.value = params.get("task");
-      if (params.get("status")) els.status.value = params.get("status");
+      if (params.get("source")) els.source.value = params.get("source");
       if (params.get("sort")) els.sort.value = params.get("sort");
-      if (params.get("view")) setView(params.get("view"));
+      if (params.get("view")) setView(params.get("view"), false);
+      if (params.get("mode")) {
+        state.mode = params.get("mode");
+        els.modeButtons.forEach((button) => {
+          const active = button.dataset.mode === state.mode;
+          button.classList.toggle("active", active);
+          button.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+      }
+    }
+
+    function clearOneFilter(key) {
+      if (key === "mode") state.mode = "all";
+      if (key === "q") els.q.value = "";
+      if (key === "task") els.task.value = "";
+      if (key === "source") els.source.value = "";
+      if (key === "sort") els.sort.value = "relevance";
+      if (key === "mode") {
+        els.modeButtons.forEach((button) => {
+          const active = button.dataset.mode === "all";
+          button.classList.toggle("active", active);
+          button.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+      }
+      applyFilters();
     }
 
     function clearFilters() {
       els.q.value = "";
-      els.category.value = "";
-      els.source.value = "";
       els.task.value = "";
-      els.status.value = "";
+      els.source.value = "";
       els.sort.value = "relevance";
-      setView("grid");
+      state.mode = "all";
+      setView("grid", false);
+      els.modeButtons.forEach((button) => {
+        const active = button.dataset.mode === "all";
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+      });
       applyFilters();
     }
 
     function applyIntent(intent) {
-      if (intent === "asr") {
-        els.task.value = "asr";
-      } else if (intent === "tts") {
-        els.task.value = "tts";
-      } else if (intent === "nlp") {
-        els.task.value = "nlp";
-      } else if (intent === "mt") {
-        els.task.value = "mt";
-        els.q.value = "";
-      } else if (intent === "ocr") {
-        els.task.value = "ocr";
+      if (["asr", "tts", "nlp", "mt", "ocr"].includes(intent)) {
+        els.task.value = intent;
       } else if (intent === "verified") {
-        els.status.value = "verified";
+        setMode("verified");
+        return;
       }
       applyFilters();
     }
@@ -915,15 +1742,78 @@ permalink: /papers/
     async function copySearchLink() {
       try {
         await navigator.clipboard.writeText(window.location.href);
-        els.copyLink.textContent = "Link Copied";
-        setTimeout(() => { els.copyLink.textContent = "Copy Search Link"; }, 1200);
+        showToast("Paper search link copied.");
       } catch (_error) {
-        els.copyLink.textContent = "Copy Failed";
-        setTimeout(() => { els.copyLink.textContent = "Copy Search Link"; }, 1200);
+        showToast("Could not copy the link.");
+      }
+    }
+
+    function toggleSaved(key) {
+      if (state.saved.has(key)) {
+        state.saved.delete(key);
+        showToast("Removed from saved papers.");
+      } else {
+        state.saved.add(key);
+        showToast("Saved for this browser.");
+      }
+      persistSaved();
+      renderResults();
+      if (state.mode === "saved") {
+        applyFilters();
+      }
+    }
+
+    function toggleExpanded(key) {
+      const card = els.results.querySelector(`[data-resource-key="${CSS.escape(key)}"]`);
+      if (card) {
+        card.classList.toggle("expanded");
+      }
+    }
+
+    function shouldSkipDuplicateAction(actionKey, eventType) {
+      const now = performance.now();
+      if (eventType === "click" && state.lastPointerAction.key === actionKey && now - state.lastPointerAction.time < 500) {
+        return true;
+      }
+      if (eventType === "pointerup") {
+        state.lastPointerAction = { key: actionKey, time: now };
+      }
+      return false;
+    }
+
+    function handleResultAction(event) {
+      const saveButton = closestFromEvent(event, "[data-save]");
+      if (saveButton) {
+        event.preventDefault();
+        const actionKey = `save:${saveButton.dataset.save}`;
+        if (!shouldSkipDuplicateAction(actionKey, event.type)) {
+          toggleSaved(saveButton.dataset.save);
+        }
+        return;
+      }
+
+      const expandButton = closestFromEvent(event, "[data-expand]");
+      if (expandButton) {
+        event.preventDefault();
+        const actionKey = `expand:${expandButton.dataset.expand}`;
+        if (!shouldSkipDuplicateAction(actionKey, event.type)) {
+          toggleExpanded(expandButton.dataset.expand);
+        }
+        return;
+      }
+
+      if (closestFromEvent(event, "[data-empty-clear]")) {
+        event.preventDefault();
+        const actionKey = "empty-clear";
+        if (!shouldSkipDuplicateAction(actionKey, event.type)) {
+          clearFilters();
+        }
       }
     }
 
     async function load() {
+      loadSaved();
+
       try {
         const res = await fetch("./resources.json", { cache: "no-store" });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -931,48 +1821,90 @@ permalink: /papers/
 
         state.all = payload.resources || [];
 
-        fillSelect(els.category, uniqSorted(state.all.map((r) => r.category)), "All Categories", formatCategoryLabel);
-        fillSelect(els.source, uniqSorted(state.all.map((r) => r.source)), "All Sources", formatSourceLabel);
-        fillSelect(els.status, uniqSorted(state.all.map((r) => reviewState(r))), "All Review States", formatStatusLabel);
-        fillSelect(els.task, uniqSorted(state.all.flatMap((r) => r.tasks || [])), "All Tasks", formatTaskLabel);
-
+        fillSelect(els.task, uniqSorted(state.all.flatMap((resource) => resource.tasks || [])), "All tasks", formatTask);
+        fillSelect(els.source, uniqSorted(state.all.map((resource) => resource.source)), "All sources", formatSource);
+        fillMetricBars();
+        fillShortcutStrips();
         updateMetrics();
 
         const generated = payload.generated_on ? new Date(payload.generated_on) : null;
         els.generatedAt.textContent = generated && !Number.isNaN(generated.getTime())
-          ? `Catalog timestamp: ${generated.toISOString()}`
-          : "Catalog timestamp: unknown";
+          ? `Updated ${generated.toISOString().slice(0, 10)}`
+          : "Updated unknown";
 
         applyUrlState();
         applyFilters();
-      } catch (err) {
-        els.countText.textContent = "Failed to load resources";
-        els.results.innerHTML = `<li class="empty">Could not load search data. ${esc(String(err))}</li>`;
+      } catch (error) {
+        els.countText.textContent = "Papers unavailable";
+        els.countDetail.textContent = "The paper payload did not load.";
+        els.results.innerHTML = `<li class="empty"><strong>Could not load papers</strong><span>${esc(String(error))}</span></li>`;
       }
     }
 
-    [els.q, els.category, els.source, els.task, els.status, els.sort].forEach((el) => {
-      el.addEventListener("input", applyFilters);
-      el.addEventListener("change", applyFilters);
+    [els.q, els.task, els.source, els.sort].forEach((element) => {
+      element.addEventListener("input", applyFilters);
+      element.addEventListener("change", applyFilters);
+    });
+
+    els.modeButtons.forEach((button) => {
+      button.addEventListener("click", () => setMode(button.dataset.mode));
+    });
+
+    els.quickButtons.forEach((button) => {
+      button.addEventListener("click", () => applyIntent(button.dataset.intent));
+    });
+
+    els.sourceBars.addEventListener("click", (event) => {
+      const button = closestFromEvent(event, "[data-source-bar]");
+      if (!button) return;
+      els.source.value = button.dataset.sourceBar;
+      applyFilters();
+      document.getElementById("papers-panel").scrollIntoView({ block: "start" });
+    });
+
+    els.sourceStrip.addEventListener("click", (event) => {
+      const button = closestFromEvent(event, "[data-source]");
+      if (!button) return;
+      els.source.value = els.source.value === button.dataset.source ? "" : button.dataset.source;
+      applyFilters();
+    });
+
+    els.taskStrip.addEventListener("click", (event) => {
+      const button = closestFromEvent(event, "[data-task]");
+      if (!button) return;
+      els.task.value = els.task.value === button.dataset.task ? "" : button.dataset.task;
+      applyFilters();
+    });
+
+    els.activeFilters.addEventListener("click", (event) => {
+      const button = closestFromEvent(event, "[data-clear-one]");
+      if (button) clearOneFilter(button.dataset.clearOne);
+    });
+
+    els.results.addEventListener("pointerup", handleResultAction);
+    els.results.addEventListener("click", handleResultAction);
+
+    els.loadMore.addEventListener("click", () => {
+      state.visibleCount += PAGE_SIZE;
+      renderResults();
     });
 
     els.viewGrid.addEventListener("click", () => setView("grid"));
     els.viewList.addEventListener("click", () => setView("list"));
     els.clearFilters.addEventListener("click", clearFilters);
-    els.results.addEventListener("click", (event) => {
-      if (event.target instanceof HTMLElement && event.target.matches("[data-empty-clear]")) {
+    els.copyLink.addEventListener("click", copySearchLink);
+
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "/" && document.activeElement !== els.q) {
+        event.preventDefault();
+        els.q.focus();
+      }
+      if (event.key === "Escape") {
         clearFilters();
       }
-    });
-    els.copyLink.addEventListener("click", copySearchLink);
-    els.intents.forEach((button) => {
-      button.addEventListener("click", () => applyIntent(button.dataset.intent));
     });
 
     load();
   </script>
 </body>
 </html>
-
-
-
