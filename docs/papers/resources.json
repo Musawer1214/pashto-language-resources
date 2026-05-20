@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-05-15T00:00:00Z",
-  "count": 175,
+  "generated_on": "2026-05-20T00:00:00Z",
+  "count": 174,
   "resources": [
     {
       "id": "paper-s2-psocr-lmm-pashto",
@@ -1983,37 +1983,6 @@
       "quality_flags": [
         "automated_discovery",
         "placeholder_primary_use",
-        "missing_tasks"
-      ]
-    },
-    {
-      "id": "candidate-crossref-summaries-in-pashto",
-      "title": "Summaries in Pashto",
-      "url": "https://doi.org/10.1097/01.wtf.0000437933.40809.39",
-      "category": "paper",
-      "source": "crossref",
-      "status": "verified",
-      "review_state": "automated_verified",
-      "summary": "Candidate paper returned from Crossref search for Pashto.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "crossref"
-      ],
-      "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
-      "evidence_url": "https://doi.org/10.1097/01.wtf.0000437933.40809.39",
-      "markers": [
-        "pashto"
-      ],
-      "signal_origin": "direct",
-      "direct_pashto_signal": true,
-      "quality_flags": [
-        "automated_discovery",
-        "placeholder_primary_use",
-        "generic_summary",
         "missing_tasks"
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-05-15",
+  "updated_on": "2026-05-20",
   "entries": [
     {
       "removed_on": "2026-02-21T19:47:22.435531+00:00",
@@ -1405,6 +1405,57 @@
       "evidence": {
         "status_code": null,
         "final_url": "https://github.com/pukhtoonyar406/pukhtoonyar406",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-20T07:36:54.473136+00:00",
+      "id": "candidate-hf-dataset-aamirhs-pashto",
+      "title": "aamirhs/pashto",
+      "url": "https://huggingface.co/datasets/aamirhs/pashto",
+      "reasons": [
+        "Automated candidate live page appears empty or contentless."
+      ],
+      "evidence": {
+        "status_code": 200,
+        "final_url": "https://huggingface.co/datasets/aamirhs/pashto",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": true,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-20T07:36:54.473136+00:00",
+      "id": "candidate-crossref-summaries-in-pashto",
+      "title": "Summaries in Pashto",
+      "url": "https://doi.org/10.1097/01.wtf.0000437933.40809.39",
+      "reasons": [
+        "Live page content indicates resource is unavailable."
+      ],
+      "evidence": {
+        "status_code": 200,
+        "final_url": "https://login.wolterskluwer.com/as/zIna7bbI4a/resume/as/authorization.ping",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-05-20T07:36:54.473136+00:00",
+      "id": "candidate-datacite-project-improving-machine-translation-with-phrase-pair-injection-and-corpus-filtering",
+      "title": "Improving Machine Translation with Phrase Pair Injection and Corpus Filtering",
+      "url": "https://underline.io/lecture/65314-improving-machine-translation-with-phrase-pair-injection-and-corpus-filtering",
+      "reasons": [
+        "URL returned hard-missing HTTP status 404."
+      ],
+      "evidence": {
+        "status_code": 404,
+        "final_url": "https://underline.io/lecture/65314-improving-machine-translation-with-phrase-pair-injection-and-corpus-filtering",
         "metadata_pashto": true,
         "direct_pashto": true,
         "page_pashto": false,

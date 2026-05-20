@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-05-15T00:00:00Z",
-  "count": 127,
+  "generated_on": "2026-05-20T00:00:00Z",
+  "count": 129,
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -1892,36 +1892,6 @@
       "quality_flags": []
     },
     {
-      "id": "candidate-hf-dataset-aamirhs-pashto",
-      "title": "aamirhs/pashto",
-      "url": "https://huggingface.co/datasets/aamirhs/pashto",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "verified",
-      "review_state": "automated_verified",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
-      ],
-      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-      "evidence_url": "https://huggingface.co/datasets/aamirhs/pashto",
-      "markers": [
-        "pashto"
-      ],
-      "signal_origin": "direct",
-      "direct_pashto_signal": true,
-      "quality_flags": [
-        "automated_discovery",
-        "placeholder_primary_use",
-        "generic_summary",
-        "missing_tasks"
-      ]
-    },
-    {
       "id": "candidate-hf-dataset-arsalagrey-pashto",
       "title": "arsalagrey/pashto",
       "url": "https://huggingface.co/datasets/arsalagrey/pashto",
@@ -3490,36 +3460,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-improving-machine-translation-with-phrase-pair-injection-and-corpus-filtering",
-      "title": "Improving Machine Translation with Phrase Pair Injection and Corpus Filtering",
-      "url": "https://underline.io/lecture/65314-improving-machine-translation-with-phrase-pair-injection-and-corpus-filtering",
-      "category": "project",
-      "source": "datacite",
-      "status": "verified",
-      "review_state": "automated_verified",
-      "summary": "In this paper, we show that the combination of Phrase Pair Injection and Corpus Filtering boosts the performance of Neural Machine Translation (NMT) systems. We extract parallel phrases and sentences from the pseudo-parallel corpus and augm",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ],
-      "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-      "evidence_url": "https://underline.io/lecture/65314-improving-machine-translation-with-phrase-pair-injection-and-corpus-filtering",
-      "markers": [
-        "pashto"
-      ],
-      "signal_origin": "direct",
-      "direct_pashto_signal": true,
-      "quality_flags": [
-        "automated_discovery",
-        "placeholder_primary_use",
-        "missing_tasks"
-      ]
-    },
-    {
       "id": "candidate-hf-dataset-junaid008-pashtoeval-150",
       "title": "junaid008/PashtoEval-150",
       "url": "https://huggingface.co/datasets/junaid008/PashtoEval-150",
@@ -3764,6 +3704,118 @@
       ],
       "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
       "evidence_url": "https://huggingface.co/habibkhan1/zama_pushto_model1",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-junaid008-pashto-100k-pairs",
+      "title": "junaid008/Pashto-100k-Pairs",
+      "url": "https://huggingface.co/datasets/junaid008/Pashto-100k-Pairs",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/datasets/junaid008/Pashto-100k-Pairs",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-project-junaid008-qehwa-pashto-llm",
+      "title": "junaid008/qehwa-pashto-llm",
+      "url": "https://huggingface.co/spaces/junaid008/qehwa-pashto-llm",
+      "category": "project",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate project app returned from Hugging Face Spaces Pashto search.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "project",
+        "space"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face Spaces search.",
+      "evidence_url": "https://huggingface.co/spaces/junaid008/qehwa-pashto-llm",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-nassimjp-pashto-reasoning-rescuebench",
+      "title": "nassimjp/Pashto-Reasoning-RescueBench",
+      "url": "https://huggingface.co/datasets/nassimjp/Pashto-Reasoning-RescueBench",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/datasets/nassimjp/Pashto-Reasoning-RescueBench",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tensor-labs-pashto-largest-corpus",
+      "title": "Tensor-Labs/pashto-largest-corpus",
+      "url": "https://huggingface.co/datasets/Tensor-Labs/pashto-largest-corpus",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/datasets/Tensor-Labs/pashto-largest-corpus",
       "markers": [
         "pashto"
       ],
