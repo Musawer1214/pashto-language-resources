@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-05-20T07:38:47.958876+00:00",
+  "generated_on": "2026-05-21T07:42:58.030962+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 21,
+  "candidate_count": 16,
   "candidates": [
     {
       "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
@@ -87,29 +87,6 @@
         "candidate",
         "paper",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-s2-animating-cultural-essence-translating-pashto-literature-into-digital-storytelli",
-      "title": "Animating Cultural Essence: Translating Pashto Literature into Digital Storytelling",
-      "url": "https://www.semanticscholar.org/paper/1eda605fbc9d95df716303b1051013e8ce8bad72",
-      "category": "paper",
-      "source": "other",
-      "status": "candidate",
-      "summary": "Literature of a specific region is source of diffusing the knowledge of varied culture, rituals, history, tradition, stories and much information reflecting the timeline of different cultures and communities (Klarl 2010). The research follo",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/1eda605fbc9d95df716303b1051013e8ce8bad72",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
       ]
     },
     {
@@ -209,53 +186,6 @@
       ]
     },
     {
-      "id": "candidate-hf-dataset-junaid008-pashto-100k-pairs",
-      "title": "junaid008/Pashto-100k-Pairs",
-      "url": "https://huggingface.co/datasets/junaid008/Pashto-100k-Pairs",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/junaid008/Pashto-100k-Pairs",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
-      ]
-    },
-    {
-      "id": "candidate-hf-project-junaid008-qehwa-pashto-llm",
-      "title": "junaid008/qehwa-pashto-llm",
-      "url": "https://huggingface.co/spaces/junaid008/qehwa-pashto-llm",
-      "category": "project",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate project app returned from Hugging Face Spaces Pashto search.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face Spaces search.",
-        "evidence_url": "https://huggingface.co/spaces/junaid008/qehwa-pashto-llm",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "space"
-      ]
-    },
-    {
       "id": "candidate-datacite-project-language-barrier-and-its-effect-on-learning-at-the-public-primary-school-level-i",
       "title": "Language Barrier and its Effect on Learning at the Public Primary School Level in Lahore",
       "url": "https://zenodo.org/doi/10.5281/zenodo.17728944",
@@ -306,7 +236,7 @@
     {
       "id": "candidate-datacite-paper-male-birth-control-pashto-transcript",
       "title": "Male Birth Control [Pashto] Transcript",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19487939",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -315,7 +245,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487939",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
         "markers": [
           "pashto"
         ]
@@ -349,29 +279,6 @@
         "candidate",
         "paper",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-hf-dataset-nassimjp-pashto-reasoning-rescuebench",
-      "title": "nassimjp/Pashto-Reasoning-RescueBench",
-      "url": "https://huggingface.co/datasets/nassimjp/Pashto-Reasoning-RescueBench",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/nassimjp/Pashto-Reasoning-RescueBench",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
       ]
     },
     {
@@ -449,7 +356,7 @@
     {
       "id": "candidate-datacite-paper-reality",
       "title": "Reality",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -458,7 +365,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
         "markers": [
           "pashto"
         ]
@@ -468,29 +375,6 @@
         "candidate",
         "paper",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-hf-dataset-tensor-labs-pashto-largest-corpus",
-      "title": "Tensor-Labs/pashto-largest-corpus",
-      "url": "https://huggingface.co/datasets/Tensor-Labs/pashto-largest-corpus",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/Tensor-Labs/pashto-largest-corpus",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
       ]
     },
     {
@@ -646,17 +530,17 @@
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
-      "id": "candidate-gh-project-shawanonymouse-pakhtoon",
-      "title": "ShawAnonymouse/Pakhtoon",
-      "url": "https://github.com/ShawAnonymouse/Pakhtoon",
-      "reason": "Repository content is personal/social Python scripts, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
-      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
-    },
-    {
       "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
       "title": "Pakhtoon9900/Pakhtoon-",
       "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
       "reason": "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-shawanonymouse-pakhtoon",
+      "title": "ShawAnonymouse/Pakhtoon",
+      "url": "https://github.com/ShawAnonymouse/Pakhtoon",
+      "reason": "Repository content is personal/social Python scripts, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
