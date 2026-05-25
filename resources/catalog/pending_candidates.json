@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-05-22T07:42:37.371384+00:00",
+  "generated_on": "2026-05-25T08:12:18.670537+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 17,
+  "candidate_count": 16,
   "candidates": [
     {
       "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
@@ -92,7 +92,7 @@
     {
       "id": "candidate-datacite-project-all-of-government-of-pakistan-is-wajib-ul-qatal-including-army-police-judges-bur",
       "title": "ALL OF GOVERNMENT OF PAKISTAN IS WAJIB UL QATAL INCLUDING ARMY, POLICE, JUDGES, BUREAUCRACY, ISLAMIC SCHOLARS WHO ARE SILENT.",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20327396",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20327397",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -101,7 +101,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20327396",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20327397",
         "markers": [
           "pashto"
         ]
@@ -354,32 +354,9 @@
       ]
     },
     {
-      "id": "candidate-s2-pushto-language-history",
-      "title": "Pushto Language History",
-      "url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
-      "category": "paper",
-      "source": "other",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Semantic Scholar search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-reality",
       "title": "Reality",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -388,7 +365,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
         "markers": [
           "pashto"
         ]
@@ -553,17 +530,17 @@
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
-      "id": "candidate-gh-project-shawanonymouse-pakhtoon",
-      "title": "ShawAnonymouse/Pakhtoon",
-      "url": "https://github.com/ShawAnonymouse/Pakhtoon",
-      "reason": "Repository content is personal/social Python scripts, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
-      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
-    },
-    {
       "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
       "title": "Pakhtoon9900/Pakhtoon-",
       "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
       "reason": "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-shawanonymouse-pakhtoon",
+      "title": "ShawAnonymouse/Pakhtoon",
+      "url": "https://github.com/ShawAnonymouse/Pakhtoon",
+      "reason": "Repository content is personal/social Python scripts, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
