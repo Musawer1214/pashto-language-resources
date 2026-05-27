@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-05-25T08:12:18.670537+00:00",
+  "generated_on": "2026-05-27T07:58:32.538372+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,7 +15,7 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 16,
+  "candidate_count": 17,
   "candidates": [
     {
       "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
@@ -92,7 +92,7 @@
     {
       "id": "candidate-datacite-project-all-of-government-of-pakistan-is-wajib-ul-qatal-including-army-police-judges-bur",
       "title": "ALL OF GOVERNMENT OF PAKISTAN IS WAJIB UL QATAL INCLUDING ARMY, POLICE, JUDGES, BUREAUCRACY, ISLAMIC SCHOLARS WHO ARE SILENT.",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20327397",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20327396",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -101,7 +101,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20327397",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20327396",
         "markers": [
           "pashto"
         ]
@@ -258,30 +258,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-male-birth-control-pashto-transcript",
-      "title": "Male Birth Control [Pashto] Transcript",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-datacite-project-pakistanizing-pashtun-the-linguistic-and-cultural-disruption-and-re-invention-of",
       "title": "Pakistanizing Pashtun: The linguistic and cultural disruption and re-invention of Pashtun",
       "url": "https://aura.american.edu/articles/thesis/Pakistanizing_Pashtun_The_linguistic_and_cultural_disruption_and_re-invention_of_Pashtun/23832027/1",
@@ -306,18 +282,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-pharmaceutical-intoxication-in-pashto-popular-music-a-critical-discourse-analysi",
-      "title": "PHARMACEUTICAL INTOXICATION IN PASHTO POPULAR MUSIC: A CRITICAL DISCOURSE ANALYSIS OF \"GABICA KHORE\" AND ITS SOCIOCULTURAL RECEPTION IN KHYBER PAKHTUNKHWA",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19495002",
+      "id": "candidate-datacite-paper-pashtotts-bench-automated-screening-for-low-resource-non-latin-script-text-to-sp",
+      "title": "PashtoTTS-Bench: automated screening for low-resource non-Latin-script text-to-speech",
+      "url": "https://arxiv.org/abs/2605.26978",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "summary": "Text-to-speech (TTS) evaluation for low-resource non-Latin-script languages can fail when it relies on a single ASR round-trip word error rate (WER). A system may produce no audio, speak a neighbouring language, preserve target script text",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19495002",
+        "evidence_url": "https://arxiv.org/abs/2605.26978",
         "markers": [
           "pashto"
         ]
@@ -327,6 +303,29 @@
         "candidate",
         "paper",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-arxiv-pashtotts-bench-automated-screening-for-low-resource-non-latin-script-text-to-sp",
+      "title": "PashtoTTS-Bench: automated screening for low-resource non-Latin-script text-to-speech",
+      "url": "http://arxiv.org/abs/2605.26978v1",
+      "category": "paper",
+      "source": "arxiv",
+      "status": "candidate",
+      "summary": "Text-to-speech (TTS) evaluation for low-resource non-Latin-script languages can fail when it relies on a single ASR round-trip word error rate (WER). A system may produce no audio, speak a neighbouring language, preserve target script text",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
+        "evidence_url": "http://arxiv.org/abs/2605.26978v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper"
       ]
     },
     {
@@ -366,6 +365,30 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-the-morphology-and-syntax-of-adjectives-in-english-and-pashto-a-contrastive-stud",
+      "title": "The Morphology and Syntax of Adjectives in English and Pashto: A Contrastive Study",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20388372",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20388372",
         "markers": [
           "pashto"
         ]
@@ -530,17 +553,17 @@
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
-      "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
-      "title": "Pakhtoon9900/Pakhtoon-",
-      "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
-      "reason": "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
-      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
-    },
-    {
       "id": "candidate-gh-project-shawanonymouse-pakhtoon",
       "title": "ShawAnonymouse/Pakhtoon",
       "url": "https://github.com/ShawAnonymouse/Pakhtoon",
       "reason": "Repository content is personal/social Python scripts, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
+      "title": "Pakhtoon9900/Pakhtoon-",
+      "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
+      "reason": "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {

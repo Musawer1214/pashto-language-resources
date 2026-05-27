@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-05-20",
+  "updated_on": "2026-05-27",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7484,6 +7484,28 @@
       "tags": [
         "pashto",
         "dataset"
+      ]
+    },
+    {
+      "id": "candidate-arxiv-pashtotts-bench-automated-screening-for-low-resource-non-latin-script-text-to-sp",
+      "title": "PashtoTTS-Bench: automated screening for low-resource non-Latin-script text-to-speech",
+      "url": "http://arxiv.org/abs/2605.26978v1",
+      "category": "paper",
+      "source": "arxiv",
+      "status": "verified",
+      "summary": "Text-to-speech (TTS) evaluation for low-resource non-Latin-script languages can fail when it relies on a single ASR round-trip word error rate (WER). A system may produce no audio, speak a neighbouring language, preserve target script text",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
+        "evidence_url": "http://arxiv.org/abs/2605.26978v1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper"
       ]
     }
   ]
