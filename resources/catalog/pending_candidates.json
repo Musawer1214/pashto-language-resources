@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-05-27T07:58:32.538372+00:00",
+  "generated_on": "2026-05-28T07:52:45.576296+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -12,10 +12,9 @@
     "zenodo",
     "dataverse",
     "datacite",
-    "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 17,
+  "candidate_count": 16,
   "candidates": [
     {
       "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
@@ -306,29 +305,6 @@
       ]
     },
     {
-      "id": "candidate-arxiv-pashtotts-bench-automated-screening-for-low-resource-non-latin-script-text-to-sp",
-      "title": "PashtoTTS-Bench: automated screening for low-resource non-Latin-script text-to-speech",
-      "url": "http://arxiv.org/abs/2605.26978v1",
-      "category": "paper",
-      "source": "arxiv",
-      "status": "candidate",
-      "summary": "Text-to-speech (TTS) evaluation for low-resource non-Latin-script languages can fail when it relies on a single ASR round-trip word error rate (WER). A system may produce no audio, speak a neighbouring language, preserve target script text",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
-        "evidence_url": "http://arxiv.org/abs/2605.26978v1",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
       "id": "candidate-datacite-dataset-pold-pashto-offensive-language-dataset",
       "title": "POLD - Pashto Offensive Language Dataset",
       "url": "https://www.kaggle.com/dsv/15986116",
@@ -355,7 +331,7 @@
     {
       "id": "candidate-datacite-paper-reality",
       "title": "Reality",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -364,7 +340,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
         "markers": [
           "pashto"
         ]
@@ -424,6 +400,9 @@
         "datacite"
       ]
     }
+  ],
+  "errors": [
+    "arxiv: pashto: HTTP Error 429: Unknown Error; pukhto: HTTP Error 429: Too Many Requests; pushto: HTTP Error 429: Unknown Error; pakhto: HTTP Error 429: Unknown Error"
   ],
   "skipped_prior_removals": [
     {
