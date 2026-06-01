@@ -1,10 +1,11 @@
 {
-  "generated_on": "2026-05-30T06:41:04.730125+00:00",
+  "generated_on": "2026-06-01T09:16:49.158790+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
     "huggingface-models",
     "huggingface-spaces",
+    "github-repositories",
     "gitlab-projects",
     "openalex",
     "crossref",
@@ -90,7 +91,7 @@
     {
       "id": "candidate-datacite-project-all-of-government-of-pakistan-is-wajib-ul-qatal-including-army-police-judges-bur",
       "title": "ALL OF GOVERNMENT OF PAKISTAN IS WAJIB UL QATAL INCLUDING ARMY, POLICE, JUDGES, BUREAUCRACY, ISLAMIC SCHOLARS WHO ARE SILENT.",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20327396",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20327397",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -99,7 +100,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20327396",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20327397",
         "markers": [
           "pashto"
         ]
@@ -401,7 +402,6 @@
     }
   ],
   "errors": [
-    "github-repositories: HTTP Error 403: rate limit exceeded",
     "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
@@ -511,6 +511,48 @@
       "previous_removed_on": "2026-05-20T07:36:54.473136+00:00"
     },
     {
+      "id": "candidate-gh-project-nisarmasid-nisar-pakhtoon",
+      "title": "nisarmasid/NisAr-PakhtoOn",
+      "url": "https://github.com/nisarmasid/NisAr-PakhtoOn",
+      "reason": "Repository is a personal GitHub profile README, not a reusable Pashto resource.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-pukhtoon203-pukhtoon",
+      "title": "Pukhtoon203/PUKHTOON",
+      "url": "https://github.com/Pukhtoon203/PUKHTOON",
+      "reason": "Git clone inspection found zero tracked files; repository has no reusable resource content.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-haroon-blip-khan-pukhtoon",
+      "title": "Haroon-blip/khan-pukhtoon",
+      "url": "https://github.com/Haroon-blip/khan-pukhtoon",
+      "reason": "Git clone inspection found only a LICENSE file and no reusable resource content.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
+      "title": "Pakhtoon9900/Pakhtoon-",
+      "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
+      "reason": "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-shawanonymouse-pakhtoon",
+      "title": "ShawAnonymouse/Pakhtoon",
+      "url": "https://github.com/ShawAnonymouse/Pakhtoon",
+      "reason": "Repository content is personal/social Python scripts, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-muhammadullah7-pakhtoonn",
+      "title": "MuhammadUllah7/PAKHTOONN",
+      "url": "https://github.com/MuhammadUllah7/PAKHTOONN",
+      "reason": "Repository content is a personal Python script/archive, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
       "id": "candidate-crossref-summaries-in-pashto",
       "title": "Summaries in Pashto",
       "url": "https://doi.org/10.1097/01.wtf.0000416393.66575.49",
@@ -519,6 +561,6 @@
     }
   ],
   "warnings": [
-    "Skipped 16 candidate(s) that matched prior blocking removal log entries."
+    "Skipped 22 candidate(s) that matched prior blocking removal log entries."
   ]
 }
