@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-05-27",
+  "updated_on": "2026-06-09",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7506,6 +7506,72 @@
       "tags": [
         "pashto",
         "paper"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-sabtain-dev-pashto-asr-dataset",
+      "title": "Sabtain-Dev/Pashto-ASR-Dataset",
+      "url": "https://huggingface.co/datasets/Sabtain-Dev/Pashto-ASR-Dataset",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/Sabtain-Dev/Pashto-ASR-Dataset",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-sabtain-dev-whisper-pashto-lora",
+      "title": "Sabtain-Dev/Whisper-Pashto-LORA",
+      "url": "https://huggingface.co/Sabtain-Dev/Whisper-Pashto-LORA",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/Sabtain-Dev/Whisper-Pashto-LORA",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-uzairkhn-almas-pashto-ai",
+      "title": "uzairkhn/Almas-Pashto-AI",
+      "url": "https://huggingface.co/uzairkhn/Almas-Pashto-AI",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/uzairkhn/Almas-Pashto-AI",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "model"
       ]
     }
   ]

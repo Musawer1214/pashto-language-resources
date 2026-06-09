@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-06-01T09:16:49.158790+00:00",
+  "generated_on": "2026-06-09T07:38:43.828056+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -14,7 +14,7 @@
     "datacite",
     "arxiv"
   ],
-  "candidate_count": 16,
+  "candidate_count": 19,
   "candidates": [
     {
       "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
@@ -37,54 +37,6 @@
         "pashto",
         "candidate",
         "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-abstracts-and-authors-of-dari-and-pashto-articles-english",
-      "title": "Abstracts and Authors of Dari and Pashto Articles (English)",
-      "url": "https://opendata.uni-halle.de//handle/1981185920/124826",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://opendata.uni-halle.de//handle/1981185920/124826",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-abstracts-and-authors-of-english-articles-pashto",
-      "title": "Abstracts and Authors of English Articles (Pashto)",
-      "url": "https://opendata.uni-halle.de//handle/1981185920/124828",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://opendata.uni-halle.de//handle/1981185920/124828",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
         "datacite"
       ]
     },
@@ -125,30 +77,6 @@
       "pashto_evidence": {
         "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
         "evidence_url": "https://www.kaggle.com/datasets/karimnaimy/common-voice-pashto-25",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-areebaakhtar-english-pashto-parallel-translation-dataset",
-      "title": "English–Pashto Parallel Translation Dataset",
-      "url": "https://www.kaggle.com/datasets/areebaakhtar/englishpashto-parallel-translation-dataset",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Candidate Kaggle dataset returned from Pashto search.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/areebaakhtar/englishpashto-parallel-translation-dataset",
         "markers": [
           "Pashto"
         ]
@@ -281,6 +209,54 @@
       ]
     },
     {
+      "id": "candidate-kaggle-dataset-khairullahsahil-pashto-sentiment-analysis-dataset",
+      "title": "Pashto Sentiment Analysis Dataset",
+      "url": "https://www.kaggle.com/datasets/khairullahsahil/pashto-sentiment-dataset",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "High-Quality Pashto Sentiment Dataset for Machine Learning and Natural Language",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/khairullahsahil/pashto-sentiment-dataset",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
+      ]
+    },
+    {
+      "id": "candidate-kaggle-dataset-itssabtain-pashto-asr-dataset",
+      "title": "Pashto-ASR-Dataset",
+      "url": "https://www.kaggle.com/datasets/itssabtain/pashto-asr-dataset",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "Domain-Specific Pashto Speech Corpus for ASR and Speech Research",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/itssabtain/pashto-asr-dataset",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
+      ]
+    },
+    {
       "id": "candidate-datacite-paper-pashtotts-bench-automated-screening-for-low-resource-non-latin-script-text-to-sp",
       "title": "PashtoTTS-Bench: automated screening for low-resource non-Latin-script text-to-speech",
       "url": "https://arxiv.org/abs/2605.26978",
@@ -331,7 +307,7 @@
     {
       "id": "candidate-datacite-paper-reality",
       "title": "Reality",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -340,7 +316,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787987",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19787986",
         "markers": [
           "pashto"
         ]
@@ -350,6 +326,52 @@
         "candidate",
         "paper",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-sabtain-dev-pashto-asr-dataset",
+      "title": "Sabtain-Dev/Pashto-ASR-Dataset",
+      "url": "https://huggingface.co/datasets/Sabtain-Dev/Pashto-ASR-Dataset",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/Sabtain-Dev/Pashto-ASR-Dataset",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-sabtain-dev-whisper-pashto-lora",
+      "title": "Sabtain-Dev/Whisper-Pashto-LORA",
+      "url": "https://huggingface.co/Sabtain-Dev/Whisper-Pashto-LORA",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/Sabtain-Dev/Whisper-Pashto-LORA",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
       ]
     },
     {
@@ -377,6 +399,30 @@
       ]
     },
     {
+      "id": "candidate-datacite-project-the-women-have-got-the-formula-dari-pashto-edition",
+      "title": "The Women Have Got the Formula – Dari & Pashto Edition",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20412334",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The Women Have Got the Formula – Dari & Pashto Edition is a multilingual scientific outreach publication developed to increase access to STEM role models and science communication materials for students and communities in Afghanistan. Based",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20412334",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-datacite-project-the-world-is-established-through-the-work-of-existence-the-performance-of-gham-k",
       "title": "The world is established through the work of existence : the performance of Gham-Khadi among Pukhtun Bibiane in Northern Pakistan.",
       "url": "https://www.repository.cam.ac.uk/handle/1810/236168",
@@ -398,6 +444,29 @@
         "candidate",
         "project",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-uzairkhn-almas-pashto-ai",
+      "title": "uzairkhn/Almas-Pashto-AI",
+      "url": "https://huggingface.co/uzairkhn/Almas-Pashto-AI",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/uzairkhn/Almas-Pashto-AI",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
       ]
     }
   ],
@@ -497,13 +566,6 @@
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
-      "id": "candidate-kaggle-dataset-mahibullahmudaser-pashto-text-characters-sample",
-      "title": "Pashto text characters sample",
-      "url": "https://www.kaggle.com/datasets/mahibullahmudaser/pashtochracterssample",
-      "reason": "URL returned hard-missing HTTP status 404.",
-      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
-    },
-    {
       "id": "candidate-hf-dataset-aamirhs-pashto",
       "title": "aamirhs/pashto",
       "url": "https://huggingface.co/datasets/aamirhs/pashto",
@@ -532,17 +594,17 @@
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
-      "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
-      "title": "Pakhtoon9900/Pakhtoon-",
-      "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
-      "reason": "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
-      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
-    },
-    {
       "id": "candidate-gh-project-shawanonymouse-pakhtoon",
       "title": "ShawAnonymouse/Pakhtoon",
       "url": "https://github.com/ShawAnonymouse/Pakhtoon",
       "reason": "Repository content is personal/social Python scripts, not a Pashto dataset, model, benchmark, tool, or documentation resource.",
+      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
+    },
+    {
+      "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
+      "title": "Pakhtoon9900/Pakhtoon-",
+      "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
+      "reason": "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
@@ -561,6 +623,6 @@
     }
   ],
   "warnings": [
-    "Skipped 22 candidate(s) that matched prior blocking removal log entries."
+    "Skipped 21 candidate(s) that matched prior blocking removal log entries."
   ]
 }
