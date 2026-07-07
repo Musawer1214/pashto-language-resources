@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-06-09T00:00:00Z",
-  "count": 175,
+  "generated_on": "2026-07-07T00:00:00Z",
+  "count": 176,
   "resources": [
     {
       "id": "paper-s2-psocr-lmm-pashto",
@@ -5195,6 +5195,34 @@
       ],
       "evidence_text": "Matched by Pashto marker in paper title from arXiv query results.",
       "evidence_url": "http://arxiv.org/abs/2605.26978v1",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-a-study-of-metaphor-in-everyday-language",
+      "title": "A STUDY OF METAPHOR IN EVERYDAY LANGUAGE",
+      "url": "https://zenodo.org/records/21128483",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "This study, entitled “A Study of Metaphor in Everyday Language,” examines various types of metaphor in Pashto oral literature. Contrary to classical rhetoric, which regards metaphor merely as a literary device and poetic ornament, this stud",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/21128483",
       "markers": [
         "pashto"
       ],

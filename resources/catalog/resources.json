@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-06-09",
+  "updated_on": "2026-07-07",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -3613,30 +3613,6 @@
         "candidate",
         "dataset",
         "dataverse"
-      ]
-    },
-    {
-      "id": "candidate-gh-project-nabeelest-pakhtoodle",
-      "title": "nabeelest/pakhtoodle",
-      "url": "https://github.com/nabeelest/pakhtoodle",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "summary": "Candidate Pashto-related GitHub repository.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/nabeelest/pakhtoodle",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github"
       ]
     },
     {
@@ -7572,6 +7548,96 @@
       "tags": [
         "pashto",
         "model"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-a-study-of-metaphor-in-everyday-language",
+      "title": "A STUDY OF METAPHOR IN EVERYDAY LANGUAGE",
+      "url": "https://zenodo.org/records/21128483",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "This study, entitled “A Study of Metaphor in Everyday Language,” examines various types of metaphor in Pashto oral literature. Contrary to classical rhetoric, which regards metaphor merely as a literary device and poetic ornament, this stud",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/21128483",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-dataset-pakistan-multilingual-speech-corpus",
+      "title": "Pakistan Multilingual Speech Corpus",
+      "url": "https://zenodo.org/records/19323537",
+      "category": "dataset",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "The dataset consists of ~35,000 audio clips spanning seven major Pakistani languages: Urdu, Punjabi, Pashto, Sindhi, Saraiki, Balochi, and Kashmiri. The dataset combines publicly available sources with manually collected data to address the",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/19323537",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-datasets-v2",
+      "title": "tasal9/ZamAi-Pashto-Datasets-V2",
+      "url": "https://huggingface.co/datasets/tasal9/ZamAi-Pashto-Datasets-V2",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAi-Pashto-Datasets-V2",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-voice2voice",
+      "title": "tasal9/zamai-pashto-voice2voice",
+      "url": "https://huggingface.co/datasets/tasal9/zamai-pashto-voice2voice",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/tasal9/zamai-pashto-voice2voice",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
       ]
     }
   ]
