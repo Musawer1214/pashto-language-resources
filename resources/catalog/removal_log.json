@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-05-20",
+  "updated_on": "2026-07-07",
   "entries": [
     {
       "removed_on": "2026-02-21T19:47:22.435531+00:00",
@@ -1456,6 +1456,23 @@
       "evidence": {
         "status_code": 404,
         "final_url": "https://underline.io/lecture/65314-improving-machine-translation-with-phrase-pair-injection-and-corpus-filtering",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-07-07T07:28:59.515838+00:00",
+      "id": "candidate-gh-project-nabeelest-pakhtoodle",
+      "title": "nabeelest/pakhtoodle",
+      "url": "https://github.com/nabeelest/pakhtoodle",
+      "reasons": [
+        "URL returned hard-missing HTTP status 404."
+      ],
+      "evidence": {
+        "status_code": 404,
+        "final_url": "https://github.com/nabeelest/pakhtoodle",
         "metadata_pashto": true,
         "direct_pashto": true,
         "page_pashto": false,

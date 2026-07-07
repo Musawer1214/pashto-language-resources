@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-06-09T00:00:00Z",
-  "count": 132,
+  "generated_on": "2026-07-07T00:00:00Z",
+  "count": 134,
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -2575,36 +2575,6 @@
       ]
     },
     {
-      "id": "candidate-gh-project-nabeelest-pakhtoodle",
-      "title": "nabeelest/pakhtoodle",
-      "url": "https://github.com/nabeelest/pakhtoodle",
-      "category": "project",
-      "source": "github",
-      "status": "verified",
-      "review_state": "automated_verified",
-      "summary": "Candidate Pashto-related GitHub repository.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github"
-      ],
-      "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-      "evidence_url": "https://github.com/nabeelest/pakhtoodle",
-      "markers": [
-        "pashto"
-      ],
-      "signal_origin": "direct",
-      "direct_pashto_signal": true,
-      "quality_flags": [
-        "automated_discovery",
-        "placeholder_primary_use",
-        "missing_tasks"
-      ]
-    },
-    {
       "id": "candidate-gh-project-nanonulla-lorem",
       "title": "NanoNulla/lorem",
       "url": "https://github.com/NanoNulla/lorem",
@@ -3900,6 +3870,90 @@
       ],
       "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
       "evidence_url": "https://huggingface.co/uzairkhn/Almas-Pashto-AI",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-dataset-pakistan-multilingual-speech-corpus",
+      "title": "Pakistan Multilingual Speech Corpus",
+      "url": "https://zenodo.org/records/19323537",
+      "category": "dataset",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "The dataset consists of ~35,000 audio clips spanning seven major Pakistani languages: Urdu, Punjabi, Pashto, Sindhi, Saraiki, Balochi, and Kashmiri. The dataset combines publicly available sources with manually collected data to address the",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/19323537",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-datasets-v2",
+      "title": "tasal9/ZamAi-Pashto-Datasets-V2",
+      "url": "https://huggingface.co/datasets/tasal9/ZamAi-Pashto-Datasets-V2",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAi-Pashto-Datasets-V2",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-voice2voice",
+      "title": "tasal9/zamai-pashto-voice2voice",
+      "url": "https://huggingface.co/datasets/tasal9/zamai-pashto-voice2voice",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "dataset"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/datasets/tasal9/zamai-pashto-voice2voice",
       "markers": [
         "pashto"
       ],
