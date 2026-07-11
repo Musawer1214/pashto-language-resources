@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-07-07T07:33:27.108628+00:00",
+  "generated_on": "2026-07-10T07:27:25.225516+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,32 +15,8 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 23,
+  "candidate_count": 19,
   "candidates": [
-    {
-      "id": "candidate-zenodo-paper-a-study-of-metaphor-in-everyday-language",
-      "title": "A STUDY OF METAPHOR IN EVERYDAY LANGUAGE",
-      "url": "https://zenodo.org/records/21128483",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "This study, entitled “A Study of Metaphor in Everyday Language,” examines various types of metaphor in Pashto oral literature. Contrary to classical rhetoric, which regards metaphor merely as a literary device and poetic ornament, this stud",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/21128483",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
     {
       "id": "candidate-datacite-paper-a-study-of-metaphor-in-everyday-language",
       "title": "A STUDY OF METAPHOR IN EVERYDAY LANGUAGE",
@@ -66,18 +42,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-anthropocentric-and-ecocentric-worldviews-in-pashto-idioms-matalona-a-qualitativ",
-      "title": "ANTHROPOCENTRIC AND ECOCENTRIC WORLDVIEWS IN PASHTO IDIOMS (MATALONA): A QUALITATIVE ECO-CRITICAL STUDY",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20688812",
-      "category": "paper",
+      "id": "candidate-datacite-dataset-album-6-the-final-trumpet-sounds-multilingual-christian-worship-pashto-bengali-u",
+      "title": "Album 6 - The Final Trumpet Sounds (Multilingual Christian Worship) - Pashto, Bengali, Urdu, Nepali, and Sinhala (HD)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.21259965",
+      "category": "dataset",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "summary": "Album 6 – The Final Trumpet Sounds. 6 Tamil Christian worship songs translated into 5 languages: Pashto, Bengali, Urdu, Nepali, and Sinhala. Full package includes high-quality WAV files + MP3 and lyrics PDFs for each language. List of Songs",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20688812",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21259965",
         "markers": [
           "pashto"
         ]
@@ -85,7 +61,7 @@
       "tags": [
         "pashto",
         "candidate",
-        "paper",
+        "dataset",
         "datacite"
       ]
     },
@@ -138,6 +114,30 @@
       ]
     },
     {
+      "id": "candidate-datacite-project-gender-differences-in-mental-health-help-seeking-among-syrian-and-afghan-refugee",
+      "title": "Gender differences in mental health help-seeking among Syrian and Afghan refugees",
+      "url": "https://osf.io/g4rz9/",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Part of the 'Clinical encounters with refugees suffering from mental health problems' project of the Society and Workplace Diversity Research Group at the Department of Psychosocial Science, University of Bergen. In the current study, parti",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://osf.io/g4rz9/",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-gh-project-homayounmmdy-afn-currency-text",
       "title": "homayounmmdy/afn-currency-text",
       "url": "https://github.com/homayounmmdy/afn-currency-text",
@@ -165,30 +165,6 @@
       ]
     },
     {
-      "id": "candidate-gh-project-iaqeelasghar-pakhtoodle",
-      "title": "Iaqeelasghar/pakhtoodle",
-      "url": "https://github.com/Iaqeelasghar/pakhtoodle",
-      "category": "project",
-      "source": "github",
-      "status": "candidate",
-      "summary": "Candidate Pashto-related GitHub repository.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
-        "evidence_url": "https://github.com/Iaqeelasghar/pakhtoodle",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "github"
-      ]
-    },
-    {
       "id": "candidate-datacite-code-ilm-shaili-package-pashto-pashto",
       "title": "ILM Shaili Package — pashto (pashto)",
       "url": "https://zenodo.org/doi/10.5281/zenodo.20704659",
@@ -213,18 +189,18 @@
       ]
     },
     {
-      "id": "candidate-zenodo-dataset-pakistan-multilingual-speech-corpus",
-      "title": "Pakistan Multilingual Speech Corpus",
-      "url": "https://zenodo.org/records/19323537",
-      "category": "dataset",
-      "source": "zenodo",
+      "id": "candidate-gh-code-jawadnoori1718-pashtobench",
+      "title": "Jawadnoori1718/PashtoBench",
+      "url": "https://github.com/Jawadnoori1718/PashtoBench",
+      "category": "code",
+      "source": "github",
       "status": "candidate",
-      "summary": "The dataset consists of ~35,000 audio clips spanning seven major Pakistani languages: Urdu, Punjabi, Pashto, Sindhi, Saraiki, Balochi, and Kashmiri. The dataset combines publicly available sources with manually collected data to address the",
+      "summary": "How well do frontier AI models actually speak Pashto? A native-authored capability and safety benchmark for a language of 40+ million people.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/19323537",
+        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
+        "evidence_url": "https://github.com/Jawadnoori1718/PashtoBench",
         "markers": [
           "pashto"
         ]
@@ -232,8 +208,11 @@
       "tags": [
         "pashto",
         "candidate",
-        "dataset",
-        "zenodo"
+        "code",
+        "github",
+        "ai-safety",
+        "benchmark",
+        "llm"
       ]
     },
     {
@@ -408,52 +387,6 @@
       ]
     },
     {
-      "id": "candidate-hf-dataset-tasal9-zamai-pashto-datasets-v2",
-      "title": "tasal9/ZamAi-Pashto-Datasets-V2",
-      "url": "https://huggingface.co/datasets/tasal9/ZamAi-Pashto-Datasets-V2",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAi-Pashto-Datasets-V2",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
-      ]
-    },
-    {
-      "id": "candidate-hf-dataset-tasal9-zamai-pashto-voice2voice",
-      "title": "tasal9/zamai-pashto-voice2voice",
-      "url": "https://huggingface.co/datasets/tasal9/zamai-pashto-voice2voice",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/tasal9/zamai-pashto-voice2voice",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
-      ]
-    },
-    {
       "id": "candidate-datacite-project-teaching-reading-to-afghan-women-with-emergent-textual-literacy-a-plurilingual-a",
       "title": "Teaching Reading to Afghan Women with Emergent Textual Literacy: A Plurilingual Approach",
       "url": "https://zenodo.org/doi/10.5281/zenodo.19924750",
@@ -502,18 +435,18 @@
       ]
     },
     {
-      "id": "candidate-s2-the-role-of-technology-in-the-development-of-pashto-literature",
-      "title": "The Role of Technology in the Development of Pashto Literature",
-      "url": "https://www.semanticscholar.org/paper/5e0c8326b62a2addb38c1783d1d519ec33096daf",
+      "id": "candidate-crossref-transformation-in-pashto-language-an-analysis-of-pashto-phrases-and-sentences",
+      "title": "Transformation in Pashto Language An Analysis of Pashto Phrases and Sentences",
+      "url": "https://doi.org/10.58329/criss.v2i4.57",
       "category": "paper",
-      "source": "other",
+      "source": "crossref",
       "status": "candidate",
-      "summary": "In the early decades of the twenty-first century, technology brought significant changes to many aspects of life. Accordingly, the Pashto language and literature also embraced technology. The word “technology” originally comes from Greek an",
+      "summary": "Transformation is a significant area of research that focuses on how language users utilise knowledge of their language (s) to generate different surface structures from the same deep structure. The study aims to describe how different surf",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/5e0c8326b62a2addb38c1783d1d519ec33096daf",
+        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
+        "evidence_url": "https://doi.org/10.58329/criss.v2i4.57",
         "markers": [
           "pashto"
         ]
@@ -521,31 +454,8 @@
       "tags": [
         "pashto",
         "candidate",
-        "paper"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-the-women-have-got-the-formula-dari-amp-pashto-edition",
-      "title": "The Women Have Got the Formula – Dari &amp; Pashto Edition",
-      "url": "https://aubh.figshare.com/articles/book/The_Women_Have_Got_the_Formula_Dari_Pashto_Edition/32668839",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "The Women Have Got the Formula – Dari & Pashto Edition is a multilingual scientific outreach publication developed to increase access to STEM role models and science communication materials for students and communities in Afghanistan.Based",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://aubh.figshare.com/articles/book/The_Women_Have_Got_the_Formula_Dari_Pashto_Edition/32668839",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
+        "paper",
+        "crossref"
       ]
     },
     {
