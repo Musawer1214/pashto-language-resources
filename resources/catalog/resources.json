@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-07-07",
+  "updated_on": "2026-08-26",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7638,6 +7638,74 @@
       "tags": [
         "pashto",
         "dataset"
+      ]
+    },
+    {
+      "id": "candidate-hf-project-khuramullah-pakhtonresturent",
+      "title": "khuramullah/pakhtonresturent",
+      "url": "https://huggingface.co/spaces/khuramullah/pakhtonresturent",
+      "category": "project",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate project app returned from Hugging Face Spaces Pashto search.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face Spaces search.",
+        "evidence_url": "https://huggingface.co/spaces/khuramullah/pakhtonresturent",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "project",
+        "space"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-nassimjp-pashto-wikipedia-sft",
+      "title": "nassimjp/pashto-wikipedia-sft",
+      "url": "https://huggingface.co/datasets/nassimjp/pashto-wikipedia-sft",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/nassimjp/pashto-wikipedia-sft",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-tuning-traditional-language-processing-approaches-for-pashto-text-classification",
+      "title": "TUNING TRADITIONAL LANGUAGE PROCESSING APPROACHES FOR PASHTO TEXT CLASSIFICATION",
+      "url": "https://zenodo.org/records/21373539",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "Today text classification becomes critical task for concerned individuals for numerous purposes. Hence, several researches have been conducted to develop automatic text classification for national and international languages. However, the n",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/21373539",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
       ]
     }
   ]

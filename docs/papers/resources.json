@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-07-07T00:00:00Z",
-  "count": 176,
+  "generated_on": "2026-08-26T00:00:00Z",
+  "count": 177,
   "resources": [
     {
       "id": "paper-s2-psocr-lmm-pashto",
@@ -5223,6 +5223,34 @@
       ],
       "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
       "evidence_url": "https://zenodo.org/records/21128483",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-tuning-traditional-language-processing-approaches-for-pashto-text-classification",
+      "title": "TUNING TRADITIONAL LANGUAGE PROCESSING APPROACHES FOR PASHTO TEXT CLASSIFICATION",
+      "url": "https://zenodo.org/records/21373539",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Today text classification becomes critical task for concerned individuals for numerous purposes. Hence, several researches have been conducted to develop automatic text classification for national and international languages. However, the n",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/21373539",
       "markers": [
         "pashto"
       ],
