@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-07-10T07:27:25.225516+00:00",
+  "generated_on": "2026-08-26T04:31:26.144453+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,12 +15,12 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 19,
+  "candidate_count": 27,
   "candidates": [
     {
       "id": "candidate-datacite-paper-a-study-of-metaphor-in-everyday-language",
       "title": "A STUDY OF METAPHOR IN EVERYDAY LANGUAGE",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.21128483",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.21128482",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -29,7 +29,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21128483",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21128482",
         "markers": [
           "pashto"
         ]
@@ -42,18 +42,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-dataset-album-6-the-final-trumpet-sounds-multilingual-christian-worship-pashto-bengali-u",
-      "title": "Album 6 - The Final Trumpet Sounds (Multilingual Christian Worship) - Pashto, Bengali, Urdu, Nepali, and Sinhala (HD)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.21259965",
-      "category": "dataset",
+      "id": "candidate-datacite-paper-fransuz-sharqshunosi-pol-pelyoning-ilmiy-faoliyatiga-nazar",
+      "title": "FRANSUZ SHARQSHUNOSI POL PELYONING ILMIY FAOLIYATIGA NAZAR",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.21980255",
+      "category": "paper",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Album 6 – The Final Trumpet Sounds. 6 Tamil Christian worship songs translated into 5 languages: Pashto, Bengali, Urdu, Nepali, and Sinhala. Full package includes high-quality WAV files + MP3 and lyrics PDFs for each language. List of Songs",
+      "summary": "This article talks about some aspects of the scientific activity ofthe French orientalist Paul Pelliot, who made a great contribution to worldscience. During his scientific career, Paul Pelliot made a great contribution tothe study of Asia.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21259965",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21980255",
         "markers": [
           "pashto"
         ]
@@ -61,79 +61,7 @@
       "tags": [
         "pashto",
         "candidate",
-        "dataset",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-kaggle-dataset-karimnaimy-common-voice-25-0-pashto-asr-dataset",
-      "title": "Common Voice 25.0 Pashto ASR Dataset",
-      "url": "https://www.kaggle.com/datasets/karimnaimy/common-voice-pashto-25",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Large-scale CC0 Pashto speech dataset for Automatic Speech Recognition (ASR)",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/karimnaimy/common-voice-pashto-25",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingua",
-      "title": "Enhancing NER Performance in Low-Resource Pakistani Languages using Cross-Lingual Data Augmentation",
-      "url": "https://underline.io/lecture/117794-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingual-data-augmentation",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Named Entity Recognition (NER), a fundamental task in Natural Language Processing (NLP), has shown significant advancements for high-resource languages. However, due to a lack of annotated datasets and limited representation in Pre-trained",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://underline.io/lecture/117794-enhancing-ner-performance-in-low-resource-pakistani-languages-using-cross-lingual-data-augmentation",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-gender-differences-in-mental-health-help-seeking-among-syrian-and-afghan-refugee",
-      "title": "Gender differences in mental health help-seeking among Syrian and Afghan refugees",
-      "url": "https://osf.io/g4rz9/",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Part of the 'Clinical encounters with refugees suffering from mental health problems' project of the Society and Workplace Diversity Research Group at the Department of Psychosocial Science, University of Bergen. In the current study, parti",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://osf.io/g4rz9/",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
+        "paper",
         "datacite"
       ]
     },
@@ -165,9 +93,57 @@
       ]
     },
     {
+      "id": "candidate-gh-project-iaqeelasghar-pakhtoodle",
+      "title": "Iaqeelasghar/pakhtoodle",
+      "url": "https://github.com/Iaqeelasghar/pakhtoodle",
+      "category": "project",
+      "source": "github",
+      "status": "candidate",
+      "summary": "Candidate Pashto-related GitHub repository.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
+        "evidence_url": "https://github.com/Iaqeelasghar/pakhtoodle",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "github"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-identity-formation-language-and-migration-dynamics",
+      "title": "Identity formation, language and migration dynamics",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The volume examines migration from the Middle East and North Africa (MENA) regionto the German diaspora, offering a multifaceted perspective that combines historical andcontemporary insights. It moves beyond viewing migration as a momentary",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-datacite-code-ilm-shaili-package-pashto-pashto",
       "title": "ILM Shaili Package — pashto (pashto)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20704659",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20704658",
       "category": "code",
       "source": "datacite",
       "status": "candidate",
@@ -176,7 +152,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20704659",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20704658",
         "markers": [
           "pashto"
         ]
@@ -216,6 +192,149 @@
       ]
     },
     {
+      "id": "candidate-hf-project-khuramullah-pakhtonresturent",
+      "title": "khuramullah/pakhtonresturent",
+      "url": "https://huggingface.co/spaces/khuramullah/pakhtonresturent",
+      "category": "project",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate project app returned from Hugging Face Spaces Pashto search.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face Spaces search.",
+        "evidence_url": "https://huggingface.co/spaces/khuramullah/pakhtonresturent",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "space"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-lost-in-extraction-native-vs-english-pivot-llm-conflict-event-coding-across-six-",
+      "title": "Lost in Extraction: Native vs. English-Pivot LLM Conflict-Event Coding across Six Languages",
+      "url": "https://osf.io/nc5u7/",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This project develops a source-grounded evaluation of how reliably large language models code conflict events from English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto. Paper 1 compares direct extraction from",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://osf.io/nc5u7/",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-male-birth-control-pashto-transcript-pdf",
+      "title": "Male Birth Control [Pashto] Transcript PDF",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.21383733",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21383733",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-male-contraception-pashto-final-slides",
+      "title": "Male Contraception (Pashto) Final Slides",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.21383820",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21383820",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-nassimjp-pashto-wikipedia-sft",
+      "title": "nassimjp/pashto-wikipedia-sft",
+      "url": "https://huggingface.co/datasets/nassimjp/pashto-wikipedia-sft",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/nassimjp/pashto-wikipedia-sft",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-kaggle-dataset-karimnaimy-pashto-common-voice-26-0-preprocessed-subset",
+      "title": "Pashto Common Voice 26.0 Preprocessed Subset",
+      "url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-26-0-preprocessed-subset",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "Pashto Common Voice - 16 kHz int16 PCM Arrow dataset for Whisper/Wav2Vec2",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-26-0-preprocessed-subset",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
+      ]
+    },
+    {
       "id": "candidate-kaggle-dataset-karimnaimy-pashto-common-voice-preprocessed",
       "title": "Pashto Common Voice Preprocessed",
       "url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-preprocessed",
@@ -240,18 +359,18 @@
       ]
     },
     {
-      "id": "candidate-kaggle-dataset-karimnaimy-pashto-common-voice-preprocessed-subset",
-      "title": "Pashto Common Voice Preprocessed Subset",
-      "url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-preprocessed-subset",
+      "id": "candidate-kaggle-dataset-fawadshahidi-pashto-fake-news-detection-dataset",
+      "title": "Pashto Fake News Detection Dataset",
+      "url": "https://www.kaggle.com/datasets/fawadshahidi/pashto-fake-news-detection-dataset",
       "category": "dataset",
       "source": "kaggle",
       "status": "candidate",
-      "summary": "Pashto Common Voice - 16 kHz float32 Arrow dataset for Whisper",
+      "summary": "Candidate Kaggle dataset returned from Pashto search.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-preprocessed-subset",
+        "evidence_url": "https://www.kaggle.com/datasets/fawadshahidi/pashto-fake-news-detection-dataset",
         "markers": [
           "Pashto"
         ]
@@ -264,18 +383,66 @@
       ]
     },
     {
+      "id": "candidate-crossref-pashto-intonation-patterns",
+      "title": "Pashto Intonation Patterns",
+      "url": "https://doi.org/10.21437/interspeech.2017-1353",
+      "category": "paper",
+      "source": "crossref",
+      "status": "candidate",
+      "summary": "Candidate paper returned from Crossref search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
+        "evidence_url": "https://doi.org/10.21437/interspeech.2017-1353",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "crossref"
+      ]
+    },
+    {
       "id": "candidate-kaggle-dataset-khairullahsahil-pashto-sentiment-analysis-dataset",
       "title": "Pashto Sentiment Analysis Dataset",
       "url": "https://www.kaggle.com/datasets/khairullahsahil/pashto-sentiment-dataset",
       "category": "dataset",
       "source": "kaggle",
       "status": "candidate",
-      "summary": "High-Quality Pashto Sentiment Dataset for Machine Learning and Natural Language",
+      "summary": "10,229 labeled Pashto sentences - cleaned and manually reviewed - V2",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
         "evidence_url": "https://www.kaggle.com/datasets/khairullahsahil/pashto-sentiment-dataset",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
+      ]
+    },
+    {
+      "id": "candidate-kaggle-dataset-khairullahsahil-pashto-topic-classification-dataset",
+      "title": "Pashto Topic Classification Dataset",
+      "url": "https://www.kaggle.com/datasets/khairullahsahil/pashto-topic-classification-dataset",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "27,437 Pashto news paragraphs labeled with 12 topics, in authentic orthography",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/khairullahsahil/pashto-topic-classification-dataset",
         "markers": [
           "Pashto"
         ]
@@ -336,18 +503,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-dataset-research-materials-for-navigating-cultural-and-economic-barriers-to-girls-educat",
-      "title": "Research Materials for “Navigating Cultural and Economic Barriers to Girls’ Education in Rural Khyber Pakhtunkhwa: A Qualitative Study of Female Agency”",
-      "url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
-      "category": "dataset",
-      "source": "datacite",
+      "id": "candidate-gh-code-pawnsmaster-codex-rtl-toolkit",
+      "title": "pawnsmaster/codex-rtl-toolkit",
+      "url": "https://github.com/pawnsmaster/codex-rtl-toolkit",
+      "category": "code",
+      "source": "github",
       "status": "candidate",
-      "summary": "This deposit contains research materials and documentation for a qualitative phenomenological study of girls’ education in rural Mardan, Khyber Pakhtunkhwa, Pakistan. The study examines how girls aged 13–18 and their female relatives naviga",
+      "summary": "RTL fixes for Arabic-script languages in Codex through ChatGPT Desktop on Windows",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
+        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
+        "evidence_url": "https://github.com/pawnsmaster/codex-rtl-toolkit",
         "markers": [
           "pashto"
         ]
@@ -355,8 +522,34 @@
       "tags": [
         "pashto",
         "candidate",
-        "dataset",
-        "datacite"
+        "code",
+        "github",
+        "accessibility",
+        "arabic",
+        "bidi"
+      ]
+    },
+    {
+      "id": "candidate-s2-pushto-language-history",
+      "title": "Pushto Language History",
+      "url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
+      "category": "paper",
+      "source": "other",
+      "status": "candidate",
+      "summary": "Candidate paper returned from Semantic Scholar search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
+        "evidence_url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper"
       ]
     },
     {
@@ -389,7 +582,7 @@
     {
       "id": "candidate-datacite-project-teaching-reading-to-afghan-women-with-emergent-textual-literacy-a-plurilingual-a",
       "title": "Teaching Reading to Afghan Women with Emergent Textual Literacy: A Plurilingual Approach",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19924750",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19924749",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -398,7 +591,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19924750",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19924749",
         "markers": [
           "pashto"
         ]
@@ -411,18 +604,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-the-language-energy-divide-measuring-energy-costs-of-multilingual-llm-inference",
-      "title": "The Language-Energy Divide: Measuring Energy Costs of Multilingual LLM Inference",
-      "url": "https://arxiv.org/abs/2606.21869",
+      "id": "candidate-datacite-paper-the-reproduction-of-social-solidarity-in-the-system-of-statements-of-imam-khamen",
+      "title": "The Reproduction of Social Solidarity in the System of Statements of Imam Khamenei",
+      "url": "https://sanad.iau.ir/Journal/dir/Article/1239124",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Large language models (LLMs) are increasingly deployed in multilingual settings, yet the energy costs of serving these models across different languages remain poorly understood. We present a systematic study of inference energy consumption",
+      "summary": "Quarterly Political Discourse of the Islamic Revolution,5(2),184 هویت سیاسی ـ دینی در منظومه بیانات امام خامنه‌ای (ره) به‌عنوان یکی از مهم‌ترین منابع انسجام اجتماعی، نقش محوری در بازتولید همبستگی اجتماعی، به‌ویژه در شرایط بحران ایفا می‌کند.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://arxiv.org/abs/2606.21869",
+        "evidence_url": "https://sanad.iau.ir/Journal/dir/Article/1239124",
         "markers": [
           "pashto"
         ]
@@ -435,18 +628,18 @@
       ]
     },
     {
-      "id": "candidate-crossref-transformation-in-pashto-language-an-analysis-of-pashto-phrases-and-sentences",
-      "title": "Transformation in Pashto Language An Analysis of Pashto Phrases and Sentences",
-      "url": "https://doi.org/10.58329/criss.v2i4.57",
+      "id": "candidate-zenodo-paper-tuning-traditional-language-processing-approaches-for-pashto-text-classification",
+      "title": "TUNING TRADITIONAL LANGUAGE PROCESSING APPROACHES FOR PASHTO TEXT CLASSIFICATION",
+      "url": "https://zenodo.org/records/21373539",
       "category": "paper",
-      "source": "crossref",
+      "source": "zenodo",
       "status": "candidate",
-      "summary": "Transformation is a significant area of research that focuses on how language users utilise knowledge of their language (s) to generate different surface structures from the same deep structure. The study aims to describe how different surf",
+      "summary": "Today text classification becomes critical task for concerned individuals for numerous purposes. Hence, several researches have been conducted to develop automatic text classification for national and international languages. However, the n",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
-        "evidence_url": "https://doi.org/10.58329/criss.v2i4.57",
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/21373539",
         "markers": [
           "pashto"
         ]
@@ -455,22 +648,22 @@
         "pashto",
         "candidate",
         "paper",
-        "crossref"
+        "zenodo"
       ]
     },
     {
-      "id": "candidate-datacite-project-virtual-bazaar-the-role-of-social-media-in-political-transformation-and-power-co",
-      "title": "Virtual Bazaar: The Role of Social Media in Political Transformation and Power Consolidation in Afghanistan (2014-2022)",
-      "url": "http://hdl.handle.net/1959.4/102528",
-      "category": "project",
+      "id": "candidate-datacite-paper-tuning-traditional-language-processing-approaches-for-pashto-text-classification",
+      "title": "TUNING TRADITIONAL LANGUAGE PROCESSING APPROACHES FOR PASHTO TEXT CLASSIFICATION",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.21373538",
+      "category": "paper",
       "source": "datacite",
       "status": "candidate",
-      "summary": "This thesis provides the first comprehensive analysis of the role of social media in Afghanistan’s political transformation and power consolidation. It seeks to answer the question: how and to what extent has the use of social media by loca",
+      "summary": "Today text classification becomes critical task for concerned individuals for numerous purposes. Hence, several researches have been conducted to develop automatic text classification for national and international languages. However, the n",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "http://hdl.handle.net/1959.4/102528",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21373538",
         "markers": [
           "pashto"
         ]
@@ -478,7 +671,7 @@
       "tags": [
         "pashto",
         "candidate",
-        "project",
+        "paper",
         "datacite"
       ]
     }
@@ -499,6 +692,13 @@
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
+      "id": "candidate-kaggle-dataset-hassanamin-pashto-ocr",
+      "title": "Pashto OCR",
+      "url": "https://www.kaggle.com/datasets/hassanamin/pashto-ocr",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
       "id": "candidate-kaggle-dataset-drijaz-pashto-word-embeddings",
       "title": "Pashto Word Embeddings",
       "url": "https://www.kaggle.com/datasets/drijaz/pashto-word-embeddings",
@@ -509,13 +709,6 @@
       "id": "candidate-kaggle-dataset-drijaz-pold-pashto-offensive-language-dataset",
       "title": "POLD - Pashto Offensive Language Dataset",
       "url": "https://www.kaggle.com/datasets/drijaz/pold-pashto-offensive-language-dataset",
-      "reason": "URL returned hard-missing HTTP status 404.",
-      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
-    },
-    {
-      "id": "candidate-kaggle-dataset-hassanamin-pashto-ocr",
-      "title": "Pashto OCR",
-      "url": "https://www.kaggle.com/datasets/hassanamin/pashto-ocr",
       "reason": "URL returned hard-missing HTTP status 404.",
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
@@ -562,13 +755,6 @@
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
-      "id": "candidate-kaggle-dataset-ahmadferozafshar-pashto-language-alphabets",
-      "title": "pashto_language_alphabets",
-      "url": "https://www.kaggle.com/datasets/ahmadferozafshar/pashto-language-alphabets",
-      "reason": "URL returned hard-missing HTTP status 404.",
-      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
-    },
-    {
       "id": "candidate-kaggle-dataset-hassanamin-katib-s-pashto-text-imagebase-kpti",
       "title": "Katib's Pashto Text Imagebase (KPTI)",
       "url": "https://www.kaggle.com/datasets/hassanamin/katibs-pashto-text-imagebase-kpti",
@@ -590,13 +776,6 @@
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
-      "id": "candidate-gh-project-pukhtoon203-pukhtoon",
-      "title": "Pukhtoon203/PUKHTOON",
-      "url": "https://github.com/Pukhtoon203/PUKHTOON",
-      "reason": "Git clone inspection found zero tracked files; repository has no reusable resource content.",
-      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
-    },
-    {
       "id": "candidate-gh-project-haroon-blip-khan-pukhtoon",
       "title": "Haroon-blip/khan-pukhtoon",
       "url": "https://github.com/Haroon-blip/khan-pukhtoon",
@@ -604,21 +783,14 @@
       "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
     },
     {
-      "id": "candidate-gh-project-pakhtoon9900-pakhtoon",
-      "title": "Pakhtoon9900/Pakhtoon-",
-      "url": "https://github.com/Pakhtoon9900/Pakhtoon-",
-      "reason": "Repository content is a generic web page labelled Pak Sim Data, not a Pashto language resource.",
-      "previous_removed_on": "2026-05-15T01:30:21.392333+00:00"
-    },
-    {
       "id": "candidate-crossref-summaries-in-pashto",
       "title": "Summaries in Pashto",
-      "url": "https://doi.org/10.1097/01.wtf.0000416393.66575.49",
+      "url": "https://doi.org/10.1097/01.wtf.0000413238.54478.6c",
       "reason": "Live page content indicates resource is unavailable.",
       "previous_removed_on": "2026-05-20T07:36:54.473136+00:00"
     }
   ],
   "warnings": [
-    "Skipped 19 candidate(s) that matched prior blocking removal log entries."
+    "Skipped 16 candidate(s) that matched prior blocking removal log entries."
   ]
 }
