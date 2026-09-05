@@ -3,11 +3,11 @@
 This folder is the verified Pashto resource library used by docs and GitHub Pages search.
 
 ## 🧭 Browse by Section
-- 📁 Datasets (56): [datasets/README.md](datasets/README.md)
+- 📁 Datasets (57): [datasets/README.md](datasets/README.md)
 - 🤖 Models (27): [models/README.md](models/README.md)
 - 🧪 Benchmarks (3): [benchmarks/README.md](benchmarks/README.md)
 - 🛠️ Tools (0): [tools/README.md](tools/README.md)
-- 📄 Papers (177): [papers/README.md](papers/README.md)
+- 📄 Papers (179): [papers/README.md](papers/README.md)
 - 🚀 Projects (46): [projects/README.md](projects/README.md)
 - 💻 Code (4): [codes/README.md](codes/README.md)
 
@@ -22,4 +22,4 @@ This folder is the verified Pashto resource library used by docs and GitHub Page
 - Run `python scripts/validate_resource_catalog.py` before opening a PR.
 - Run `python scripts/generate_resource_views.py` after catalog changes.
 
-✅ Verified resource count: `313`
+✅ Verified resource count: `316`
