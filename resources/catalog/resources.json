@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-08-26",
+  "updated_on": "2026-09-05",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7706,6 +7706,74 @@
         "pashto",
         "paper",
         "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-a-comparative-morpho-syntactic-analysis-of-english-and-pashto-prepositions-withi",
+      "title": "A Comparative Morpho-Syntactic Analysis of English and Pashto Prepositions within the Framework of X-Bar Theory",
+      "url": "https://zenodo.org/records/22147237",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "Candidate resource returned from Zenodo search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/22147237",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-sets-relations-and-functions-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: sets, relations and functions (work in progress)",
+      "url": "https://zenodo.org/records/22312916",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "A work-in-progress machine translation for Pakistani Pashto. This version adds the complete functions chapter to the sets and relations chapters in one 33-page reader: 23 of 722 source units, comprising three chapter drivers and 20 substant",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/22312916",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-high-qualituly-dataset",
+      "title": "tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
+      "url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
       ]
     }
   ]

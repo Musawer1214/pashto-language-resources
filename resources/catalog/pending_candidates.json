@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-08-26T04:31:26.144453+00:00",
+  "generated_on": "2026-09-05T07:57:10.908692+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,21 +15,45 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 27,
+  "candidate_count": 28,
   "candidates": [
     {
-      "id": "candidate-datacite-paper-a-study-of-metaphor-in-everyday-language",
-      "title": "A STUDY OF METAPHOR IN EVERYDAY LANGUAGE",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.21128482",
+      "id": "candidate-zenodo-paper-a-comparative-morpho-syntactic-analysis-of-english-and-pashto-prepositions-withi",
+      "title": "A Comparative Morpho-Syntactic Analysis of English and Pashto Prepositions within the Framework of X-Bar Theory",
+      "url": "https://zenodo.org/records/22147237",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "candidate",
+      "summary": "Candidate resource returned from Zenodo search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/22147237",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-a-sociolinguistic-analysis-of-translanguaging-and-classroom-interaction-in-engli",
+      "title": "A SOCIOLINGUISTIC ANALYSIS OF TRANSLANGUAGING AND CLASSROOM INTERACTION IN ENGLISH LANGUAGE CLASSROOMS OF KHYBER PAKHTUNKHWA",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22164782",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
-      "summary": "This study, entitled “A Study of Metaphor in Everyday Language,” examines various types of metaphor in Pashto oral literature. Contrary to classical rhetoric, which regards metaphor merely as a literary device and poetic ornament, this stud",
+      "summary": "This study explores the translanguaging practices in language class interaction in English language teaching classrooms of Khyber Pakhtunkhwa, Pakistan. When learning is conducted in the context of more than one language, both learners and",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21128482",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22164782",
         "markers": [
           "pashto"
         ]
@@ -42,18 +66,66 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-fransuz-sharqshunosi-pol-pelyoning-ilmiy-faoliyatiga-nazar",
-      "title": "FRANSUZ SHARQSHUNOSI POL PELYONING ILMIY FAOLIYATIGA NAZAR",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.21980255",
-      "category": "paper",
+      "id": "candidate-datacite-dataset-album-6-the-final-trumpet-sounds-multilingual-christian-worship-pashto-bengali-u",
+      "title": "Album 6 - The Final Trumpet Sounds  (Multilingual Christian Worship) - Pashto, Bengali, Urdu, Nepali, and Sinhala",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.21259510",
+      "category": "dataset",
       "source": "datacite",
       "status": "candidate",
-      "summary": "This article talks about some aspects of the scientific activity ofthe French orientalist Paul Pelliot, who made a great contribution to worldscience. During his scientific career, Paul Pelliot made a great contribution tothe study of Asia.",
+      "summary": "Album 6 – The Final Trumpet Sounds. 6 Tamil Christian worship songs translated into 5 languages: Pashto, Bengali, Urdu, Nepali, and Sinhala. Full package includes high-quality MP3 files and lyrics PDFs for each language. List of Songs Benga",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21980255",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21259510",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-crossref-figure-2-pashto-document-images-containing-pashto-text-and-graphics",
+      "title": "Figure 2: Pashto document images containing pashto text and graphics.",
+      "url": "https://doi.org/10.7717/peerj-cs.2089/fig-2",
+      "category": "paper",
+      "source": "crossref",
+      "status": "candidate",
+      "summary": "Candidate paper returned from Crossref search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
+        "evidence_url": "https://doi.org/10.7717/peerj-cs.2089/fig-2",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "crossref"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-heremites-afghanicus-jablonski-hofmann-idrees-khan-jamal-b-hme-masroor-2026-sp-n",
+      "title": "Heremites afghanicus Jablonski, Hofmann, Idrees, Khan, Jamal, Böhme & Masroor, 2026, sp. nov.",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22309209",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Heremites afghanicus sp. nov. Figs 4, 5 Suggested vernacular names. English name: Afghan grass skink or Dir grass skink. Pashto name: د افغانستان واښه څرمښکۍ یا دیر واښه څرمښکۍ (Da Afghanistan Wakha Sarmakhkay, Dir Wakha Sarmakhkay). Urdu n",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22309209",
         "markers": [
           "pashto"
         ]
@@ -117,54 +189,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-identity-formation-language-and-migration-dynamics",
-      "title": "Identity formation, language and migration dynamics",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "The volume examines migration from the Middle East and North Africa (MENA) regionto the German diaspora, offering a multifaceted perspective that combines historical andcontemporary insights. It moves beyond viewing migration as a momentary",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.18433192",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-code-ilm-shaili-package-pashto-pashto",
-      "title": "ILM Shaili Package — pashto (pashto)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20704658",
-      "category": "code",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Localized programming-language package (keyword maps, samples, Shaili spec) for pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20704658",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "code",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-gh-code-jawadnoori1718-pashtobench",
       "title": "Jawadnoori1718/PashtoBench",
       "url": "https://github.com/Jawadnoori1718/PashtoBench",
@@ -192,42 +216,18 @@
       ]
     },
     {
-      "id": "candidate-hf-project-khuramullah-pakhtonresturent",
-      "title": "khuramullah/pakhtonresturent",
-      "url": "https://huggingface.co/spaces/khuramullah/pakhtonresturent",
-      "category": "project",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate project app returned from Hugging Face Spaces Pashto search.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face Spaces search.",
-        "evidence_url": "https://huggingface.co/spaces/khuramullah/pakhtonresturent",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "space"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-lost-in-extraction-native-vs-english-pivot-llm-conflict-event-coding-across-six-",
-      "title": "Lost in Extraction: Native vs. English-Pivot LLM Conflict-Event Coding across Six Languages",
-      "url": "https://osf.io/nc5u7/",
+      "id": "candidate-datacite-project-male-birth-control-pashto",
+      "title": "Male Birth Control [Pashto]",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19390996",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
-      "summary": "This project develops a source-grounded evaluation of how reliably large language models code conflict events from English, Turkish, Modern Standard Arabic, Persian, standard-script Urdu, and Pashto. Paper 1 compares direct extraction from",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://osf.io/nc5u7/",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19390996",
         "markers": [
           "pashto"
         ]
@@ -240,18 +240,66 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-male-birth-control-pashto-transcript-pdf",
-      "title": "Male Birth Control [Pashto] Transcript PDF",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.21383733",
-      "category": "paper",
+      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-sets-and-relations-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: sets and relations (work in progress)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22307753",
+      "category": "project",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "summary": "A work-in-progress machine translation for Pakistani Pashto. This version adds the complete relations chapter to the complete sets chapter in one 23-page reader: 16 of 722 source units, comprising two chapter drivers and 14 substantive sect",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21383733",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307753",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-sets-chapter-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: sets chapter (work in progress)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22307198",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "A work-in-progress machine translation for Pakistani Pashto. This release contains the complete sets chapter (10 pages, seven of 722 source units), plus three additional front matter and import-driver drafts in the editable source bundle. T",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307198",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-sets-relations-and-functions-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: sets, relations and functions (work in progress)",
+      "url": "https://zenodo.org/records/22312916",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "candidate",
+      "summary": "A work-in-progress machine translation for Pakistani Pashto. This version adds the complete functions chapter to the sets and relations chapters in one 33-page reader: 23 of 722 source units, comprising three chapter drivers and 20 substant",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/22312916",
         "markers": [
           "pashto"
         ]
@@ -260,22 +308,22 @@
         "pashto",
         "candidate",
         "paper",
-        "datacite"
+        "zenodo"
       ]
     },
     {
-      "id": "candidate-datacite-paper-male-contraception-pashto-final-slides",
-      "title": "Male Contraception (Pashto) Final Slides",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.21383820",
-      "category": "paper",
+      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-sets-relations-and-functions-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: sets, relations and functions (work in progress)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22312916",
+      "category": "project",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "summary": "A work-in-progress machine translation for Pakistani Pashto. This version adds the complete functions chapter to the sets and relations chapters in one 33-page reader: 23 of 722 source units, comprising three chapter drivers and 20 substant",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21383820",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22312916",
         "markers": [
           "pashto"
         ]
@@ -283,31 +331,8 @@
       "tags": [
         "pashto",
         "candidate",
-        "paper",
+        "project",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-hf-dataset-nassimjp-pashto-wikipedia-sft",
-      "title": "nassimjp/pashto-wikipedia-sft",
-      "url": "https://huggingface.co/datasets/nassimjp/pashto-wikipedia-sft",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/nassimjp/pashto-wikipedia-sft",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
       ]
     },
     {
@@ -479,30 +504,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-pata-khazana-the-essence-of-the-treasure-final-version",
-      "title": "Pata Khazana – The Essence of the Treasure - Final Version",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20764839",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "A Philological and Historical Examination of Ancient Eastern Iranian Linguistic Heritage in the Hindu Kush Region Prologue The title Pata Khazana—\"The Hidden Treasure\"—is not merely the name of a book. It refers to a famous and much-debated",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20764839",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-gh-code-pawnsmaster-codex-rtl-toolkit",
       "title": "pawnsmaster/codex-rtl-toolkit",
       "url": "https://github.com/pawnsmaster/codex-rtl-toolkit",
@@ -553,6 +554,30 @@
       ]
     },
     {
+      "id": "candidate-datacite-paper-resistance-identity-and-postcolonial-consciousness-in-ghani-khan-s-the-pathan-a-",
+      "title": "RESISTANCE, IDENTITY, AND POSTCOLONIAL CONSCIOUSNESS IN GHANI KHAN'S THE PATHAN: A THEMATIC STUDY OF PASHTUN SOCIOCULTURAL AND POLITICAL DEFIANCE IN KHYBER PAKHTUNKHWA",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.21874548",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The Pathan (1947), the seminal English-language prose work of the foremost Pashto poet-philosopher Ghani Khan, has been widely examined for its humanism, philosophical depth, and cultural commentary, yet the specific theme of resistance aga",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21874548",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-gh-project-sabtain-dev-stt-whisper-pashto",
       "title": "Sabtain-Dev/STT-Whisper-Pashto",
       "url": "https://github.com/Sabtain-Dev/STT-Whisper-Pashto",
@@ -580,18 +605,89 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-teaching-reading-to-afghan-women-with-emergent-textual-literacy-a-plurilingual-a",
-      "title": "Teaching Reading to Afghan Women with Emergent Textual Literacy: A Plurilingual Approach",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19924749",
-      "category": "project",
+      "id": "candidate-datacite-paper-short-and-long-term-effects-of-reminders-on-panellists-survey-participation-in-a",
+      "title": "Short- and Long-Term Effects of Reminders on Panellists’ Survey Participation in a Probability-Based Panel Study with a Sequential Mixed-Mode Design",
+      "url": "https://boris-portal.unibe.ch/entities/publication/87cf5b86-13d2-481d-b8a0-a5624a569af5",
+      "category": "paper",
       "source": "datacite",
       "status": "candidate",
-      "summary": "This plurilingual intervention in a LESLLA class in the US with six adult female students from Afghanistan investigated the extent to which learner biographies presented “Rosetta Stone” style in Dari, Pashto, and English in the Latin alphab",
+      "summary": "In recent panel studies, besides other methods such as sequential mixed-mode design, pushto- web method, and prepaid monetary incentives, follow-up contacts such as personalised electronic mails (e-mails) or short message service are often",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19924749",
+        "evidence_url": "https://boris-portal.unibe.ch/entities/publication/87cf5b86-13d2-481d-b8a0-a5624a569af5",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-tasal9-zamai-pashto-high-qualituly-dataset",
+      "title": "tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
+      "url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-the-morphology-and-syntax-of-adjectives-in-english-and-pashto-a-contrastive-stud",
+      "title": "The Morphology and Syntax of Adjectives in English and Pashto: A Contrastive Study",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20388371",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20388371",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-the-world-is-established-through-the-work-of-existence-the-performance-of-gham-k",
+      "title": "The world is established through the work of existence : the performance of Gham-Khadi among Pukhtun Bibiane in Northern Pakistan.",
+      "url": "https://www.repository.cam.ac.uk/handle/1810/236168",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This thesis explores the social lives of elite Pukhtun women or Bibiane in northern Pakistan, with an ethnographic focus on the enactment of particular life-cycle or gham-khadi ceremonies (funerals and weddings). The widely used Pukhto term",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://www.repository.cam.ac.uk/handle/1810/236168",
         "markers": [
           "pashto"
         ]
@@ -600,78 +696,6 @@
         "pashto",
         "candidate",
         "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-the-reproduction-of-social-solidarity-in-the-system-of-statements-of-imam-khamen",
-      "title": "The Reproduction of Social Solidarity in the System of Statements of Imam Khamenei",
-      "url": "https://sanad.iau.ir/Journal/dir/Article/1239124",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Quarterly Political Discourse of the Islamic Revolution,5(2),184 هویت سیاسی ـ دینی در منظومه بیانات امام خامنه‌ای (ره) به‌عنوان یکی از مهم‌ترین منابع انسجام اجتماعی، نقش محوری در بازتولید همبستگی اجتماعی، به‌ویژه در شرایط بحران ایفا می‌کند.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://sanad.iau.ir/Journal/dir/Article/1239124",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-zenodo-paper-tuning-traditional-language-processing-approaches-for-pashto-text-classification",
-      "title": "TUNING TRADITIONAL LANGUAGE PROCESSING APPROACHES FOR PASHTO TEXT CLASSIFICATION",
-      "url": "https://zenodo.org/records/21373539",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "Today text classification becomes critical task for concerned individuals for numerous purposes. Hence, several researches have been conducted to develop automatic text classification for national and international languages. However, the n",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/21373539",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-tuning-traditional-language-processing-approaches-for-pashto-text-classification",
-      "title": "TUNING TRADITIONAL LANGUAGE PROCESSING APPROACHES FOR PASHTO TEXT CLASSIFICATION",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.21373538",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Today text classification becomes critical task for concerned individuals for numerous purposes. Hence, several researches have been conducted to develop automatic text classification for national and international languages. However, the n",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.21373538",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
         "datacite"
       ]
     }
