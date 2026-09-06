@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-05T07:57:10.908692+00:00",
+  "generated_on": "2026-09-06T08:14:08.937843+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,56 +15,8 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 28,
+  "candidate_count": 26,
   "candidates": [
-    {
-      "id": "candidate-zenodo-paper-a-comparative-morpho-syntactic-analysis-of-english-and-pashto-prepositions-withi",
-      "title": "A Comparative Morpho-Syntactic Analysis of English and Pashto Prepositions within the Framework of X-Bar Theory",
-      "url": "https://zenodo.org/records/22147237",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "Candidate resource returned from Zenodo search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/22147237",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-a-sociolinguistic-analysis-of-translanguaging-and-classroom-interaction-in-engli",
-      "title": "A SOCIOLINGUISTIC ANALYSIS OF TRANSLANGUAGING AND CLASSROOM INTERACTION IN ENGLISH LANGUAGE CLASSROOMS OF KHYBER PAKHTUNKHWA",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22164782",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This study explores the translanguaging practices in language class interaction in English language teaching classrooms of Khyber Pakhtunkhwa, Pakistan. When learning is conducted in the context of more than one language, both learners and",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22164782",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
     {
       "id": "candidate-datacite-dataset-album-6-the-final-trumpet-sounds-multilingual-christian-worship-pashto-bengali-u",
       "title": "Album 6 - The Final Trumpet Sounds  (Multilingual Christian Worship) - Pashto, Bengali, Urdu, Nepali, and Sinhala",
@@ -240,6 +192,78 @@
       ]
     },
     {
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-proof-systems-reference-repair-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: proof-systems reference repair (work in progress)",
+      "url": "https://zenodo.org/records/22442605",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "candidate",
+      "summary": "This bounded patch repairs the existing 108-page proof-systems reader. It replaces all 37 raw external-reference fallbacks on pages 41, 42, 44, 64, 65, 68, 91, 94 and 107 with eight human-readable Pashto result titles and adjacent blue `[OL",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/22442605",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-proof-systems-reference-repair-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: proof-systems reference repair (work in progress)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This bounded patch repairs the existing 108-page proof-systems reader. It replaces all 37 raw external-reference fallbacks on pages 41, 42, 44, 64, 65, 68, 91, 94 and 107 with eight human-readable Pashto result titles and adjacent blue `[OL",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-propositional-logic-and-proof-systems-work-in-progr",
+      "title": "OpenLogic in Pashto — Pakistan: propositional logic and proof systems (work in progress)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22381723",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "A work-in-progress machine translation for Pakistani Pashto. This release adds one 108-page proof-systems reader containing 70 of 722 source units: the complete propositional syntax-and-semantics chapter, the proof-systems overview, and the",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22381723",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-sets-and-relations-work-in-progress",
       "title": "OpenLogic in Pashto — Pakistan: sets and relations (work in progress)",
       "url": "https://zenodo.org/doi/10.5281/zenodo.22307753",
@@ -285,30 +309,6 @@
         "candidate",
         "project",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-sets-relations-and-functions-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: sets, relations and functions (work in progress)",
-      "url": "https://zenodo.org/records/22312916",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "A work-in-progress machine translation for Pakistani Pashto. This version adds the complete functions chapter to the sets and relations chapters in one 33-page reader: 23 of 722 source units, comprising three chapter drivers and 20 substant",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/22312916",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
       ]
     },
     {
@@ -531,29 +531,6 @@
       ]
     },
     {
-      "id": "candidate-s2-pushto-language-history",
-      "title": "Pushto Language History",
-      "url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
-      "category": "paper",
-      "source": "other",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Semantic Scholar search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-resistance-identity-and-postcolonial-consciousness-in-ghani-khan-s-the-pathan-a-",
       "title": "RESISTANCE, IDENTITY, AND POSTCOLONIAL CONSCIOUSNESS IN GHANI KHAN'S THE PATHAN: A THEMATIC STUDY OF PASHTUN SOCIOCULTURAL AND POLITICAL DEFIANCE IN KHYBER PAKHTUNKHWA",
       "url": "https://zenodo.org/doi/10.5281/zenodo.21874548",
@@ -626,29 +603,6 @@
         "candidate",
         "paper",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-hf-dataset-tasal9-zamai-pashto-high-qualituly-dataset",
-      "title": "tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
-      "url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
       ]
     },
     {

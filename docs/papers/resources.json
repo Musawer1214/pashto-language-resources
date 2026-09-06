@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-09-05T00:00:00Z",
-  "count": 179,
+  "generated_on": "2026-09-06T00:00:00Z",
+  "count": 180,
   "resources": [
     {
       "id": "paper-s2-psocr-lmm-pashto",
@@ -5307,6 +5307,34 @@
       ],
       "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
       "evidence_url": "https://zenodo.org/records/22312916",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-proof-systems-reference-repair-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: proof-systems reference repair (work in progress)",
+      "url": "https://zenodo.org/records/22442605",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "This bounded patch repairs the existing 108-page proof-systems reader. It replaces all 37 raw external-reference fallbacks on pages 41, 42, 44, 64, 65, 68, 91, 94 and 107 with eight human-readable Pashto result titles and adjacent blue `[OL",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/22442605",
       "markers": [
         "pashto"
       ],
