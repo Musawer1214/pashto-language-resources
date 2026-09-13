@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-12T08:14:30.183182+00:00",
+  "generated_on": "2026-09-13T08:52:27.339295+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -9,13 +9,11 @@
     "gitlab-projects",
     "openalex",
     "crossref",
-    "zenodo",
     "dataverse",
     "datacite",
-    "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 29,
+  "candidate_count": 23,
   "candidates": [
     {
       "id": "candidate-datacite-dataset-album-6-the-final-trumpet-sounds-multilingual-christian-worship-pashto-bengali-u",
@@ -66,29 +64,6 @@
       ]
     },
     {
-      "id": "candidate-s2-characterization-on-pushto-literature",
-      "title": "Characterization On Pushto Literature",
-      "url": "https://www.semanticscholar.org/paper/b207b07a4b2c7dfb5593bb4b8cd02cbe69481657",
-      "category": "paper",
-      "source": "other",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Semantic Scholar search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/b207b07a4b2c7dfb5593bb4b8cd02cbe69481657",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
       "id": "candidate-datacite-project-exploring-the-role-of-letter-similarity-and-ligation-pattern-during-word-recogni",
       "title": "Exploring the role of letter similarity and ligation pattern during word recognition in Arabic script (Persian language) revisited: The case of brief (200 ms) stimulus presentations",
       "url": "https://osf.io/ewtxq/",
@@ -110,30 +85,6 @@
         "candidate",
         "project",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-crossref-figure-2-pashto-document-images-containing-pashto-text-and-graphics",
-      "title": "Figure 2: Pashto document images containing pashto text and graphics.",
-      "url": "https://doi.org/10.7717/peerj-cs.2089/fig-2",
-      "category": "paper",
-      "source": "crossref",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Crossref search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
-        "evidence_url": "https://doi.org/10.7717/peerj-cs.2089/fig-2",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "crossref"
       ]
     },
     {
@@ -191,10 +142,10 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-male-birth-control-pashto",
-      "title": "Male Birth Control [Pashto]",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19390996",
-      "category": "project",
+      "id": "candidate-datacite-paper-male-birth-control-pashto-transcript",
+      "title": "Male Birth Control [Pashto] Transcript",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
+      "category": "paper",
       "source": "datacite",
       "status": "candidate",
       "summary": "Candidate record returned from DataCite DOI search for Pashto.",
@@ -202,7 +153,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19390996",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
         "markers": [
           "pashto"
         ]
@@ -210,7 +161,7 @@
       "tags": [
         "pashto",
         "candidate",
-        "project",
+        "paper",
         "datacite"
       ]
     },
@@ -240,7 +191,7 @@
     },
     {
       "id": "candidate-datacite-paper-only-2-of-154-most-spoken-languages-from-23-language-families-employ-a-labial-fo",
-      "title": "Only 2 of 154 Most spoken Languages from 23 Language Families Employ a Labial for \"Tongue\" in 1st position Demonstrating Embodied Iconicity for Tongue Vs Mouth in \"inverse\" Control",
+      "title": "Only 2 of 154 Most spoken Languages from 23 Language Families Employ a Labial for \"Tongue\" in 1st Consonant Position Demonstrating Embodied Iconicity for Tongue Vs Mouth in \"inverse\" Control",
       "url": "https://zenodo.org/doi/10.5281/zenodo.17791741",
       "category": "paper",
       "source": "datacite",
@@ -260,30 +211,6 @@
         "candidate",
         "paper",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-proof-systems-and-completeness-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: proof systems and completeness (work in progress)",
-      "url": "https://zenodo.org/records/22646118",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "A work-in-progress machine translation for Pakistani Pashto. This release adds the complete twelve-unit first-order completeness chapter to the reader: Henkin saturation, Lindenbaum extension, ordinary and factored term models, both complet",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/22646118",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
       ]
     },
     {
@@ -347,30 +274,6 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22381723",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-sets-relations-and-functions-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: sets, relations and functions (work in progress)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22312916",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "A work-in-progress machine translation for Pakistani Pashto. This version adds the complete functions chapter to the sets and relations chapters in one 33-page reader: 23 of 722 source units, comprising three chapter drivers and 20 substant",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22312916",
         "markers": [
           "pashto"
         ]
@@ -578,52 +481,6 @@
       ]
     },
     {
-      "id": "candidate-s2-pushto-language-history",
-      "title": "Pushto Language History",
-      "url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
-      "category": "paper",
-      "source": "other",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Semantic Scholar search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
-      "id": "candidate-s2-pushto-naat-in-pashto-poetry",
-      "title": "Pushto) Naat in Pashto Poetry.",
-      "url": "https://www.semanticscholar.org/paper/33690176eef562e760432411ed8665ded264fea3",
-      "category": "paper",
-      "source": "other",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Semantic Scholar search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/33690176eef562e760432411ed8665ded264fea3",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
-      ]
-    },
-    {
       "id": "candidate-datacite-dataset-research-materials-for-navigating-cultural-and-economic-barriers-to-girls-educat",
       "title": "Research Materials for “Navigating Cultural and Economic Barriers to Girls’ Education in Rural Khyber Pakhtunkhwa: A Qualitative Study of Female Agency”",
       "url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
@@ -725,6 +582,10 @@
         "health-assistant"
       ]
     }
+  ],
+  "errors": [
+    "zenodo: pashto: The read operation timed out; pukhto: The read operation timed out; pushto: The read operation timed out; pakhto: The read operation timed out",
+    "arxiv: pashto: HTTP Error 429: Unknown Error; pukhto: HTTP Error 429: Unknown Error; pushto: HTTP Error 429: Unknown Error; pakhto: HTTP Error 429: Unknown Error"
   ],
   "skipped_prior_removals": [
     {
