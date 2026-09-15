@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-14T09:29:14.430684+00:00",
+  "generated_on": "2026-09-15T09:08:14.941360+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -11,8 +11,7 @@
     "crossref",
     "zenodo",
     "dataverse",
-    "datacite",
-    "semantic-scholar"
+    "datacite"
   ],
   "candidate_count": 23,
   "candidates": [
@@ -217,7 +216,7 @@
     {
       "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-proof-systems-and-completeness-work-in-progress",
       "title": "OpenLogic in Pashto — Pakistan: proof systems and completeness (work in progress)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22646118",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -226,7 +225,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22646118",
         "markers": [
           "pashto"
         ]
@@ -251,30 +250,6 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22442605",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-propositional-logic-and-proof-systems-work-in-progr",
-      "title": "OpenLogic in Pashto — Pakistan: propositional logic and proof systems (work in progress)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22381723",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "A work-in-progress machine translation for Pakistani Pashto. This release adds one 108-page proof-systems reader containing 70 of 722 source units: the complete propositional syntax-and-semantics chapter, the proof-systems overview, and the",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22381723",
         "markers": [
           "pashto"
         ]
@@ -533,6 +508,30 @@
       ]
     },
     {
+      "id": "candidate-datacite-paper-the-language-energy-divide-measuring-energy-costs-of-multilingual-llm-inference",
+      "title": "The Language-Energy Divide: Measuring Energy Costs of Multilingual LLM Inference",
+      "url": "https://arxiv.org/abs/2606.21869",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Large language models (LLMs) are increasingly deployed in multilingual settings, yet the energy costs of serving these models across different languages remain poorly understood. We present a systematic study of inference energy consumption",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://arxiv.org/abs/2606.21869",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-datacite-project-the-women-have-got-the-formula-dari-pashto-edition",
       "title": "The Women Have Got the Formula – Dari & Pashto Edition",
       "url": "https://zenodo.org/doi/10.5281/zenodo.20412334",
@@ -585,7 +584,8 @@
     }
   ],
   "errors": [
-    "arxiv: pashto: HTTP Error 429: Unknown Error; pukhto: HTTP Error 429: Unknown Error; pushto: HTTP Error 429: Unknown Error; pakhto: HTTP Error 429: Unknown Error"
+    "arxiv: pashto: HTTP Error 429: Too Many Requests; pukhto: HTTP Error 429: Unknown Error; pushto: HTTP Error 429: Too Many Requests; pakhto: HTTP Error 429: Unknown Error",
+    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
     {
