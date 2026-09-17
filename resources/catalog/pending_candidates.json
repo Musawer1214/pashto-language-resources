@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-15T09:08:14.941360+00:00",
+  "generated_on": "2026-09-16T08:57:07.762233+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -11,10 +11,36 @@
     "crossref",
     "zenodo",
     "dataverse",
-    "datacite"
+    "datacite",
+    "arxiv",
+    "semantic-scholar"
   ],
-  "candidate_count": 23,
+  "candidate_count": 24,
   "candidates": [
+    {
+      "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
+      "title": "A Study of the Relationship between the Pashto Language and Indo-Aryan Languages",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20154599",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Pashto is a historic language of the northeastern subgroup of the Aryan branch within the Indo-European language family. Based on its phonological, morphological, and syntactic features, it is directly descended from its parent Aryan langua",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20154599",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
     {
       "id": "candidate-datacite-dataset-album-6-the-final-trumpet-sounds-multilingual-christian-worship-pashto-bengali-u",
       "title": "Album 6 - The Final Trumpet Sounds (Multilingual Christian Worship) - Pashto, Bengali, Urdu, Nepali, and Sinhala (HD)",
@@ -85,6 +111,30 @@
         "candidate",
         "project",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-crossref-figure-2-pashto-document-images-containing-pashto-text-and-graphics",
+      "title": "Figure 2: Pashto document images containing pashto text and graphics.",
+      "url": "https://doi.org/10.7717/peerj-cs.2089/fig-2",
+      "category": "paper",
+      "source": "crossref",
+      "status": "candidate",
+      "summary": "Candidate paper returned from Crossref search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
+        "evidence_url": "https://doi.org/10.7717/peerj-cs.2089/fig-2",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "crossref"
       ]
     },
     {
@@ -226,30 +276,6 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22646118",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-proof-systems-reference-repair-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: proof-systems reference repair (work in progress)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22442605",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This bounded patch repairs the existing 108-page proof-systems reader. It replaces all 37 raw external-reference fallbacks on pages 41, 42, 44, 64, 65, 68, 91, 94 and 107 with eight human-readable Pashto result titles and adjacent blue `[OL",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22442605",
         "markers": [
           "pashto"
         ]
@@ -582,10 +608,6 @@
         "health-assistant"
       ]
     }
-  ],
-  "errors": [
-    "arxiv: pashto: HTTP Error 429: Too Many Requests; pukhto: HTTP Error 429: Unknown Error; pushto: HTTP Error 429: Too Many Requests; pakhto: HTTP Error 429: Unknown Error",
-    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
     {
