@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-16T08:57:07.762233+00:00",
+  "generated_on": "2026-09-19T08:33:33.734873+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -9,13 +9,10 @@
     "gitlab-projects",
     "openalex",
     "crossref",
-    "zenodo",
     "dataverse",
-    "datacite",
-    "arxiv",
-    "semantic-scholar"
+    "datacite"
   ],
-  "candidate_count": 24,
+  "candidate_count": 27,
   "candidates": [
     {
       "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
@@ -90,6 +87,29 @@
       ]
     },
     {
+      "id": "candidate-hf-model-buzzasr-pashto",
+      "title": "BuzzASR/pashto",
+      "url": "https://huggingface.co/BuzzASR/pashto",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/BuzzASR/pashto",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
       "id": "candidate-datacite-project-exploring-the-role-of-letter-similarity-and-ligation-pattern-during-word-recogni",
       "title": "Exploring the role of letter similarity and ligation pattern during word recognition in Arabic script (Persian language) revisited: The case of brief (200 ms) stimulus presentations",
       "url": "https://osf.io/ewtxq/",
@@ -135,6 +155,33 @@
         "candidate",
         "paper",
         "crossref"
+      ]
+    },
+    {
+      "id": "candidate-gh-project-hamidafghan-lorem",
+      "title": "hamidafghan/lorem",
+      "url": "https://github.com/hamidafghan/lorem",
+      "category": "project",
+      "source": "github",
+      "status": "candidate",
+      "summary": "ایجاد متن های ساختگی دری و پشتو",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
+        "evidence_url": "https://github.com/hamidafghan/lorem",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "github",
+        "dari",
+        "lorem",
+        "pashto"
       ]
     },
     {
@@ -582,6 +629,29 @@
       ]
     },
     {
+      "id": "candidate-hf-model-tinyopsec-minicpm5-2b-sft-pashto-gguf",
+      "title": "tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+      "url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
       "id": "candidate-gh-project-umar-saadat-sehat-ai",
       "title": "Umar-Saadat/Sehat-AI",
       "url": "https://github.com/Umar-Saadat/Sehat-AI",
@@ -608,6 +678,11 @@
         "health-assistant"
       ]
     }
+  ],
+  "errors": [
+    "zenodo: pashto: The read operation timed out; pukhto: The read operation timed out; pushto: The read operation timed out; pakhto: The read operation timed out",
+    "arxiv: pashto: HTTP Error 406: Not Acceptable; pukhto: HTTP Error 406: Not Acceptable; pushto: HTTP Error 406: Not Acceptable; pakhto: HTTP Error 406: Not Acceptable",
+    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
     {
