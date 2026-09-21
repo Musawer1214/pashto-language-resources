@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-09-12T00:00:00Z",
-  "count": 181,
+  "generated_on": "2026-09-21T00:00:00Z",
+  "count": 182,
   "resources": [
     {
       "id": "paper-s2-psocr-lmm-pashto",
@@ -5363,6 +5363,34 @@
       ],
       "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
       "evidence_url": "https://zenodo.org/records/22646118",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-cumulative-through-computability-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: cumulative through computability (work in progress)",
+      "url": "https://zenodo.org/records/22851904",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "This work-in-progress edition expands the accepted public reader from 82 to 255 of 722 Open Logic Project source units. The 326-page PDF and matching 25-chapter reflowable EPUB run from the project foundations through set theory, first-orde",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/22851904",
       "markers": [
         "pashto"
       ],

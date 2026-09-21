@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-16T08:57:07.762233+00:00",
+  "generated_on": "2026-09-21T09:26:31.191416+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -12,11 +12,34 @@
     "zenodo",
     "dataverse",
     "datacite",
-    "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 24,
+  "candidate_count": 28,
   "candidates": [
+    {
+      "id": "candidate-datacite-dataset-b-acoustic-epenthesis-dataset-b",
+      "title": "<b>Acoustic Epenthesis Dataset</b>",
+      "url": "https://figshare.com/articles/dataset/_b_Acoustic_Epenthesis_Dataset_b_/33942439/1",
+      "category": "dataset",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This dataset supports the article “Epenthesis or Phonetic Intrusion? An Acoustic Analysis of Vowel Insertion in Pakistani English.” It contains de-identified participant-level acoustic measurements from 30 Pakistani English speakers represe",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://figshare.com/articles/dataset/_b_Acoustic_Epenthesis_Dataset_b_/33942439/1",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "datacite"
+      ]
+    },
     {
       "id": "candidate-datacite-project-a-study-of-the-relationship-between-the-pashto-language-and-indo-aryan-languages",
       "title": "A Study of the Relationship between the Pashto Language and Indo-Aryan Languages",
@@ -90,6 +113,29 @@
       ]
     },
     {
+      "id": "candidate-hf-model-buzzasr-pashto",
+      "title": "BuzzASR/pashto",
+      "url": "https://huggingface.co/BuzzASR/pashto",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/BuzzASR/pashto",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
       "id": "candidate-datacite-project-exploring-the-role-of-letter-similarity-and-ligation-pattern-during-word-recogni",
       "title": "Exploring the role of letter similarity and ligation pattern during word recognition in Arabic script (Persian language) revisited: The case of brief (200 ms) stimulus presentations",
       "url": "https://osf.io/ewtxq/",
@@ -135,6 +181,33 @@
         "candidate",
         "paper",
         "crossref"
+      ]
+    },
+    {
+      "id": "candidate-gh-project-hamidafghan-lorem",
+      "title": "hamidafghan/lorem",
+      "url": "https://github.com/hamidafghan/lorem",
+      "category": "project",
+      "source": "github",
+      "status": "candidate",
+      "summary": "ایجاد متن های ساختگی دری و پشتو",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Repository metadata (name/description/topics) includes Pashto markers.",
+        "evidence_url": "https://github.com/hamidafghan/lorem",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "github",
+        "dari",
+        "lorem",
+        "pashto"
       ]
     },
     {
@@ -264,18 +337,66 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-proof-systems-and-completeness-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: proof systems and completeness (work in progress)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22646118",
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-cumulative-through-computability-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: cumulative through computability (work in progress)",
+      "url": "https://zenodo.org/records/22851904",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "candidate",
+      "summary": "This work-in-progress edition expands the accepted public reader from 82 to 255 of 722 Open Logic Project source units. The 326-page PDF and matching 25-chapter reflowable EPUB run from the project foundations through set theory, first-orde",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/22851904",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-cumulative-through-computability-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: cumulative through computability (work in progress)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
-      "summary": "A work-in-progress machine translation for Pakistani Pashto. This release adds the complete twelve-unit first-order completeness chapter to the reader: Henkin saturation, Lindenbaum extension, ordinary and factored term models, both complet",
+      "summary": "This work-in-progress edition expands the accepted public reader from 82 to 255 of 722 Open Logic Project source units. The 326-page PDF and matching 25-chapter reflowable EPUB run from the project foundations through set theory, first-orde",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22646118",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-reflowable-epub-and-direct-latex-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: reflowable EPUB and direct LaTeX (work in progress)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22848594",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This work-in-progress edition adds a reflowable EPUB for the accepted 82-unit proof-systems and completeness reader. The EPUB preserves the same content profile as the 126-page PDF, with native MathML, semantic proof-tree and tableau struct",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22848594",
         "markers": [
           "pashto"
         ]
@@ -483,30 +604,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-dataset-research-materials-for-navigating-cultural-and-economic-barriers-to-girls-educat",
-      "title": "Research Materials for “Navigating Cultural and Economic Barriers to Girls’ Education in Rural Khyber Pakhtunkhwa: A Qualitative Study of Female Agency”",
-      "url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
-      "category": "dataset",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This deposit contains research materials and documentation for a qualitative phenomenological study of girls’ education in rural Mardan, Khyber Pakhtunkhwa, Pakistan. The study examines how girls aged 13–18 and their female relatives naviga",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-gh-project-sabtain-dev-stt-whisper-pashto",
       "title": "Sabtain-Dev/STT-Whisper-Pashto",
       "url": "https://github.com/Sabtain-Dev/STT-Whisper-Pashto",
@@ -558,18 +655,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-the-women-have-got-the-formula-dari-pashto-edition",
-      "title": "The Women Have Got the Formula – Dari & Pashto Edition",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20412334",
-      "category": "project",
-      "source": "datacite",
+      "id": "candidate-hf-model-tinyopsec-minicpm5-2b-sft-pashto-gguf",
+      "title": "tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+      "url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+      "category": "model",
+      "source": "huggingface",
       "status": "candidate",
-      "summary": "The Women Have Got the Formula – Dari & Pashto Edition is a multilingual scientific outreach publication developed to increase access to STEM role models and science communication materials for students and communities in Afghanistan. Based",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20412334",
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
         "markers": [
           "pashto"
         ]
@@ -577,8 +674,7 @@
       "tags": [
         "pashto",
         "candidate",
-        "project",
-        "datacite"
+        "model"
       ]
     },
     {
@@ -608,6 +704,9 @@
         "health-assistant"
       ]
     }
+  ],
+  "errors": [
+    "arxiv: pashto: HTTP Error 406: Not Acceptable; pukhto: HTTP Error 406: Not Acceptable; pushto: HTTP Error 406: Not Acceptable; pakhto: HTTP Error 406: Not Acceptable"
   ],
   "skipped_prior_removals": [
     {

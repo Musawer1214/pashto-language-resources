@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-09-12",
+  "updated_on": "2026-09-21",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7820,6 +7820,73 @@
         "pashto",
         "paper",
         "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-buzzasr-pashto",
+      "title": "BuzzASR/pashto",
+      "url": "https://huggingface.co/BuzzASR/pashto",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/BuzzASR/pashto",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-cumulative-through-computability-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: cumulative through computability (work in progress)",
+      "url": "https://zenodo.org/records/22851904",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "This work-in-progress edition expands the accepted public reader from 82 to 255 of 722 Open Logic Project source units. The 326-page PDF and matching 25-chapter reflowable EPUB run from the project foundations through set theory, first-orde",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/22851904",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-tinyopsec-minicpm5-2b-sft-pashto-gguf",
+      "title": "tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+      "url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "model"
       ]
     }
   ]
