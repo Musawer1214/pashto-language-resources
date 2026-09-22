@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-09-21",
+  "updated_on": "2026-09-22",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7880,6 +7880,28 @@
       "pashto_evidence": {
         "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
         "evidence_url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-nassimjp-minicpm5-1b-pashto",
+      "title": "nassimjp/MiniCPM5-1B-Pashto",
+      "url": "https://huggingface.co/nassimjp/MiniCPM5-1B-Pashto",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/nassimjp/MiniCPM5-1B-Pashto",
         "markers": [
           "pashto"
         ]

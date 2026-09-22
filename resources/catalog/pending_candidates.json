@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-21T09:26:31.191416+00:00",
+  "generated_on": "2026-09-22T08:54:58.280033+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -11,10 +11,9 @@
     "crossref",
     "zenodo",
     "dataverse",
-    "datacite",
-    "semantic-scholar"
+    "datacite"
   ],
-  "candidate_count": 28,
+  "candidate_count": 26,
   "candidates": [
     {
       "id": "candidate-datacite-dataset-b-acoustic-epenthesis-dataset-b",
@@ -86,53 +85,6 @@
         "candidate",
         "dataset",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-all-of-government-of-pakistan-is-wajib-ul-qatal-including-army-police-judges-bur",
-      "title": "ALL OF GOVERNMENT OF PAKISTAN IS WAJIB UL QATAL INCLUDING ARMY, POLICE, JUDGES, BUREAUCRACY, ISLAMIC SCHOLARS WHO ARE SILENT.",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20327396",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "GLOBAL ANNOUNCEMENT. These are Corrupt Bureaucracy who are paid to poison Pakistan Children. This Corrupt CEO, EDO Health, Multan. Last month due to their #poison Several thousands of children fell sick from intestine infections, #103° #fev",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20327396",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-hf-model-buzzasr-pashto",
-      "title": "BuzzASR/pashto",
-      "url": "https://huggingface.co/BuzzASR/pashto",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/BuzzASR/pashto",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
       ]
     },
     {
@@ -313,6 +265,29 @@
       ]
     },
     {
+      "id": "candidate-hf-model-nassimjp-minicpm5-1b-pashto",
+      "title": "nassimjp/MiniCPM5-1B-Pashto",
+      "url": "https://huggingface.co/nassimjp/MiniCPM5-1B-Pashto",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/nassimjp/MiniCPM5-1B-Pashto",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
       "id": "candidate-datacite-paper-only-2-of-154-most-spoken-languages-from-23-language-families-employ-a-labial-fo",
       "title": "Only 2 of 154 Most spoken Languages from 23 Language Families Employ a Labial for \"Tongue\" in 1st Consonant Position Demonstrating Embodied Iconicity for Tongue Vs Mouth in \"inverse\" Control",
       "url": "https://zenodo.org/doi/10.5281/zenodo.17791741",
@@ -334,30 +309,6 @@
         "candidate",
         "paper",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-cumulative-through-computability-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: cumulative through computability (work in progress)",
-      "url": "https://zenodo.org/records/22851904",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "This work-in-progress edition expands the accepted public reader from 82 to 255 of 722 Open Logic Project source units. The 326-page PDF and matching 25-chapter reflowable EPUB run from the project foundations through set theory, first-orde",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/22851904",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
       ]
     },
     {
@@ -655,29 +606,6 @@
       ]
     },
     {
-      "id": "candidate-hf-model-tinyopsec-minicpm5-2b-sft-pashto-gguf",
-      "title": "tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
-      "url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/tinyopsec/MiniCPM5-2B-SFT-Pashto-GGUF",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
-      ]
-    },
-    {
       "id": "candidate-gh-project-umar-saadat-sehat-ai",
       "title": "Umar-Saadat/Sehat-AI",
       "url": "https://github.com/Umar-Saadat/Sehat-AI",
@@ -703,10 +631,35 @@
         "digital-health",
         "health-assistant"
       ]
+    },
+    {
+      "id": "candidate-datacite-project-understanding-community-context-of-mental-health-service-engagement-in-karachi-p",
+      "title": "Understanding community context of mental health service engagement in Karachi, Pakistan: a focused ethnographic study",
+      "url": "https://osf.io/dgmnc/",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This study examines how community and household contexts shape engagement with primary mental health care among people in low-income urban areas of Karachi. It is nested within SPiRiT-D, a cluster-randomised hybrid effectiveness–implementat",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://osf.io/dgmnc/",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
     }
   ],
   "errors": [
-    "arxiv: pashto: HTTP Error 406: Not Acceptable; pukhto: HTTP Error 406: Not Acceptable; pushto: HTTP Error 406: Not Acceptable; pakhto: HTTP Error 406: Not Acceptable"
+    "arxiv: pashto: HTTP Error 406: Not Acceptable; pukhto: HTTP Error 406: Not Acceptable; pushto: HTTP Error 406: Not Acceptable; pakhto: HTTP Error 406: Not Acceptable",
+    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
     {
