@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-22T08:54:58.280033+00:00",
+  "generated_on": "2026-09-26T08:56:53.113997+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -13,7 +13,7 @@
     "dataverse",
     "datacite"
   ],
-  "candidate_count": 26,
+  "candidate_count": 27,
   "candidates": [
     {
       "id": "candidate-datacite-dataset-b-acoustic-epenthesis-dataset-b",
@@ -85,54 +85,6 @@
         "candidate",
         "dataset",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-exploring-the-role-of-letter-similarity-and-ligation-pattern-during-word-recogni",
-      "title": "Exploring the role of letter similarity and ligation pattern during word recognition in Arabic script (Persian language) revisited: The case of brief (200 ms) stimulus presentations",
-      "url": "https://osf.io/ewtxq/",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Reading is a crucial activity that calls on many cognitive functions. The initial stage when reading a word is encoding the identity and location of each of its constituent letters (Grainger, 2018). In psychology, the study of letter proper",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://osf.io/ewtxq/",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-crossref-figure-2-pashto-document-images-containing-pashto-text-and-graphics",
-      "title": "Figure 2: Pashto document images containing pashto text and graphics.",
-      "url": "https://doi.org/10.7717/peerj-cs.2089/fig-2",
-      "category": "paper",
-      "source": "crossref",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Crossref search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
-        "evidence_url": "https://doi.org/10.7717/peerj-cs.2089/fig-2",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "crossref"
       ]
     },
     {
@@ -241,33 +193,9 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-munshiy-ahmadjon-hikoyalarining-g-oyaviy-badiiy-tahlili",
-      "title": "MUNSHIY AHMADJON HIKOYALARINING G'OYAVIY-BADIIY TAHLILI",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.20633096",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Mazkur maqolada XX asr boshlaridagi pushtu adabiyotining yirik namoyandalaridan biri Munshiy Ahmadjonning hayoti va ijodiy faoliyati tahlil qilinadi. Adibning pushtu badiiy prozasi taraqqiyotidagi o‘rni, tarjimonlik faoliyati, lug‘atchilik",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.20633096",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-hf-model-nassimjp-minicpm5-1b-pashto",
-      "title": "nassimjp/MiniCPM5-1B-Pashto",
-      "url": "https://huggingface.co/nassimjp/MiniCPM5-1B-Pashto",
+      "id": "candidate-hf-model-mradermacher-lfm2-5-2-6b-pashto-zi-b-gguf",
+      "title": "mradermacher/LFM2.5-2.6B-Pashto-Zi-b-GGUF",
+      "url": "https://huggingface.co/mradermacher/LFM2.5-2.6B-Pashto-Zi-b-GGUF",
       "category": "model",
       "source": "huggingface",
       "status": "candidate",
@@ -276,7 +204,30 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/nassimjp/MiniCPM5-1B-Pashto",
+        "evidence_url": "https://huggingface.co/mradermacher/LFM2.5-2.6B-Pashto-Zi-b-GGUF",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-nassimjp-lfm2-5-2-6b-pashto-zi",
+      "title": "nassimjp/LFM2.5-2.6B-Pashto-Zi",
+      "url": "https://huggingface.co/nassimjp/LFM2.5-2.6B-Pashto-Zi",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/nassimjp/LFM2.5-2.6B-Pashto-Zi",
         "markers": [
           "pashto"
         ]
@@ -308,30 +259,6 @@
         "pashto",
         "candidate",
         "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-cumulative-through-computability-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: cumulative through computability (work in progress)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This work-in-progress edition expands the accepted public reader from 82 to 255 of 722 Open Logic Project source units. The 326-page PDF and matching 25-chapter reflowable EPUB run from the project foundations through set theory, first-orde",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
         "datacite"
       ]
     },
@@ -582,6 +509,30 @@
       ]
     },
     {
+      "id": "candidate-datacite-paper-short-and-long-term-effects-of-reminders-on-panellists-survey-participation-in-a",
+      "title": "Short- and Long-Term Effects of Reminders on Panellists’ Survey Participation in a Probability-Based Panel Study with a Sequential Mixed-Mode Design",
+      "url": "https://boris-portal.unibe.ch/entities/publication/87cf5b86-13d2-481d-b8a0-a5624a569af5",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "In recent panel studies, besides other methods such as sequential mixed-mode design, pushto- web method, and prepaid monetary incentives, follow-up contacts such as personalised electronic mails (e-mails) or short message service are often",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://boris-portal.unibe.ch/entities/publication/87cf5b86-13d2-481d-b8a0-a5624a569af5",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-datacite-paper-the-language-energy-divide-measuring-energy-costs-of-multilingual-llm-inference",
       "title": "The Language-Energy Divide: Measuring Energy Costs of Multilingual LLM Inference",
       "url": "https://arxiv.org/abs/2606.21869",
@@ -594,6 +545,54 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://arxiv.org/abs/2606.21869",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-the-world-is-established-through-the-work-of-existence-the-performance-of-gham-k",
+      "title": "The world is established through the work of existence : the performance of Gham-Khadi among Pukhtun Bibiane in Northern Pakistan.",
+      "url": "https://www.repository.cam.ac.uk/handle/1810/236168",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This thesis explores the social lives of elite Pukhtun women or Bibiane in northern Pakistan, with an ethnographic focus on the enactment of particular life-cycle or gham-khadi ceremonies (funerals and weddings). The widely used Pukhto term",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://www.repository.cam.ac.uk/handle/1810/236168",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-transfer-learning-for-printed-pashto-alphabet-recognition-a-comparative-analysis",
+      "title": "TRANSFER LEARNING FOR PRINTED PASHTO ALPHABET RECOGNITION: A COMPARATIVE ANALYSIS",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22931018",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22931018",
         "markers": [
           "pashto"
         ]
@@ -645,6 +644,30 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://osf.io/dgmnc/",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-resource",
+      "title": "اوپن لاجک په پاکستانۍ پښتو کښې: له بنسټونو تر ناتکميلۍ پورې (۳۲۱ واحدونه)",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "دا د اوپن لاجک پروژې د پاکستانۍ پښتو روانې ژباړې نوے لوستونکی دے. د ۷۲۲ اصلي واحدونو له ډلې لومړي ۳۲۱ واحدونه په ۳۱ څپرکو کښې راټولوي. ۴۲۰ مخيز PDF او بدلېدونکے EPUB له بنسټونو، منطق او محاسبه کېدنې څخه د نحو حسابي کولو او د ګوډل او روسر د",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
         "markers": [
           "pashto"
         ]
