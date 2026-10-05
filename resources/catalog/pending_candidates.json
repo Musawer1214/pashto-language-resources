@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-29T10:17:25.789837+00:00",
+  "generated_on": "2026-10-05T11:00:12.644126+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -14,7 +14,7 @@
     "datacite",
     "arxiv"
   ],
-  "candidate_count": 26,
+  "candidate_count": 33,
   "candidates": [
     {
       "id": "candidate-datacite-dataset-b-acoustic-epenthesis-dataset-b",
@@ -62,6 +62,78 @@
         "candidate",
         "project",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-openalex-anglicism-in-pashto-a-case-study-of-pashto-media",
+      "title": "Anglicism in Pashto: A Case Study of Pashto Media",
+      "url": "https://pashto.org.pk/index.php/path/article/view/433",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://pashto.org.pk/index.php/path/article/view/433",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-electricity-generation-from-the-municipal-solid-waste-of-kabul-city",
+      "title": "Electricity Generation from the Municipal Solid Waste of Kabul City",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23145119",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Bachelor's (Licentiate) monograph, Department of General Physics, Faculty of Physics, Kabul University, academic year 1395 SH (2016). Written in Pashto. The monograph assesses the potential for generating electricity from the municipal soli",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23145119",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-openalex-ergativity-in-pashto",
+      "title": "Ergativity in Pashto",
+      "url": "https://doi.org/10.5281/zenodo.5789885",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://doi.org/10.5281/zenodo.5789885",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
       ]
     },
     {
@@ -143,6 +215,30 @@
       ]
     },
     {
+      "id": "candidate-openalex-ilm-shaili-package-pashto-pashto",
+      "title": "ILM Shaili Package — pashto (pashto)",
+      "url": "https://doi.org/10.5281/zenodo.20704658",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://doi.org/10.5281/zenodo.20704658",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
+      ]
+    },
+    {
       "id": "candidate-gh-code-jawadnoori1718-pashtobench",
       "title": "Jawadnoori1718/PashtoBench",
       "url": "https://github.com/Jawadnoori1718/PashtoBench",
@@ -170,18 +266,42 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-male-birth-control-pashto-transcript",
-      "title": "Male Birth Control [Pashto] Transcript",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
-      "category": "paper",
+      "id": "candidate-datacite-dataset-lanes-outlet-registry-109-news-outlets-by-conflict-side-language-and-ownership",
+      "title": "Lanes outlet registry: 109 news outlets by conflict side, language and ownership",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23107414",
+      "category": "dataset",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "summary": "This is the list of news outlets that Lanes (https://lanes.news) reads to compare how each side of a conflict reports the same events. I keep it for the site, and I'm sharing it because a list like this is useful for anyone studying state m",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.19487937",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23107414",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-openalex-negation-in-pashto",
+      "title": "Negation in Pashto",
+      "url": "https://doi.org/10.5281/zenodo.18233956",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://doi.org/10.5281/zenodo.18233956",
         "markers": [
           "pashto"
         ]
@@ -190,77 +310,7 @@
         "pashto",
         "candidate",
         "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-hf-model-mradermacher-lfm2-5-2-6b-pashto-zi-b-gguf",
-      "title": "mradermacher/LFM2.5-2.6B-Pashto-Zi-b-GGUF",
-      "url": "https://huggingface.co/mradermacher/LFM2.5-2.6B-Pashto-Zi-b-GGUF",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/mradermacher/LFM2.5-2.6B-Pashto-Zi-b-GGUF",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
-      ]
-    },
-    {
-      "id": "candidate-hf-model-nassimjp-lfm2-5-2-6b-pashto-zi",
-      "title": "nassimjp/LFM2.5-2.6B-Pashto-Zi",
-      "url": "https://huggingface.co/nassimjp/LFM2.5-2.6B-Pashto-Zi",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/nassimjp/LFM2.5-2.6B-Pashto-Zi",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-only-2-of-154-most-spoken-languages-from-23-language-families-employ-a-labial-fo",
-      "title": "Only 2 of 154 Most spoken Languages from 23 Language Families Employ a Labial for \"Tongue\" in 1st Consonant Position Demonstrating Embodied Iconicity for Tongue Vs Mouth in \"inverse\" Control",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.17791741",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Class-Level Embodied Iconicity in Words for TONGUE and MOUTH: Evidence From 154 Major Languages, With Genealogical Controls and a Balanced-Sample Replication Author: M. Phillips Affiliation: Independent Contact: mg@mgcode.mozmail.com Versio",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.17791741",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
+        "openalex"
       ]
     },
     {
@@ -285,6 +335,78 @@
         "candidate",
         "project",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-openalex-pashto",
+      "title": "Pashto",
+      "url": "https://doi.org/10.4324/9780203214961-26",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://doi.org/10.4324/9780203214961-26",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
+      ]
+    },
+    {
+      "id": "candidate-openalex-pashto-pashto-english-english-pashto-dictionary-phrasebook",
+      "title": "Pashto : Pashto-English, English-Pashto dictionary & phrasebook",
+      "url": "http://ci.nii.ac.jp/ncid/BB20780592",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "http://ci.nii.ac.jp/ncid/BB20780592",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
+      ]
+    },
+    {
+      "id": "candidate-openalex-pashto-article-pashto-language-sub-dialects-of-pashto-language",
+      "title": "Pashto article Pashto Language: Sub dialects of Pashto language",
+      "url": "https://pashto.org.pk/index.php/path/article/view/195",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://pashto.org.pk/index.php/path/article/view/195",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
       ]
     },
     {
@@ -357,6 +479,30 @@
         "candidate",
         "dataset",
         "kaggle"
+      ]
+    },
+    {
+      "id": "candidate-openalex-pashto-language-the-role-of-curriculum-in-the-promotion-of-pashto-language",
+      "title": "Pashto Language The role of Curriculum in the promotion of Pashto language",
+      "url": "https://pashto.org.pk/index.php/path/article/view/471",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://pashto.org.pk/index.php/path/article/view/471",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
       ]
     },
     {
@@ -459,6 +605,30 @@
       ]
     },
     {
+      "id": "candidate-datacite-dataset-research-materials-for-navigating-cultural-and-economic-barriers-to-girls-educat",
+      "title": "Research Materials for “Navigating Cultural and Economic Barriers to Girls’ Education in Rural Khyber Pakhtunkhwa: A Qualitative Study of Female Agency”",
+      "url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
+      "category": "dataset",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "This deposit contains research materials and documentation for a qualitative phenomenological study of girls’ education in rural Mardan, Khyber Pakhtunkhwa, Pakistan. The study examines how girls aged 13–18 and their female relatives naviga",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-gh-project-sabtain-dev-stt-whisper-pashto",
       "title": "Sabtain-Dev/STT-Whisper-Pashto",
       "url": "https://github.com/Sabtain-Dev/STT-Whisper-Pashto",
@@ -498,30 +668,6 @@
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
         "evidence_url": "https://boris-portal.unibe.ch/entities/publication/87cf5b86-13d2-481d-b8a0-a5624a569af5",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-the-language-energy-divide-measuring-energy-costs-of-multilingual-llm-inference",
-      "title": "The Language-Energy Divide: Measuring Energy Costs of Multilingual LLM Inference",
-      "url": "https://arxiv.org/abs/2606.21869",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Large language models (LLMs) are increasingly deployed in multilingual settings, yet the energy costs of serving these models across different languages remain poorly understood. We present a systematic study of inference energy consumption",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://arxiv.org/abs/2606.21869",
         "markers": [
           "pashto"
         ]
@@ -579,6 +725,30 @@
         "candidate",
         "paper",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-openalex-transformation-in-pashto-language-an-analysis-of-pashto-phrases-and-sentences",
+      "title": "Transformation in Pashto Language An Analysis of Pashto Phrases and Sentences",
+      "url": "https://doi.org/10.58329/criss.v2i4.57",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://doi.org/10.58329/criss.v2i4.57",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
       ]
     },
     {
