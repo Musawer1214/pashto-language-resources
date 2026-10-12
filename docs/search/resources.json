@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-09-29T00:00:00Z",
-  "count": 142,
+  "generated_on": "2026-10-12T00:00:00Z",
+  "count": 143,
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -4178,6 +4178,34 @@
       ],
       "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
       "evidence_url": "https://huggingface.co/nassimjp/LFM2.5-2.6B-Pashto-Zi",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "generic_summary",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-abdulmoizshah01-whisper-pashto",
+      "title": "AbdulMoizShah01/Whisper-Pashto",
+      "url": "https://huggingface.co/AbdulMoizShah01/Whisper-Pashto",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "model"
+      ],
+      "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+      "evidence_url": "https://huggingface.co/AbdulMoizShah01/Whisper-Pashto",
       "markers": [
         "pashto"
       ],
