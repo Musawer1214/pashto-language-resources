@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-10-12T00:00:00Z",
-  "count": 182,
+  "generated_on": "2026-10-15T00:00:00Z",
+  "count": 183,
   "resources": [
     {
       "id": "paper-s2-psocr-lmm-pashto",
@@ -5391,6 +5391,34 @@
       ],
       "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
       "evidence_url": "https://zenodo.org/records/22851904",
+      "markers": [
+        "pashto"
+      ],
+      "signal_origin": "direct",
+      "direct_pashto_signal": true,
+      "quality_flags": [
+        "automated_discovery",
+        "missing_tasks"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-indigenizing-macbeth-qalandar-momand-s-pukhto-translation-as-postcolonial-adapta",
+      "title": "INDIGENIZING MACBETH: QALANDAR MOMAND'S PUKHTO TRANSLATION AS POSTCOLONIAL ADAPTATION",
+      "url": "https://zenodo.org/records/23339582",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "review_state": "automated_verified",
+      "summary": "Candidate resource returned from Zenodo search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ],
+      "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+      "evidence_url": "https://zenodo.org/records/23339582",
       "markers": [
         "pashto"
       ],

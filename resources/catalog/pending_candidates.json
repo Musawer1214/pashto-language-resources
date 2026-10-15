@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-10-12T11:34:59.534272+00:00",
+  "generated_on": "2026-10-15T08:43:58.939947+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -14,31 +14,8 @@
     "datacite",
     "arxiv"
   ],
-  "candidate_count": 34,
+  "candidate_count": 41,
   "candidates": [
-    {
-      "id": "candidate-hf-model-abdulmoizshah01-whisper-pashto",
-      "title": "AbdulMoizShah01/Whisper-Pashto",
-      "url": "https://huggingface.co/AbdulMoizShah01/Whisper-Pashto",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/AbdulMoizShah01/Whisper-Pashto",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
-      ]
-    },
     {
       "id": "candidate-openalex-anglicism-in-pashto-a-case-study-of-pashto-media",
       "title": "Anglicism in Pashto: A Case Study of Pashto Media",
@@ -61,6 +38,30 @@
         "candidate",
         "paper",
         "openalex"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-assessment-of-speech-and-language-disorders-in-urdu-and-pashto-speaking-populati",
+      "title": "Assessment of speech and language disorders in Urdu- and Pashto-speaking populations: a scoping review protocol",
+      "url": "https://osf.io/ru5yp/",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Urdu is the national language of Pakistan and Pashto is a major language of Pakistan and Afghanistan, yet standardised language measures remain scarce in Pakistan. This scoping review asks: what assessment tools exist for speech and languag",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://osf.io/ru5yp/",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
       ]
     },
     {
@@ -214,6 +215,54 @@
       ]
     },
     {
+      "id": "candidate-zenodo-paper-indigenizing-macbeth-qalandar-momand-s-pukhto-translation-as-postcolonial-adapta",
+      "title": "INDIGENIZING MACBETH: QALANDAR MOMAND'S PUKHTO TRANSLATION AS POSTCOLONIAL ADAPTATION",
+      "url": "https://zenodo.org/records/23339582",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "candidate",
+      "summary": "Candidate resource returned from Zenodo search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/23339582",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-indigenizing-macbeth-qalandar-momand-s-pukhto-translation-as-postcolonial-adapta",
+      "title": "INDIGENIZING MACBETH: QALANDAR MOMAND'S PUKHTO TRANSLATION AS POSTCOLONIAL ADAPTATION",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23339582",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23339582",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-gh-code-jawadnoori1718-pashtobench",
       "title": "Jawadnoori1718/PashtoBench",
       "url": "https://github.com/Jawadnoori1718/PashtoBench",
@@ -286,6 +335,75 @@
         "candidate",
         "paper",
         "openalex"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-nassimjp-da-the-pashto-empowerment-gguf",
+      "title": "nassimjp/Da-The-Pashto-Empowerment-GGUF",
+      "url": "https://huggingface.co/nassimjp/Da-The-Pashto-Empowerment-GGUF",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/nassimjp/Da-The-Pashto-Empowerment-GGUF",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-nassimjp-minicpm5-pashto-native-gguf",
+      "title": "nassimjp/MiniCPM5-Pashto-Native-GGUF",
+      "url": "https://huggingface.co/nassimjp/MiniCPM5-Pashto-Native-GGUF",
+      "category": "model",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/nassimjp/MiniCPM5-Pashto-Native-GGUF",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-nassimjp-persian-pashto-cache",
+      "title": "nassimjp/Persian-Pashto-Cache",
+      "url": "https://huggingface.co/datasets/nassimjp/Persian-Pashto-Cache",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/nassimjp/Persian-Pashto-Cache",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
       ]
     },
     {
@@ -409,6 +527,54 @@
       ]
     },
     {
+      "id": "candidate-kaggle-dataset-karimnaimy-pashto-common-voice-26-0-preprocessed-subset",
+      "title": "Pashto Common Voice 26.0 Preprocessed Subset",
+      "url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-26-0-preprocessed-subset",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "Pashto Common Voice - 16 kHz int16 PCM Arrow dataset for Whisper/Wav2Vec2",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-26-0-preprocessed-subset",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
+      ]
+    },
+    {
+      "id": "candidate-kaggle-dataset-karimnaimy-pashto-common-voice-preprocessed",
+      "title": "Pashto Common Voice Preprocessed",
+      "url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-preprocessed",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "Pashto Common Voice - 16 kHz float32 Arrow dataset for Whisper",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-preprocessed",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
+      ]
+    },
+    {
       "id": "candidate-datacite-paper-pashto-common-voice-building-the-first-open-speech-corpus-for-a-60-million-speak",
       "title": "Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language",
       "url": "https://arxiv.org/abs/2603.27021",
@@ -430,6 +596,30 @@
         "candidate",
         "paper",
         "datacite"
+      ]
+    },
+    {
+      "id": "candidate-kaggle-dataset-fawadshahidi-pashto-fake-news-detection-dataset",
+      "title": "Pashto Fake News Detection Dataset",
+      "url": "https://www.kaggle.com/datasets/fawadshahidi/pashto-fake-news-detection-dataset",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "Candidate Kaggle dataset returned from Pashto search.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/fawadshahidi/pashto-fake-news-detection-dataset",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
       ]
     },
     {
@@ -529,6 +719,30 @@
       ]
     },
     {
+      "id": "candidate-kaggle-dataset-khairullahsahil-pashto-topic-classification-dataset",
+      "title": "Pashto Topic Classification Dataset",
+      "url": "https://www.kaggle.com/datasets/khairullahsahil/pashto-topic-classification-dataset",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "27,437 Pashto news paragraphs labeled with 12 topics, in authentic orthography",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/khairullahsahil/pashto-topic-classification-dataset",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
+      ]
+    },
+    {
       "id": "candidate-kaggle-dataset-itssabtain-pashto-asr-dataset",
       "title": "Pashto-ASR-Dataset",
       "url": "https://www.kaggle.com/datasets/itssabtain/pashto-asr-dataset",
@@ -606,7 +820,7 @@
     {
       "id": "candidate-datacite-dataset-research-materials-for-navigating-cultural-and-economic-barriers-to-girls-educat",
       "title": "Research Materials for “Navigating Cultural and Economic Barriers to Girls’ Education in Rural Khyber Pakhtunkhwa: A Qualitative Study of Female Agency”",
-      "url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
+      "url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724/versions/V1",
       "category": "dataset",
       "source": "datacite",
       "status": "candidate",
@@ -615,7 +829,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
+        "evidence_url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724/versions/V1",
         "markers": [
           "pashto"
         ]
@@ -679,30 +893,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-short-and-long-term-effects-of-reminders-on-panellists-survey-participation-in-a",
-      "title": "Short- and Long-Term Effects of Reminders on Panellists’ Survey Participation in a Probability-Based Panel Study with a Sequential Mixed-Mode Design",
-      "url": "https://boris-portal.unibe.ch/entities/publication/87cf5b86-13d2-481d-b8a0-a5624a569af5",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "In recent panel studies, besides other methods such as sequential mixed-mode design, pushto- web method, and prepaid monetary incentives, follow-up contacts such as personalised electronic mails (e-mails) or short message service are often",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://boris-portal.unibe.ch/entities/publication/87cf5b86-13d2-481d-b8a0-a5624a569af5",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-gh-code-tameemkharbey-pashto-dari-stt-tts",
       "title": "Tameemkharbey/pashto-dari-stt-tts",
       "url": "https://github.com/Tameemkharbey/pashto-dari-stt-tts",
@@ -727,30 +917,6 @@
         "asr",
         "ctranslate2",
         "dari"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-the-world-is-established-through-the-work-of-existence-the-performance-of-gham-k",
-      "title": "The world is established through the work of existence : the performance of Gham-Khadi among Pukhtun Bibiane in Northern Pakistan.",
-      "url": "https://www.repository.cam.ac.uk/handle/1810/236168",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This thesis explores the social lives of elite Pukhtun women or Bibiane in northern Pakistan, with an ethnographic focus on the enactment of particular life-cycle or gham-khadi ceremonies (funerals and weddings). The widely used Pukhto term",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://www.repository.cam.ac.uk/handle/1810/236168",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
       ]
     },
     {
@@ -831,7 +997,7 @@
     {
       "id": "candidate-datacite-project-resource",
       "title": "اوپن لاجک په پاکستانۍ پښتو کښې: د ناتکميلۍ لوستونکي د فورمولونو سمون (۳۲۱ واحدونه)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22991939",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -840,7 +1006,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22991939",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
         "markers": [
           "pashto"
         ]
@@ -865,6 +1031,13 @@
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
+      "id": "candidate-kaggle-dataset-abdulbasitkh-pashto-isolated-alphabets-and-numerals",
+      "title": "Pashto Isolated Alphabets and Numerals",
+      "url": "https://www.kaggle.com/datasets/abdulbasitkh/pashto-isolated-alphabetss-and-numerals",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
       "id": "candidate-kaggle-dataset-hassanamin-pashto-ocr",
       "title": "Pashto OCR",
       "url": "https://www.kaggle.com/datasets/hassanamin/pashto-ocr",
@@ -879,9 +1052,30 @@
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
+      "id": "candidate-kaggle-dataset-drijaz-pold-pashto-offensive-language-dataset",
+      "title": "POLD - Pashto Offensive Language Dataset",
+      "url": "https://www.kaggle.com/datasets/drijaz/pold-pashto-offensive-language-dataset",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
       "id": "candidate-kaggle-dataset-drijaz-pashtoocr",
       "title": "PashtoOCR",
       "url": "https://www.kaggle.com/datasets/drijaz/pashtoocr",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-engrirf-pashto-isolated-words-speech-dataset",
+      "title": "Pashto Isolated Words Speech Dataset",
+      "url": "https://www.kaggle.com/datasets/engrirf/pashto-isolated-words-speech-dataset",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-ataullahaali-common-voice-24-0-pashto-speech-dataset",
+      "title": "Common Voice 24.0: Pashto Speech Dataset",
+      "url": "https://www.kaggle.com/datasets/ataullahaali/common-voice-scripted-speech-24-0-pashto",
       "reason": "URL returned hard-missing HTTP status 404.",
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
@@ -893,16 +1087,23 @@
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
-      "id": "candidate-kaggle-dataset-hassanamin-katib-s-pashto-text-imagebase-kpti",
-      "title": "Katib's Pashto Text Imagebase (KPTI)",
-      "url": "https://www.kaggle.com/datasets/hassanamin/katibs-pashto-text-imagebase-kpti",
+      "id": "candidate-kaggle-dataset-rabiakhan827-english-pashto-language-dataset-epld",
+      "title": "English-Pashto Language Dataset (EPLD)",
+      "url": "https://www.kaggle.com/datasets/rabiakhan827/english-pashto-language-dataset-epld",
       "reason": "URL returned hard-missing HTTP status 404.",
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
     {
-      "id": "candidate-kaggle-dataset-rabiakhan827-english-pashto-language-dataset-epld",
-      "title": "English-Pashto Language Dataset (EPLD)",
-      "url": "https://www.kaggle.com/datasets/rabiakhan827/english-pashto-language-dataset-epld",
+      "id": "candidate-kaggle-dataset-alimuhammadasad-pashto-poetry",
+      "title": "Pashto Poetry",
+      "url": "https://www.kaggle.com/datasets/alimuhammadasad/pashto-poetry",
+      "reason": "URL returned hard-missing HTTP status 404.",
+      "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
+    },
+    {
+      "id": "candidate-kaggle-dataset-hassanamin-katib-s-pashto-text-imagebase-kpti",
+      "title": "Katib's Pashto Text Imagebase (KPTI)",
+      "url": "https://www.kaggle.com/datasets/hassanamin/katibs-pashto-text-imagebase-kpti",
       "reason": "URL returned hard-missing HTTP status 404.",
       "previous_removed_on": "2026-02-21T20:47:45.952635+00:00"
     },
@@ -923,12 +1124,12 @@
     {
       "id": "candidate-crossref-summaries-in-pashto",
       "title": "Summaries in Pashto",
-      "url": "https://doi.org/10.1097/01.wtf.0000413238.54478.6c",
+      "url": "https://doi.org/10.4103/1571-8883.365106",
       "reason": "Live page content indicates resource is unavailable.",
       "previous_removed_on": "2026-05-20T07:36:54.473136+00:00"
     }
   ],
   "warnings": [
-    "Skipped 10 candidate(s) that matched prior blocking removal log entries."
+    "Skipped 15 candidate(s) that matched prior blocking removal log entries."
   ]
 }
