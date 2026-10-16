@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-10-15T08:43:58.939947+00:00",
+  "generated_on": "2026-10-16T08:37:08.948159+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -14,7 +14,7 @@
     "datacite",
     "arxiv"
   ],
-  "candidate_count": 41,
+  "candidate_count": 37,
   "candidates": [
     {
       "id": "candidate-openalex-anglicism-in-pashto-a-case-study-of-pashto-media",
@@ -67,7 +67,7 @@
     {
       "id": "candidate-datacite-code-bridging-the-resource-gap-a-multi-paradigm-benchmark-for-named-entity-recognitio",
       "title": "Bridging the Resource Gap: A Multi-Paradigm Benchmark for Named Entity Recognition in Low Resource Language",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23265498",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23265499",
       "category": "code",
       "source": "datacite",
       "status": "candidate",
@@ -76,7 +76,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23265498",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23265499",
         "markers": [
           "pashto"
         ]
@@ -91,7 +91,7 @@
     {
       "id": "candidate-datacite-project-electricity-generation-from-the-municipal-solid-waste-of-kabul-city",
       "title": "Electricity Generation from the Municipal Solid Waste of Kabul City",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23145118",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23145119",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -100,7 +100,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23145118",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23145119",
         "markers": [
           "pashto"
         ]
@@ -215,30 +215,6 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-indigenizing-macbeth-qalandar-momand-s-pukhto-translation-as-postcolonial-adapta",
-      "title": "INDIGENIZING MACBETH: QALANDAR MOMAND'S PUKHTO TRANSLATION AS POSTCOLONIAL ADAPTATION",
-      "url": "https://zenodo.org/records/23339582",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "Candidate resource returned from Zenodo search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/23339582",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-indigenizing-macbeth-qalandar-momand-s-pukhto-translation-as-postcolonial-adapta",
       "title": "INDIGENIZING MACBETH: QALANDAR MOMAND'S PUKHTO TRANSLATION AS POSTCOLONIAL ADAPTATION",
       "url": "https://zenodo.org/doi/10.5281/zenodo.23339582",
@@ -292,7 +268,7 @@
     {
       "id": "candidate-datacite-dataset-lanes-outlet-registry-109-news-outlets-by-conflict-side-language-and-ownership",
       "title": "Lanes outlet registry: 109 news outlets by conflict side, language and ownership",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23107414",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23107415",
       "category": "dataset",
       "source": "datacite",
       "status": "candidate",
@@ -301,7 +277,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23107414",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23107415",
         "markers": [
           "pashto"
         ]
@@ -338,9 +314,9 @@
       ]
     },
     {
-      "id": "candidate-hf-model-nassimjp-da-the-pashto-empowerment-gguf",
-      "title": "nassimjp/Da-The-Pashto-Empowerment-GGUF",
-      "url": "https://huggingface.co/nassimjp/Da-The-Pashto-Empowerment-GGUF",
+      "id": "candidate-hf-model-mradermacher-minicpm-v-4-7-1b-pashto-base-gguf",
+      "title": "mradermacher/MiniCPM-V-4.7-1B-Pashto-Base-GGUF",
+      "url": "https://huggingface.co/mradermacher/MiniCPM-V-4.7-1B-Pashto-Base-GGUF",
       "category": "model",
       "source": "huggingface",
       "status": "candidate",
@@ -349,7 +325,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/nassimjp/Da-The-Pashto-Empowerment-GGUF",
+        "evidence_url": "https://huggingface.co/mradermacher/MiniCPM-V-4.7-1B-Pashto-Base-GGUF",
         "markers": [
           "pashto"
         ]
@@ -358,52 +334,6 @@
         "pashto",
         "candidate",
         "model"
-      ]
-    },
-    {
-      "id": "candidate-hf-model-nassimjp-minicpm5-pashto-native-gguf",
-      "title": "nassimjp/MiniCPM5-Pashto-Native-GGUF",
-      "url": "https://huggingface.co/nassimjp/MiniCPM5-Pashto-Native-GGUF",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/nassimjp/MiniCPM5-Pashto-Native-GGUF",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
-      ]
-    },
-    {
-      "id": "candidate-hf-dataset-nassimjp-persian-pashto-cache",
-      "title": "nassimjp/Persian-Pashto-Cache",
-      "url": "https://huggingface.co/datasets/nassimjp/Persian-Pashto-Cache",
-      "category": "dataset",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/datasets/nassimjp/Persian-Pashto-Cache",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset"
       ]
     },
     {
@@ -551,30 +481,6 @@
       ]
     },
     {
-      "id": "candidate-kaggle-dataset-karimnaimy-pashto-common-voice-preprocessed",
-      "title": "Pashto Common Voice Preprocessed",
-      "url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-preprocessed",
-      "category": "dataset",
-      "source": "kaggle",
-      "status": "candidate",
-      "summary": "Pashto Common Voice - 16 kHz float32 Arrow dataset for Whisper",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
-        "evidence_url": "https://www.kaggle.com/datasets/karimnaimy/pashto-common-voice-preprocessed",
-        "markers": [
-          "Pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "kaggle"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-pashto-common-voice-building-the-first-open-speech-corpus-for-a-60-million-speak",
       "title": "Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language",
       "url": "https://arxiv.org/abs/2603.27021",
@@ -620,30 +526,6 @@
         "candidate",
         "dataset",
         "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-crossref-pashto-intonation-patterns",
-      "title": "Pashto Intonation Patterns",
-      "url": "https://doi.org/10.21437/interspeech.2017-1353",
-      "category": "paper",
-      "source": "crossref",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Crossref search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
-        "evidence_url": "https://doi.org/10.21437/interspeech.2017-1353",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "crossref"
       ]
     },
     {
@@ -794,6 +676,30 @@
       ]
     },
     {
+      "id": "candidate-kaggle-dataset-ffatty-plaintext-wikipedia-pashto",
+      "title": "Plaintext Wikipedia (Pashto)",
+      "url": "https://www.kaggle.com/datasets/ffatty/plaintext-wikipedia-full-pashto",
+      "category": "dataset",
+      "source": "kaggle",
+      "status": "candidate",
+      "summary": "Multilingual Wikipedia corpus by PlainTextWikipedia",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Kaggle dataset title/subtitle includes Pashto keyword.",
+        "evidence_url": "https://www.kaggle.com/datasets/ffatty/plaintext-wikipedia-full-pashto",
+        "markers": [
+          "Pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "kaggle"
+      ]
+    },
+    {
       "id": "candidate-kaggle-dataset-shoaib2580-pushto-dataset",
       "title": "Pushto Dataset",
       "url": "https://www.kaggle.com/datasets/shoaib2580/pushto-dataset",
@@ -871,7 +777,7 @@
     {
       "id": "candidate-datacite-code-shahidnasiri-pashto-ir-benchmark-initial-submission-version",
       "title": "shahidnasiri/pashto-ir-benchmark: Initial Submission Version",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23180126",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23180127",
       "category": "code",
       "source": "datacite",
       "status": "candidate",
@@ -880,7 +786,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23180126",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23180127",
         "markers": [
           "pashto"
         ]
@@ -997,7 +903,7 @@
     {
       "id": "candidate-datacite-project-resource",
       "title": "اوپن لاجک په پاکستانۍ پښتو کښې: د ناتکميلۍ لوستونکي د فورمولونو سمون (۳۲۱ واحدونه)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22991939",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -1006,7 +912,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22991939",
         "markers": [
           "pashto"
         ]
