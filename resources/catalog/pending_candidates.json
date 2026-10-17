@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-10-16T08:37:08.948159+00:00",
+  "generated_on": "2026-10-17T08:09:10.714029+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -14,7 +14,7 @@
     "datacite",
     "arxiv"
   ],
-  "candidate_count": 37,
+  "candidate_count": 36,
   "candidates": [
     {
       "id": "candidate-openalex-anglicism-in-pashto-a-case-study-of-pashto-media",
@@ -314,29 +314,6 @@
       ]
     },
     {
-      "id": "candidate-hf-model-mradermacher-minicpm-v-4-7-1b-pashto-base-gguf",
-      "title": "mradermacher/MiniCPM-V-4.7-1B-Pashto-Base-GGUF",
-      "url": "https://huggingface.co/mradermacher/MiniCPM-V-4.7-1B-Pashto-Base-GGUF",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/mradermacher/MiniCPM-V-4.7-1B-Pashto-Base-GGUF",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
-      ]
-    },
-    {
       "id": "candidate-openalex-negation-in-pashto",
       "title": "Negation in Pashto",
       "url": "https://doi.org/10.5281/zenodo.18233955",
@@ -363,7 +340,7 @@
     {
       "id": "candidate-datacite-dataset-oral-traditions-of-pakistan-a-multilingual-accessible-archive",
       "title": "Oral Traditions of Pakistan: A Multilingual Accessible Archive",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23207339",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23207338",
       "category": "dataset",
       "source": "datacite",
       "status": "candidate",
@@ -372,7 +349,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23207339",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23207338",
         "markers": [
           "pashto"
         ]
@@ -777,7 +754,7 @@
     {
       "id": "candidate-datacite-code-shahidnasiri-pashto-ir-benchmark-initial-submission-version",
       "title": "shahidnasiri/pashto-ir-benchmark: Initial Submission Version",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23180127",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23180126",
       "category": "code",
       "source": "datacite",
       "status": "candidate",
@@ -786,7 +763,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23180127",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23180126",
         "markers": [
           "pashto"
         ]
@@ -903,7 +880,7 @@
     {
       "id": "candidate-datacite-project-resource",
       "title": "اوپن لاجک په پاکستانۍ پښتو کښې: د ناتکميلۍ لوستونکي د فورمولونو سمون (۳۲۱ واحدونه)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22991939",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
       "category": "project",
       "source": "datacite",
       "status": "candidate",
@@ -912,7 +889,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22991939",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
         "markers": [
           "pashto"
         ]
