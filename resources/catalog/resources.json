@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-10-16",
+  "updated_on": "2026-10-20",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -8086,6 +8086,74 @@
       "tags": [
         "pashto",
         "model"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-pashto-poetry-in-the-twenty-first-century-voices-of-identity-resistance-and-revi",
+      "title": "Pashto Poetry in the Twenty-First Century: Voices of Identity, Resistance and Revival",
+      "url": "https://zenodo.org/records/23453496",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "Contemporary Pashto poetry offers a rich literary record of the changing experiences, anxieties, and aspirations of Pashtuns in the twenty-first century. Focusing primarily on poets from Khyber Pakhtunkhwa, Pakistan, this article examines h",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/23453496",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-hf-model-shafiq112145-pashto-frontier-blindspots",
+      "title": "shafiq112145/pashto-frontier-blindspots",
+      "url": "https://huggingface.co/shafiq112145/pashto-frontier-blindspots",
+      "category": "model",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate model returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/shafiq112145/pashto-frontier-blindspots",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "model"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-who-deforms-the-poem-human-machine-and-social-media-mediation-of-ghani-khan-s-pa",
+      "title": "WHO DEFORMS THE POEM? HUMAN, MACHINE AND SOCIAL-MEDIA MEDIATION OF GHANI KHAN'S PASHTO VERSE IN ENGLISH",
+      "url": "https://zenodo.org/records/23492482",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "Candidate resource returned from Zenodo search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/23492482",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
       ]
     }
   ]
