@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-10-20T09:04:21.410171+00:00",
+  "generated_on": "2026-10-24T08:30:31.138456+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -11,9 +11,11 @@
     "crossref",
     "zenodo",
     "dataverse",
-    "datacite"
+    "datacite",
+    "arxiv",
+    "semantic-scholar"
   ],
-  "candidate_count": 35,
+  "candidate_count": 33,
   "candidates": [
     {
       "id": "candidate-openalex-anglicism-in-pashto-a-case-study-of-pashto-media",
@@ -265,6 +267,29 @@
       ]
     },
     {
+      "id": "candidate-hf-dataset-nassimjp-pashto-reasoning-bazaar-chat",
+      "title": "nassimjp/Pashto-Reasoning-Bazaar-chat",
+      "url": "https://huggingface.co/datasets/nassimjp/Pashto-Reasoning-Bazaar-chat",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/nassimjp/Pashto-Reasoning-Bazaar-chat",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
+      ]
+    },
+    {
       "id": "candidate-openalex-negation-in-pashto",
       "title": "Negation in Pashto",
       "url": "https://doi.org/10.5281/zenodo.18233955",
@@ -433,33 +458,9 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-pashto-poetry-in-the-twenty-first-century-voices-of-identity-resistance-and-revi",
-      "title": "Pashto Poetry in the Twenty-First Century: Voices of Identity, Resistance and Revival",
-      "url": "https://zenodo.org/records/23453496",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "Contemporary Pashto poetry offers a rich literary record of the changing experiences, anxieties, and aspirations of Pashtuns in the twenty-first century. Focusing primarily on poets from Khyber Pakhtunkhwa, Pakistan, this article examines h",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/23453496",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-pashto-poetry-in-the-twenty-first-century-voices-of-identity-resistance-and-revi",
       "title": "Pashto Poetry in the Twenty-First Century: Voices of Identity, Resistance and Revival",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23453495",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23453496",
       "category": "paper",
       "source": "datacite",
       "status": "candidate",
@@ -468,7 +469,7 @@
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23453495",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23453496",
         "markers": [
           "pashto"
         ]
@@ -652,30 +653,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-dataset-research-materials-for-navigating-cultural-and-economic-barriers-to-girls-educat",
-      "title": "Research Materials for “Navigating Cultural and Economic Barriers to Girls’ Education in Rural Khyber Pakhtunkhwa: A Qualitative Study of Female Agency”",
-      "url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
-      "category": "dataset",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This deposit contains research materials and documentation for a qualitative phenomenological study of girls’ education in rural Mardan, Khyber Pakhtunkhwa, Pakistan. The study examines how girls aged 13–18 and their female relatives naviga",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://www.icpsr.umich.edu/sites/aera/view/studies/307724",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-gh-project-sabtain-dev-stt-whisper-pashto",
       "title": "Sabtain-Dev/STT-Whisper-Pashto",
       "url": "https://github.com/Sabtain-Dev/STT-Whisper-Pashto",
@@ -703,29 +680,6 @@
       ]
     },
     {
-      "id": "candidate-hf-model-shafiq112145-pashto-frontier-blindspots",
-      "title": "shafiq112145/pashto-frontier-blindspots",
-      "url": "https://huggingface.co/shafiq112145/pashto-frontier-blindspots",
-      "category": "model",
-      "source": "huggingface",
-      "status": "candidate",
-      "summary": "Candidate model returned from Hugging Face search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
-        "evidence_url": "https://huggingface.co/shafiq112145/pashto-frontier-blindspots",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "model"
-      ]
-    },
-    {
       "id": "candidate-gh-code-tameemkharbey-pashto-dari-stt-tts",
       "title": "Tameemkharbey/pashto-dari-stt-tts",
       "url": "https://github.com/Tameemkharbey/pashto-dari-stt-tts",
@@ -750,6 +704,30 @@
         "asr",
         "ctranslate2",
         "dari"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-the-contribution-of-nowshera-s-kheshgi-writers-to-pashto-translation-literature",
+      "title": "THE CONTRIBUTION OF NOWSHERA'S KHESHGI WRITERS TO PASHTO TRANSLATION LITERATURE",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.23610582",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23610582",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
       ]
     },
     {
@@ -804,30 +782,6 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-who-deforms-the-poem-human-machine-and-social-media-mediation-of-ghani-khan-s-pa",
-      "title": "WHO DEFORMS THE POEM? HUMAN, MACHINE AND SOCIAL-MEDIA MEDIATION OF GHANI KHAN'S PASHTO VERSE IN ENGLISH",
-      "url": "https://zenodo.org/records/23492482",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "Candidate resource returned from Zenodo search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/23492482",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-who-deforms-the-poem-human-machine-and-social-media-mediation-of-ghani-khan-s-pa",
       "title": "WHO DEFORMS THE POEM? HUMAN, MACHINE AND SOCIAL-MEDIA MEDIATION OF GHANI KHAN'S PASHTO VERSE IN ENGLISH",
       "url": "https://zenodo.org/doi/10.5281/zenodo.23492481",
@@ -875,10 +829,6 @@
         "datacite"
       ]
     }
-  ],
-  "errors": [
-    "arxiv: pashto: The read operation timed out; pukhto: HTTP Error 429: Unknown Error; pushto: HTTP Error 429: Too Many Requests; pakhto: HTTP Error 429: Unknown Error",
-    "semantic-scholar: pashto: HTTP Error 429: ; pukhto: HTTP Error 429: ; pushto: HTTP Error 429: ; pakhto: HTTP Error 429: "
   ],
   "skipped_prior_removals": [
     {
