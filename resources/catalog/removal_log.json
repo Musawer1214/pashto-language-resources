@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-07-07",
+  "updated_on": "2026-10-31",
   "entries": [
     {
       "removed_on": "2026-02-21T19:47:22.435531+00:00",
@@ -1473,6 +1473,74 @@
       "evidence": {
         "status_code": 404,
         "final_url": "https://github.com/nabeelest/pakhtoodle",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-10-31T10:01:58.073251+00:00",
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-sets-relations-and-functions-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: sets, relations and functions (work in progress)",
+      "url": "https://zenodo.org/records/22312916",
+      "reasons": [
+        "URL returned hard-missing HTTP status 410."
+      ],
+      "evidence": {
+        "status_code": 410,
+        "final_url": "https://zenodo.org/records/22312916",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-10-31T10:01:58.073251+00:00",
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-proof-systems-reference-repair-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: proof-systems reference repair (work in progress)",
+      "url": "https://zenodo.org/records/22442605",
+      "reasons": [
+        "URL returned hard-missing HTTP status 410."
+      ],
+      "evidence": {
+        "status_code": 410,
+        "final_url": "https://zenodo.org/records/22442605",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-10-31T10:01:58.073251+00:00",
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-proof-systems-and-completeness-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: proof systems and completeness (work in progress)",
+      "url": "https://zenodo.org/records/22646118",
+      "reasons": [
+        "URL returned hard-missing HTTP status 410."
+      ],
+      "evidence": {
+        "status_code": 410,
+        "final_url": "https://zenodo.org/records/22646118",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-10-31T10:01:58.073251+00:00",
+      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-cumulative-through-computability-work-in-progress",
+      "title": "OpenLogic in Pashto — Pakistan: cumulative through computability (work in progress)",
+      "url": "https://zenodo.org/records/22851904",
+      "reasons": [
+        "URL returned hard-missing HTTP status 410."
+      ],
+      "evidence": {
+        "status_code": 410,
+        "final_url": "https://zenodo.org/records/22851904",
         "metadata_pashto": true,
         "direct_pashto": true,
         "page_pashto": false,
