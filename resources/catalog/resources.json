@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-31",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -7732,29 +7732,6 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-sets-relations-and-functions-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: sets, relations and functions (work in progress)",
-      "url": "https://zenodo.org/records/22312916",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "verified",
-      "summary": "A work-in-progress machine translation for Pakistani Pashto. This version adds the complete functions chapter to the sets and relations chapters in one 33-page reader: 23 of 722 source units, comprising three chapter drivers and 20 substant",
-      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/22312916",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-hf-dataset-tasal9-zamai-pashto-high-qualituly-dataset",
       "title": "tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
       "url": "https://huggingface.co/datasets/tasal9/ZamAI-Pashto-High-Qualituly-Dataset",
@@ -7777,52 +7754,6 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-proof-systems-reference-repair-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: proof-systems reference repair (work in progress)",
-      "url": "https://zenodo.org/records/22442605",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "verified",
-      "summary": "This bounded patch repairs the existing 108-page proof-systems reader. It replaces all 37 raw external-reference fallbacks on pages 41, 42, 44, 64, 65, 68, 91, 94 and 107 with eight human-readable Pashto result titles and adjacent blue `[OL",
-      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/22442605",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
-      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-proof-systems-and-completeness-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: proof systems and completeness (work in progress)",
-      "url": "https://zenodo.org/records/22646118",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "verified",
-      "summary": "A work-in-progress machine translation for Pakistani Pashto. This release adds the complete twelve-unit first-order completeness chapter to the reader: Henkin saturation, Lindenbaum extension, ordinary and factored term models, both complet",
-      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/22646118",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-hf-model-buzzasr-pashto",
       "title": "BuzzASR/pashto",
       "url": "https://huggingface.co/BuzzASR/pashto",
@@ -7842,29 +7773,6 @@
       "tags": [
         "pashto",
         "model"
-      ]
-    },
-    {
-      "id": "candidate-zenodo-paper-openlogic-in-pashto-pakistan-cumulative-through-computability-work-in-progress",
-      "title": "OpenLogic in Pashto — Pakistan: cumulative through computability (work in progress)",
-      "url": "https://zenodo.org/records/22851904",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "verified",
-      "summary": "This work-in-progress edition expands the accepted public reader from 82 to 255 of 722 Open Logic Project source units. The 326-page PDF and matching 25-chapter reflowable EPUB run from the project foundations through set theory, first-orde",
-      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/22851904",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "paper",
-        "zenodo"
       ]
     },
     {
@@ -8154,6 +8062,72 @@
         "pashto",
         "paper",
         "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-cptn-maazff37-pushto-text-to-speech-dataset",
+      "title": "Cptn-maazff37/pushto-text-to-speech-dataset",
+      "url": "https://huggingface.co/datasets/Cptn-maazff37/pushto-text-to-speech-dataset",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/Cptn-maazff37/pushto-text-to-speech-dataset",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-nassimjp-pashto-psychology-questions",
+      "title": "nassimjp/pashto-psychology-questions",
+      "url": "https://huggingface.co/datasets/nassimjp/pashto-psychology-questions",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/nassimjp/pashto-psychology-questions",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-nassimjp-pashto-psychology-reasoning-responses",
+      "title": "nassimjp/Pashto-Psychology-Reasoning-Responses",
+      "url": "https://huggingface.co/datasets/nassimjp/Pashto-Psychology-Reasoning-Responses",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/nassimjp/Pashto-Psychology-Reasoning-Responses",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
       ]
     }
   ]
