@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-07",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -8128,6 +8128,29 @@
       "tags": [
         "pashto",
         "dataset"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-paper-linguistic-challenges-faced-by-secondary-school-students-in-learning-english",
+      "title": "LINGUISTIC CHALLENGES FACED BY SECONDARY SCHOOL STUDENTS IN LEARNING ENGLISH",
+      "url": "https://zenodo.org/records/23940948",
+      "category": "paper",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "This study investigated the linguistic challenges faced by Grade 10 students in public high schools in District D.I. Khan, Khyber Pakhtunkhwa, Pakistan. It aimed to identify the major difficulties students encounter in learning English, exa",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/23940948",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "paper",
+        "zenodo"
       ]
     }
   ]
