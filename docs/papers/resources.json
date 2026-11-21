@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-11-14T00:00:00Z",
-  "count": 182,
+  "generated_on": "2026-11-21T00:00:00Z",
+  "count": 181,
   "resources": [
     {
       "id": "paper-s2-psocr-lmm-pashto",
@@ -1618,37 +1618,6 @@
       "quality_flags": [
         "automated_discovery",
         "placeholder_primary_use",
-        "missing_tasks"
-      ]
-    },
-    {
-      "id": "candidate-openalex-pashto-endo-clitics-in-a-parallel-architecture",
-      "title": "Pashto (Endo-)clitics in a Parallel Architecture",
-      "url": "http://nbn-resolving.de/urn:nbn:de:bsz:352-0-278290",
-      "category": "paper",
-      "source": "openalex",
-      "status": "verified",
-      "review_state": "automated_verified",
-      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "openalex"
-      ],
-      "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
-      "evidence_url": "http://nbn-resolving.de/urn:nbn:de:bsz:352-0-278290",
-      "markers": [
-        "pashto"
-      ],
-      "signal_origin": "direct",
-      "direct_pashto_signal": true,
-      "quality_flags": [
-        "automated_discovery",
-        "placeholder_primary_use",
-        "generic_summary",
         "missing_tasks"
       ]
     },

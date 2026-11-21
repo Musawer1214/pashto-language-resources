@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-11-14T11:05:42.491254+00:00",
+  "generated_on": "2026-11-21T11:55:17.504225+00:00",
   "sources": [
     "kaggle-datasets",
     "huggingface-datasets",
@@ -15,8 +15,32 @@
     "arxiv",
     "semantic-scholar"
   ],
-  "candidate_count": 46,
+  "candidate_count": 45,
   "candidates": [
+    {
+      "id": "candidate-openalex-a-study-of-demonstrative-determiners-in-pashto",
+      "title": "A Study of Demonstrative Determiners in Pashto",
+      "url": "https://doi.org/10.36902/sjesr-vol6-iss3-2023(1-12)",
+      "category": "paper",
+      "source": "openalex",
+      "status": "candidate",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://doi.org/10.36902/sjesr-vol6-iss3-2023(1-12)",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "openalex"
+      ]
+    },
     {
       "id": "candidate-datacite-paper-abstracts-and-authors-of-dari-and-pashto-articles-english",
       "title": "Abstracts and Authors of Dari and Pashto Articles (English)",
@@ -90,6 +114,54 @@
       ]
     },
     {
+      "id": "candidate-datacite-paper-authors-pashto",
+      "title": "Authors (Pashto)",
+      "url": "https://opendata.uni-halle.de//handle/1981185920/128350",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://opendata.uni-halle.de//handle/1981185920/128350",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-computationally-invisible-charting-the-nlp-landscape-of-iranic-languages",
+      "title": "Computationally Invisible: Charting the NLP Landscape of Iranic Languages",
+      "url": "https://underline.io/lecture/166405-computationally-invisible-charting-the-nlp-landscape-of-iranic-languages",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "The Iranic language family spans 101 ISO 639-3 coded varieties and over 200 million speakers across a vast arc from the Caucasus through the Middle East and Central Asia to South Asia and China. Yet this richness is barely reflected in mode",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://underline.io/lecture/166405-computationally-invisible-charting-the-nlp-landscape-of-iranic-languages",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
       "id": "candidate-openalex-consonants-in-pashto",
       "title": "Consonants in Pashto",
       "url": "https://doi.org/10.34577/00005085",
@@ -114,30 +186,6 @@
       ]
     },
     {
-      "id": "candidate-datacite-project-effects-of-radiation-on-living-organisms-afghanistan",
-      "title": "Effects of Radiation on Living Organisms (Afghanistan)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23911268",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This record preserves a scanned copy of a Pashto-language bachelor’s monograph prepared by Shamsuddin Tand in the Department of General Physics, Faculty of Physics, Kabul University. The title page records the academic year as 1395 Solar Hi",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23911268",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
-      ]
-    },
-    {
       "id": "candidate-openalex-ergativity-in-pashto",
       "title": "Ergativity in Pashto",
       "url": "https://doi.org/10.5281/zenodo.5789884",
@@ -159,6 +207,30 @@
         "candidate",
         "paper",
         "openalex"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-ghostiris-a-password-strength-estimator-for-multilingual-users",
+      "title": "GhostIris: A Password Strength Estimator for Multilingual Users",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.24224091",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Popular password strength meters are built around English dictionaries, so they over-rate passwords that people write in their own languages using Latin letters. GhostIris is an open-source, client-side password strength estimator that mode",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.24224091",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
       ]
     },
     {
@@ -240,6 +312,29 @@
       ]
     },
     {
+      "id": "candidate-hf-dataset-hussainshafiq-pashto-sft-mixture",
+      "title": "hussainshafiq/Pashto-SFT-Mixture",
+      "url": "https://huggingface.co/datasets/hussainshafiq/Pashto-SFT-Mixture",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "candidate",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/hussainshafiq/Pashto-SFT-Mixture",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset"
+      ]
+    },
+    {
       "id": "candidate-datacite-project-identity-formation-language-and-migration-dynamics",
       "title": "Identity formation, language and migration dynamics",
       "url": "https://refubium.fu-berlin.de/handle/fub188/53117",
@@ -285,30 +380,6 @@
         "candidate",
         "paper",
         "openalex"
-      ]
-    },
-    {
-      "id": "candidate-datacite-paper-indigenizing-macbeth-qalandar-momand-s-pukhto-translation-as-postcolonial-adapta",
-      "title": "INDIGENIZING MACBETH: QALANDAR MOMAND'S PUKHTO TRANSLATION AS POSTCOLONIAL ADAPTATION",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23339581",
-      "category": "paper",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23339581",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "datacite"
       ]
     },
     {
@@ -363,30 +434,6 @@
       ]
     },
     {
-      "id": "candidate-zenodo-paper-linguistic-challenges-faced-by-secondary-school-students-in-learning-english",
-      "title": "LINGUISTIC CHALLENGES FACED BY SECONDARY SCHOOL STUDENTS IN LEARNING ENGLISH",
-      "url": "https://zenodo.org/records/23940948",
-      "category": "paper",
-      "source": "zenodo",
-      "status": "candidate",
-      "summary": "This study investigated the linguistic challenges faced by Grade 10 students in public high schools in District D.I. Khan, Khyber Pakhtunkhwa, Pakistan. It aimed to identify the major difficulties students encounter in learning English, exa",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/records/23940948",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "zenodo"
-      ]
-    },
-    {
       "id": "candidate-datacite-paper-linguistic-challenges-faced-by-secondary-school-students-in-learning-english",
       "title": "LINGUISTIC CHALLENGES FACED BY SECONDARY SCHOOL STUDENTS IN LEARNING ENGLISH",
       "url": "https://zenodo.org/doi/10.5281/zenodo.23940947",
@@ -407,30 +454,6 @@
         "pashto",
         "candidate",
         "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-dataset-material-pashto-english-language-pack",
-      "title": "MATERIAL Pashto-English Language Pack",
-      "url": "https://catalog.ldc.upenn.edu/LDC2026S15",
-      "category": "dataset",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "Introduction MATERIAL Pashto-English Language Pack,(LDC2026S15) was developed by Appen for the IARPA (Intelligence Advanced Research Projects Activity) MATERIAL (Machine Translation for English Retrieval of Information in Any Language) prog",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://catalog.ldc.upenn.edu/LDC2026S15",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "dataset",
         "datacite"
       ]
     },
@@ -456,30 +479,6 @@
         "candidate",
         "paper",
         "openalex"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-openlogic-in-pashto-pakistan-propositional-logic-and-proof-systems-work-in-progr",
-      "title": "OpenLogic in Pashto — Pakistan: propositional logic and proof systems (work in progress)",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "A work-in-progress machine translation for Pakistani Pashto. This release adds one 108-page proof-systems reader containing 70 of 722 source units: the complete propositional syntax-and-semantics chapter, the proof-systems overview, and the",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.22307197",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
       ]
     },
     {
@@ -627,30 +626,6 @@
       ]
     },
     {
-      "id": "candidate-crossref-pashto-intonation-patterns",
-      "title": "Pashto Intonation Patterns",
-      "url": "https://doi.org/10.21437/interspeech.2017-1353",
-      "category": "paper",
-      "source": "crossref",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Crossref search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in title from Crossref search.",
-        "evidence_url": "https://doi.org/10.21437/interspeech.2017-1353",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "crossref"
-      ]
-    },
-    {
       "id": "candidate-openalex-pashto-language-the-role-of-curriculum-in-the-promotion-of-pashto-language",
       "title": "Pashto Language The role of Curriculum in the promotion of Pashto language",
       "url": "https://pashto.org.pk/index.php/path/article/view/471",
@@ -663,30 +638,6 @@
       "pashto_evidence": {
         "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
         "evidence_url": "https://pashto.org.pk/index.php/path/article/view/471",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "openalex"
-      ]
-    },
-    {
-      "id": "candidate-openalex-pashto-seind-analysis-of-first-ever-published-pashto-dictionary",
-      "title": "Pashto Seind: Analysis of First Ever Published Pashto Dictionary",
-      "url": "https://pashto.org.pk/index.php/path/article/view/20",
-      "category": "paper",
-      "source": "openalex",
-      "status": "candidate",
-      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
-        "evidence_url": "https://pashto.org.pk/index.php/path/article/view/20",
         "markers": [
           "pashto"
         ]
@@ -870,30 +821,6 @@
       ]
     },
     {
-      "id": "candidate-openalex-pukhto-paradigm",
-      "title": "Pukhto paradigm",
-      "url": "https://doi.org/10.4324/9780203357439-14",
-      "category": "paper",
-      "source": "openalex",
-      "status": "candidate",
-      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
-        "evidence_url": "https://doi.org/10.4324/9780203357439-14",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "openalex"
-      ]
-    },
-    {
       "id": "candidate-kaggle-dataset-shoaib2580-pushto-dataset",
       "title": "Pushto Dataset",
       "url": "https://www.kaggle.com/datasets/shoaib2580/pushto-dataset",
@@ -915,29 +842,6 @@
         "candidate",
         "dataset",
         "kaggle"
-      ]
-    },
-    {
-      "id": "candidate-s2-pushto-language-history",
-      "title": "Pushto Language History",
-      "url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
-      "category": "paper",
-      "source": "other",
-      "status": "candidate",
-      "summary": "Candidate paper returned from Semantic Scholar search for Pashto.",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in paper title from Semantic Scholar search.",
-        "evidence_url": "https://www.semanticscholar.org/paper/06640b0a1b2db7301fa1f8f7e973a6a63377b5c9",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper"
       ]
     },
     {
@@ -995,18 +899,114 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-the-contribution-of-nowshera-s-kheshgi-writers-to-pashto-translation-literature",
-      "title": "THE CONTRIBUTION OF NOWSHERA'S KHESHGI WRITERS TO PASHTO TRANSLATION LITERATURE",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23610582",
-      "category": "paper",
+      "id": "candidate-zenodo-dataset-the-language-and-style-of-qiyomiddin-khodim-s-essays",
+      "title": "The Language and Style of Qiyomiddin Khodim's Essays",
+      "url": "https://zenodo.org/records/24220075",
+      "category": "dataset",
+      "source": "zenodo",
+      "status": "candidate",
+      "summary": "This article examines the artistic language and style of the essays by Qiyomiddin Khodim, a prolific writer, poet, and public figure who made significant contributions to Pashto literature in the mid-twentieth century.",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/24220075",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-datacite-dataset-the-language-and-style-of-qiyomiddin-khodim-s-essays",
+      "title": "The Language and Style of Qiyomiddin Khodim's Essays",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.24220075",
+      "category": "dataset",
       "source": "datacite",
       "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "summary": "This article examines the artistic language and style of the essays by Qiyomiddin Khodim, a prolific writer, poet, and public figure who made significant contributions to Pashto literature in the mid-twentieth century.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
         "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23610582",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.24220075",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "dataset",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-the-language-energy-divide-measuring-energy-costs-of-multilingual-llm-inference",
+      "title": "The Language-Energy Divide: Measuring Energy Costs of Multilingual LLM Inference",
+      "url": "https://arxiv.org/abs/2606.21869",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Large language models (LLMs) are increasingly deployed in multilingual settings, yet the energy costs of serving these models across different languages remain poorly understood. We present a systematic study of inference energy consumption",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://arxiv.org/abs/2606.21869",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "paper",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-project-the-language-energy-divide-measuring-energy-costs-of-multilingual-llm-inference",
+      "title": "The Language–Energy Divide: Measuring Energy Costs of Multilingual LLM Inference",
+      "url": "https://underline.io/lecture/163876-the-language-energy-divide-measuring-energy-costs-of-multilingual-llm-inference",
+      "category": "project",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Large language models (LLMs) are increasingly deployed in multilingual settings, yet the energy costs of serving these models across different languages remain poorly understood. We present a systematic study of inference energy consumption",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://underline.io/lecture/163876-the-language-energy-divide-measuring-energy-costs-of-multilingual-llm-inference",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "candidate",
+        "project",
+        "datacite"
+      ]
+    },
+    {
+      "id": "candidate-datacite-paper-the-mediated-witness-machine-translation-generative-summarization-and-adverse-cr",
+      "title": "The Mediated Witness: Machine Translation, Generative Summarization, and Adverse Credibility Findings in Asylum Adjudication",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.24257639",
+      "category": "paper",
+      "source": "datacite",
+      "status": "candidate",
+      "summary": "Asylum adjudication weighs testimony that no adjudicator heard in its original language. An applicant's speech now reaches the decision-maker through machine transcription, machine translation, and generative summarization. Each stage intro",
+      "primary_use": "Needs maintainer review before promotion to verified catalog.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.24257639",
         "markers": [
           "pashto"
         ]
@@ -1094,18 +1094,18 @@
       ]
     },
     {
-      "id": "candidate-datacite-paper-who-deforms-the-poem-human-machine-and-social-media-mediation-of-ghani-khan-s-pa",
-      "title": "WHO DEFORMS THE POEM? HUMAN, MACHINE AND SOCIAL-MEDIA MEDIATION OF GHANI KHAN'S PASHTO VERSE IN ENGLISH",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23492481",
+      "id": "candidate-openalex-western-loanwords-in-modern-pashto",
+      "title": "Western Loanwords in Modern Pashto",
+      "url": "https://doi.org/10.2307/594900",
       "category": "paper",
-      "source": "datacite",
+      "source": "openalex",
       "status": "candidate",
-      "summary": "Candidate record returned from DataCite DOI search for Pashto.",
+      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
       "primary_use": "Needs maintainer review before promotion to verified catalog.",
       "tasks": [],
       "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23492481",
+        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
+        "evidence_url": "https://doi.org/10.2307/594900",
         "markers": [
           "pashto"
         ]
@@ -1114,31 +1114,7 @@
         "pashto",
         "candidate",
         "paper",
-        "datacite"
-      ]
-    },
-    {
-      "id": "candidate-datacite-project-resource",
-      "title": "دافغان یوسپوږمکی دفزیک له نظره ارزونه",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.23899606",
-      "category": "project",
-      "source": "datacite",
-      "status": "candidate",
-      "summary": "This monograph is deposited by the author’s original academic supervisor for preservation and scholarly access. Safiullah Stanikzai is credited as the author. This Pashto-language bachelor’s monograph was prepared by Safiullah Stanikzai in",
-      "primary_use": "Needs maintainer review before promotion to verified catalog.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "DataCite metadata includes Pashto markers in title or description.",
-        "evidence_url": "https://zenodo.org/doi/10.5281/zenodo.23899606",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "project",
-        "datacite"
+        "openalex"
       ]
     }
   ],
