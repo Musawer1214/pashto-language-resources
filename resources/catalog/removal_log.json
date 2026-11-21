@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-21",
   "entries": [
     {
       "removed_on": "2026-02-21T19:47:22.435531+00:00",
@@ -1541,6 +1541,23 @@
       "evidence": {
         "status_code": 410,
         "final_url": "https://zenodo.org/records/22851904",
+        "metadata_pashto": true,
+        "direct_pashto": true,
+        "page_pashto": false,
+        "signal_origin": "direct"
+      }
+    },
+    {
+      "removed_on": "2026-11-21T11:54:30.052747+00:00",
+      "id": "candidate-openalex-pashto-endo-clitics-in-a-parallel-architecture",
+      "title": "Pashto (Endo-)clitics in a Parallel Architecture",
+      "url": "http://nbn-resolving.de/urn:nbn:de:bsz:352-0-278290",
+      "reasons": [
+        "URL returned hard-missing HTTP status 404."
+      ],
+      "evidence": {
+        "status_code": 404,
+        "final_url": "https://www.dnb.de/urn:nbn:de:bsz:352-0-278290",
         "metadata_pashto": true,
         "direct_pashto": true,
         "page_pashto": false,

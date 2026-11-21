@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-11-14",
+  "updated_on": "2026-11-21",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -3762,30 +3762,6 @@
         "candidate",
         "paper",
         "datacite"
-      ]
-    },
-    {
-      "id": "candidate-openalex-pashto-endo-clitics-in-a-parallel-architecture",
-      "title": "Pashto (Endo-)clitics in a Parallel Architecture",
-      "url": "http://nbn-resolving.de/urn:nbn:de:bsz:352-0-278290",
-      "category": "paper",
-      "source": "openalex",
-      "status": "verified",
-      "summary": "Candidate paper returned from OpenAlex works search for Pashto.",
-      "primary_use": "Automated discovery entry for Pashto resource tracking.",
-      "tasks": [],
-      "pashto_evidence": {
-        "evidence_text": "Matched by explicit Pashto marker in title from OpenAlex works search.",
-        "evidence_url": "http://nbn-resolving.de/urn:nbn:de:bsz:352-0-278290",
-        "markers": [
-          "pashto"
-        ]
-      },
-      "tags": [
-        "pashto",
-        "candidate",
-        "paper",
-        "openalex"
       ]
     },
     {
@@ -8150,6 +8126,51 @@
       "tags": [
         "pashto",
         "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-hf-dataset-hussainshafiq-pashto-sft-mixture",
+      "title": "hussainshafiq/Pashto-SFT-Mixture",
+      "url": "https://huggingface.co/datasets/hussainshafiq/Pashto-SFT-Mixture",
+      "category": "dataset",
+      "source": "huggingface",
+      "status": "verified",
+      "summary": "Candidate dataset returned from Hugging Face search for Pashto.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Matched by Pashto keyword in Hugging Face search results.",
+        "evidence_url": "https://huggingface.co/datasets/hussainshafiq/Pashto-SFT-Mixture",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-dataset-the-language-and-style-of-qiyomiddin-khodim-s-essays",
+      "title": "The Language and Style of Qiyomiddin Khodim's Essays",
+      "url": "https://zenodo.org/records/24220075",
+      "category": "dataset",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "This article examines the artistic language and style of the essays by Qiyomiddin Khodim, a prolific writer, poet, and public figure who made significant contributions to Pashto literature in the mid-twentieth century.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/24220075",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset",
         "zenodo"
       ]
     }
