@@ -1,6 +1,6 @@
 {
   "version": "1.1.1",
-  "updated_on": "2026-11-14",
+  "updated_on": "2026-11-28",
   "resources": [
     {
       "id": "dataset-google-fleurs",
@@ -8150,6 +8150,29 @@
       "tags": [
         "pashto",
         "paper",
+        "zenodo"
+      ]
+    },
+    {
+      "id": "candidate-zenodo-dataset-the-language-and-style-of-qiyomiddin-khodim-s-essays",
+      "title": "The Language and Style of Qiyomiddin Khodim's Essays",
+      "url": "https://zenodo.org/records/24220075",
+      "category": "dataset",
+      "source": "zenodo",
+      "status": "verified",
+      "summary": "This article examines the artistic language and style of the essays by Qiyomiddin Khodim, a prolific writer, poet, and public figure who made significant contributions to Pashto literature in the mid-twentieth century.",
+      "primary_use": "Cataloged Pashto resource discovered through the automated intake pipeline.",
+      "tasks": [],
+      "pashto_evidence": {
+        "evidence_text": "Zenodo metadata includes Pashto markers in title or description.",
+        "evidence_url": "https://zenodo.org/records/24220075",
+        "markers": [
+          "pashto"
+        ]
+      },
+      "tags": [
+        "pashto",
+        "dataset",
         "zenodo"
       ]
     }
